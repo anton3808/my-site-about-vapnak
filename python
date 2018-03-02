@@ -1,0 +1,10 @@
+Performing system checks...
+
+System check identified no issues (0 silenced).
+
+You have 14 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): admin, auth, contenttypes, sessions.
+Run 'python manage.py migrate' to apply them.
+January 08, 2018 - 13:59:47
+Django version 2.0, using settings 'TRIUMPH.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.

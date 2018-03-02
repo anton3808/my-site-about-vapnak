@@ -1,0 +1,377 @@
+<!doctype html>
+<html lang="ru" class="no-js">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<title>Відгуки</title>
+		<!-- Подключаем jquery-->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+		{% load staticfiles %}
+		<!-- Подключаем стили для головной страницы-->
+	  <link rel="stylesheet" href="{% static 'reviews/css/style_reviews.css' %}" type="text/css">
+		<link rel="stylesheet" type="text/css" href="{% static 'reviews/css/reset.css' %}">
+
+		<!-- Подключаем фавикон -->
+		<link type="favicon" rel="icon" href="{% static 'reviews/images/Emblema2.png' %}">
+
+		<!-- Подключаем java script файл для нашей странички-->
+		<script src="{% static 'about/js/modernizr.js' %}"></script>
+
+		<!-- Подключаем самый главный java script файл-->
+		<script src="{% static 'about/js/main.js' %}"></script>
+
+		<!-- Подключаем java script файл для фиксации шапки страницы-->
+		<script src="{% static 'about/js/headhesive.min.js' %}"></script>
+
+		<!-- Подключаем шрифт Proxima Nova -->
+		<link href="{% static 'about/fonts/ProximaNova/stylesheet.css' %}" rel="stylesheet">
+
+		<!-- Подключаем иконки FontAwesome -->
+		<link rel="stylesheet" href="{% static 'about/css/font-awesome.css' %}" type="text/css">
+
+
+
+	</head>
+	<body>
+		<div class="preloader">
+
+		</div>
+
+
+
+		<header class="menu_mobile">
+			<nav class="cd-main-nav-wrapper">
+				<ul class="cd-main-nav">
+					<li><a href="#" id="zero_a">Меню</a></li>
+					<li>
+						<div class="language_mobile">
+							<a class="uk" href="../reviews/">UK</a> 
+							<a class="en" href="../en/reviews/">EN</a> 
+							<a class="ru" href="../ru/reviews/">RU</a>
+						</div>
+					</li>
+					<li><a href="..">Про компанію</a></li>
+					<li><a  href="../services/">Наші послуги</a></li>
+					<li class="active"><a href="../production/">Продукція</a></li>
+					<li><a href="../reviews/">Відгуки</a></li>
+					<li><a href="../contact/">Контакти</a></li>	
+					<li id="text_field">
+						<form action="{% url 'reviews_search_mobile' %}" method="get" id="search_form">
+							{% csrf_token %}
+							<button type="submit" class="button_submit_mobile">
+								<div class="find_button_mobile">
+									<div class="find_button_logo_mobile">
+										Найти
+									</div>
+								</div>
+							</button>
+							<div class="text-field_mobile">
+								<input type='text' id="text-field" name='text-field'  placeholder='Пошук по сайту' required/>
+							</div>
+						</form>
+					</li>
+				</ul> <!-- .cd-main-nav -->
+			</nav> <!-- .cd-main-nav-wrapper -->
+			<a href="#0" class="cd-nav-trigger">Menu<span></span></a>
+			<div class="icon_logo_mobile">
+				
+			</div>
+			<!-- <div class="logo_header_maxwidth768">
+				<div class="logo_title_header_maxwidth768">
+					TRIUMPH
+				</div>
+				<div class="logo_title_text_header_maxwidth768">
+					Продукція вапнякових кар'єрів
+				</div>
+			</div> -->
+		</header>
+
+
+
+
+
+
+		
+		<main class="cd-main-content">
+			<!--     Создаем шапку-меню     -->
+			<div class="header-top">
+				<div class="menu-header-top">
+					<ul class="menu">
+						<li><a href="..">Про компанію</a></li>
+						<li><a href="../services/">Наші послуги</a></li>
+						<li><a href="../production/">Продукція</a></li>
+						<li class="active"><a href="../reviews/">Відгуки</a></li>
+						<li><a href="../contact/">Контакти</a></li>
+					</ul>
+				</div>
+			</div>
+			
+
+
+
+
+			<!--    Создаем шапку  -->
+			<div class="header">
+				<div class="menu-header">
+
+					<div class="icon_logo">
+					</div>
+					<!-- <div class="logo_text_header">
+						<div class="logo_title_header">
+							TRIUMPH
+						</div>
+						<div class="logo_title_text_header">
+							Продукція вапнякових кар'єрів
+						</div>
+					</div> -->
+
+					<div class="language_header">
+						<div class="icon_language_div">
+							<i class="fa fa-globe" id="icon_language_header" aria-hidden="true"></i>
+						</div>
+						<div class="language_text_header">
+							<div class="language_name_header">
+								Мова
+							</div>
+							<div class="language_country_header">
+								Українська
+							</div>
+							<div class="languages_ul">
+								<ul id="russia_langua"><a href="../ru/reviews/" class="russia_silka">Русский</a></ul>
+								<ul id="english_langua"><a href="../en/reviews/" class="english_silka">English</a></ul>
+							</div>
+						</div>
+					</div>
+
+
+					<div class="telefon_header">
+						<div class="icon_telefon_div">
+							<i class="fa fa-phone" id="icon_telefon_header" aria-hidden="true"></i>
+						</div>
+						<div class="telefon_text_header">
+							<div class="every_day_time">
+								Кожен день з 9:00-20:00
+							</div>
+							<div class="telefon_number">
+								+380 (97) 86-78-111
+							</div>
+							<div class="call_me">
+								Перезвоніть мені
+							</div>
+						</div>
+					</div>
+
+
+					<div class="place_header">
+						<div class="icon_place_div">
+							<i class="fa fa-map-marker" id="icon_place_header" aria-hidden="true"></i>
+						</div>
+						<div class="place_text_header">
+							<div class="place_town_header">
+								Ваше місто
+							</div>
+							<div class="place_vyl_header">
+								Хмельницький
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+
+			<div class="wrapper_logo_text_production">
+			<div class="logo_text_production">
+				<div class="text_production">
+					Відгуки
+				</div>
+			</div>
+		</div>
+
+		<div class="wrapper_comments">
+			<div id="disqus_thread"></div>
+			<script>
+
+				/**
+				*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+				*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+				
+				// var disqus_config = function () {
+				// this.page.url = 'reviews/';  // Replace PAGE_URL with your page's canonical URL variable
+				// this.page.identifier = 'reviews/wrapper.html'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+				// };
+				
+				(function() { // DON'T EDIT BELOW THIS LINE
+				var d = document, s = d.createElement('script');
+				s.src = 'https://triumph-1.disqus.com/embed.js';
+				s.setAttribute('data-timestamp', +new Date());
+				(d.head || d.body).appendChild(s);
+				})();
+			</script>
+		</div>
+		<!-- <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript> -->
+
+
+
+
+			
+
+
+
+
+
+
+			<!--    Футер   -->
+			<div class="footer">
+				<div class="footer-menu">
+					<div class="footer_menu_site">
+						<ul>
+							<li class="title">Меню сайта</li>
+							<li class="spisk"><a href="../services/">Наші послуги</a></li>
+							<li class="spisk"><a href="../production/">Продукція</a></li>
+							<li class="spisk"><a href="../reviews/">Відгуки</a></li>
+							<li><a href="../contact/">Контакти</a></li>
+						</ul>
+					</div>
+
+					<div class="footer_kategoria">
+						<ul>
+							<li class="title">Категорія товарів</li>
+							<li class="spisk"><a href="../production/">Відсів</a></li>
+							<li class="spisk"><a href="../production/">Щебінь</a></li>
+							<li class="spisk"><a href="../production/">Камінь</a></li>
+						</ul>
+					</div>
+
+					<div class="footer_our_production">
+						<ul>
+							<li class="title">Наша продукція</li>
+							<li class="spisk"><a href="../services/">Доставка відсіву</a></li>
+							<li class="spisk"><a href="../services/">Доставка щебню</a></li>
+							<li class="spisk"><a href="../services/">Даставка камню</a></li>
+						</ul>
+					</div>
+
+					<div class="footer_servises">
+						<ul>
+							<li class="title">Сервіси</li>
+							<li class="spisk"><a href="../services/">Як зробити замовлення</a></li>
+							<li class="spisk"><a href="../services/">Організація перевезень вагонами</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+
+
+
+
+
+
+
+			<!--    Нижний футер     -->
+			<div class="footer_bottom">
+				<div class="footer-menu_bottom">
+					<div class="logo_footer">
+						<img src="/static/reviews/images/Emblema2.png"
+								 alt="image_logo" id="icon_logo" class="image_logo"/>
+						
+						<div class="logo_text">
+							<div class="logo_title">
+								TRIUMPH
+							</div>
+							<div class="logo_title_text">
+								Продукція вапнякових кар'єрів
+							</div>
+						</div>
+					</div>
+
+
+					<div class="email_footer">
+						<i class="fa fa-envelope-open" id="icon_email" aria-hidden="true"></i>
+						<div class="email">tpk_triumph@ukr.net</div>
+					</div>
+
+
+					<div class="place_footer">
+						<i class="fa fa-map-marker" id="icon_place" aria-hidden="true"></i>
+						<div class="place">
+							<div class="place_town">
+								м.Хмельницький
+							</div>
+							<div class="place_vyl">
+								вул. Свободи, буд. 9А, оф. 202.
+							</div>
+						</div>
+					</div>
+
+
+
+					<div class="telefon_footer">
+						<i class="fa fa-phone" id="icon_telefon" aria-hidden="true"></i>
+						<div class="telefon">
+							+380 (97) 86-78-111
+						</div>
+					</div>
+					
+					
+				</div>
+			</div>
+
+
+
+
+
+			<div class="footer_mobile">
+				<div class="logo_footer_mobile">
+					<div class="icon_logo_footer_mobile">
+						
+					</div>
+						
+					<div class="logo_text_mobile">
+						<div class="logo_title_mobile">
+							TRIUMPH
+						</div>
+						<div class="logo_title_text_mobile">
+							Продукція вапнякових кар'єрів
+						</div>
+					</div>
+				</div>
+
+
+				<div class="email_footer_mobile">
+					<i class="fa fa-envelope-open" id="icon_email" aria-hidden="true"></i>
+					<div class="email_mobile">tpk_triumph@ukr.net</div>
+				</div>
+
+
+				<div class="place_footer_mobile">
+					<i class="fa fa-map-marker" id="icon_place" aria-hidden="true"></i>
+					<div class="place_mobile">
+						<div class="place_town_mobile">
+							м.Хмельницький
+						</div>
+						<div class="place_vyl_mobile">
+							вул. Свободи, буд. 9А, оф. 202.
+						</div>
+					</div>
+				</div>
+
+
+
+				<div class="telefon_footer_mobile">
+					<i class="fa fa-phone" id="icon_telefon" aria-hidden="true"></i>
+					<div class="telefon_mobile">
+						+380 (97) 86-78-111
+					</div>
+				</div>
+			</div>
+		</main>
+		<!-- <script id="dsq-count-scr" src="//triumph-1.disqus.com/count.js" async></script> -->
+
+
+
+		<!-- Подключение javascript файла для отображения прелоадера -->
+		<script src="{% static 'reviews/js/preloader_and_headfixed.js' %}"></script>
+	</body>
+</html>

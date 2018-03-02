@@ -1,0 +1,822 @@
+<!doctype html>
+<html lang="ru" class="no-js">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<title>Product</title>
+
+		<!-- Подключаем jquery-->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.min.js"></script>
+
+		{% load staticfiles %}
+		<!-- Подключаем модальное окно-->
+		<link rel="stylesheet" href="{% static 'production_en/remodal/remodal.css' %}">
+	  <link rel="stylesheet" href="{% static 'production_en/remodal/remodal-default-theme.css' %}">
+		<script src="{% static 'production_en/remodal/remodal.min.js' %}"></script>
+
+		<!-- Подключаем стили для головной страницы-->
+	  <link rel="stylesheet" href="{% static 'production_en/css/style_product_en.css' %}" type="text/css">
+		<link rel="stylesheet" type="text/css" href="{% static 'production_en/css/reset.css' %}">
+
+		<link href='https://fonts.googleapis.com/css?family=Titillium+Web:400,300,600' rel='stylesheet' type='text/css'>
+
+		<!-- Подключаем фавикон -->
+		<link type="favicon" rel="icon" href="{% static 'production_en/images/Emblema2.png' %}">
+
+		
+		<!-- Подключаем java script файл для нашей странички-->
+		<script src="{% static 'production_en/js/jquery.maskedinput.min.js' %}" type="text/javascript"></script>
+
+		<!-- Подключаем java script файл для нашей странички-->
+		<script src="{% static 'production_en/js/modernizr.js' %}"></script>
+
+		<!-- Подключаем самый главный java script файл-->
+		<script src="{% static 'production_en/js/main.js' %}"></script>
+
+		<!-- Подключаем java script файл для фиксации шапки страницы-->
+		<script src="{% static 'production_en/js/headhesive.min.js' %}"></script>
+
+		<!-- Подключаем шрифт Proxima Nova -->
+		<link href="{% static 'production_en/fonts/ProximaNova/stylesheet.css' %}" rel="stylesheet">
+
+		<!-- Подключаем иконки FontAwesome -->
+		<link rel="stylesheet" href="{% static 'production_en/css/font-awesome.css' %}" type="text/css">
+
+	</head>
+	<body>
+		<div class="preloader">
+
+		</div>
+
+
+
+		<header class="menu_mobile">
+			<nav class="cd-main-nav-wrapper">
+				<ul class="cd-main-nav">
+					<li><a href="#" id="zero_a">Menu</a></li>
+					<li>
+						<div class="language_mobile">
+							<a class="uk" href="../../production">UK</a>  
+							<a class="en" href="../production/">EN</a> 
+							<a class="ru" href="../../ru/production">RU</a>
+						</div>
+					</li>
+					<li><a href="..">About the company</a></li>
+					<li><a  href="../services/">Our services</a></li>
+					<li class="active"><a href="../production/">Product</a></li>
+					<li><a href="../reviews/">Reviews</a></li>
+					<li><a href="../contact/">Contacts</a></li>	
+					<li id="text_field">
+						<form action="{% url 'production_en_search_mobile' %}" method="get" id="search_form">
+							{% csrf_token %}
+							<button type="submit" class="button_submit_mobile">
+								<div class="find_button_mobile">
+									<div class="find_button_logo_mobile">
+										Find it
+									</div>
+								</div>
+							</button>
+							<div class="text-field_mobile">
+								<input type='text' id="text-field" name='text-field'  placeholder='Пошук по сайту' required/>
+							</div>
+						</form>
+					</li>
+				</ul> <!-- .cd-main-nav -->
+			</nav> <!-- .cd-main-nav-wrapper -->
+			<a href="#0" class="cd-nav-trigger">Menu<span></span></a>
+			<div class="icon_logo_mobile">
+				
+			</div>
+			<!-- <div class="logo_header_maxwidth768">
+				<div class="logo_title_header_maxwidth768">
+					TRIUMPH
+				</div>
+				<div class="logo_title_text_header_maxwidth768">
+					Production of limestone quarries
+				</div>
+			</div> -->
+		</header>
+
+
+
+
+		
+		<main class="cd-main-content">
+			<!--     Создаем шапку-меню     -->
+			<div class="header-top">
+				<div class="menu-header-top">
+					<ul class="menu">
+						<li><a href="..">About the company</a></li>
+						<li><a  href="../services/">Our services</a></li>
+						<li class="active"><a href="../production/">Product</a></li>
+						<li><a href="../reviews/">Reviews</a></li>
+						<li><a href="../contact/">Contacts</a></li>
+					</ul>
+				</div>
+			</div>
+			
+
+
+
+
+			<!--    Создаем шапку  -->
+			<div class="header">
+				<div class="menu-header">
+
+					<div class="icon_logo">
+					</div>
+					<!-- <div class="logo_text_header">
+						<div class="logo_title_header">
+							TRIUMPH
+						</div>
+						<div class="logo_title_text_header">
+							Production of limestone quarries
+						</div>
+					</div> -->
+
+					<div class="language_header">
+						<div class="icon_language_div">
+							<i class="fa fa-globe" id="icon_language_header" aria-hidden="true"></i>
+						</div>
+						<div class="language_text_header">
+							<div class="language_name_header">
+								Language
+							</div>
+							<div class="language_country_header" id="language_country_header">
+								English
+							</div>
+							<div class="languages_ul">
+								<ul id="ukrainian_langua"><a href="../../production/" class="ukrainian_silka">Ukrainian</a></ul>
+								<ul id="russia_langua"><a href="../../ru/production/" class="russia_silka">Russian</a></ul>
+							</div>
+						</div>
+					</div>
+
+
+					<div class="telefon_header">
+						<div class="icon_telefon_div">
+							<i class="fa fa-phone" id="icon_telefon_header" aria-hidden="true"></i>
+						</div>
+						<div class="telefon_text_header">
+							<div class="every_day_time">
+								Every day from 9:00 to 20:00
+							</div>
+							<div class="telefon_number">
+								+380 (97) 86-78-111
+							</div>
+							<div class="call_me">
+								Call me
+							</div>
+						</div>
+					</div>
+
+
+					<div class="place_header">
+						<div class="icon_place_div">
+							<i class="fa fa-map-marker" id="icon_place_header" aria-hidden="true"></i>
+						</div>
+						<div class="place_text_header">
+							<div class="place_town_header">
+								Your city
+							</div>
+							<div class="place_vyl_header">
+								Khmelnytsky
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+
+
+
+
+		<div class="wrapper_logo_text_production">
+			<div class="logo_text_production">
+				<div class="text_production">
+					Product
+				</div>
+			</div>
+		</div>
+
+
+
+		<div class="wrapper_production">
+			<div class="production_block_1">
+				<div class="galuzi_1">
+					For metallurgy and lime producers
+				</div>
+				<div class="image_stone_1">
+					
+				</div>
+				<div class="frakzi_1">
+					Faction: 0-5 mm, 0-20 mm, 20-40 mm, 40-80 mm, 80-120mm 
+				</div>
+				<a href="#modal-order-for-metallurgy-and-lime-producers">
+					<div class="zakazat">
+						<div class="zakazat_text">
+							To order
+						</div>
+					</div>
+				</a>
+			</div>
+
+			<div class="remodal" data-remodal-id="modal-order-for-metallurgy-and-lime-producers">
+	      <button data-remodal-action="close" class="remodal-close"></button>
+	      <form class="modal_window_form" name="modal_window_form" action="{% url 'email_1_en' %}" method="post"  >
+					{% csrf_token %}
+			    <h1>For metallurgy and lime producers</h1>
+			    
+			    <div class="contentform">
+			    	<div id="sendmessage"> Your message has been sent successfully. Thank you. </div>
+
+
+			    	<div class="leftcontact">
+						  <div class="form-group">
+							  <div class="div_p">Surname:<span>*</span></div>
+							  <span class="icon-case"><i class="fa fa-male"></i></span>
+								<input type="text" name="user_surname" id="user_surname" data-rule="required" data-msg="Vérifiez votre saisie sur les champs : Le champ 'Nom' doit être renseigné." required />
+				        <div class="validation" id="validation"></div>
+			      	</div> 
+
+				      <div class="form-group">
+				        <div class="div_p">Name <span>*</span></div>
+				        <span class="icon-case"><i class="fa fa-user"></i></span>
+								<input type="text" name="user_name" id="user_name" data-rule="required" data-msg="Vérifiez votre saisie sur les champs : Le champ 'Prénom' doit être renseigné." required/>
+				        <div class="validation"></div>
+							</div>
+
+							<div class="form-group">
+								<div class="div_p">E-mail <span>*</span></div>
+								<span class="icon-case"><i class="fa fa-envelope-o"></i></span>
+				        <input type="email" name="email" id="email" data-rule="email" data-msg="Vérifiez votre saisie sur les champs : Le champ 'E-mail' est obligatoire." />
+				        <div class="validation"></div>
+							</div>	
+
+							<div class="form-group">
+								<div class="div_p">Telefon <span>*</span></div>
+								<span class="icon-case"><i class="fa fa-phone"></i></span>
+								<input type="text" name="phone" id="phone" data-rule="maxlen:10" data-msg="Vérifiez votre saisie sur les champs : Le champ 'Téléphone' doit être renseigné. Minimum 10 chiffres" required/>
+				        <div class="validation"></div>
+							</div>
+						</div>
+
+						<div class="rightcontact">	
+
+							<div class="form-group">
+								<div class="div_p">Fractions <span>*</span></div>
+								<span class="icon-case"><i class="fa fa-building-o"></i></span>
+								<select name="select_fraction"  id="select_fraction">
+						        <option value="1">0-5 mm</option>
+						        <option value="2" >0-20 mm</option>
+						        <option value="3">20-40 mm</option>
+						        <option value="4" >40-80 mm</option>
+						        <option value="5">20-40 mm</option>
+						        <option value="6" >80-120mm</option>
+						      </select>
+							</div>	
+
+							<div class="form-group">
+								<div class="div_p">Enterprise <span>*</span></div>
+								<span class="icon-case"><i class="fa fa-home"></i></span>
+								<input type="text" name="enterprise" id="enterprise" data-rule="required" data-msg="Vérifiez votre saisie sur les champs : Le champ 'Société' doit être renseigné." required/>
+				        <div class="validation"></div>
+							</div>
+
+							<div class="form-group">
+								<div class="div_p">Delivery period <span>*</span></div>
+								<span class="icon-case"><i class="fa fa-info"></i></span>
+								<select name="delivery_period"  id="delivery_period">
+						        <option value="1">From 05.01.2018 to 08.01.2018</option>
+						        <option value="2">From 05.01.2018 to 08.01.2018</option>
+						        <option value="3">From 05.01.2018 to 08.01.2018</option>
+						        <option value="4">From 05.01.2018 to 08.01.2018</option>
+						        <option value="5">From 05.01.2018 to 08.01.2018</option>
+						        <option value="6">From 05.01.2018 to 08.01.2018</option>
+						      </select>
+							</div>
+
+							<div class="form-group">
+								<div class="div_p">Text message</div>
+								<span class="icon-case"><i class="fa fa-comment-o"></i></span>
+				        <input type="text" name="message" id="message" data-rule="required" data-msg="Vérifiez votre saisie sur les champs : Le champ 'Sujet' doit être renseigné."/>
+				        <div class="validation"></div>
+							</div>
+						</div>
+					</div>
+					<button type="submit" class="bouton-contact">Send request</button>
+				</form>
+	    </div>
+
+
+
+
+
+
+
+
+
+			<div class="production_block_2">
+				<div class="galuzi_2">
+					For acidification of soils and reservoirs
+				</div>
+				<div class="image_stone_2">
+					
+				</div>
+				<div class="frakzi_2">
+					Fraction: 0-1 mm, 0-5 mm, 0-20 mm, 20-40 mm
+				</div>
+				<a href="#modal-order-for-deoxidation-of-soils-and-water">
+					<div class="zakazat">
+						<div class="zakazat_text">
+							To order
+						</div>
+					</div>
+				</a>
+			</div>
+
+
+			<div class="remodal" data-remodal-id="modal-order-for-deoxidation-of-soils-and-water">
+	      <button data-remodal-action="close" class="remodal-close"></button>
+	      <form class="modal_window_form" name="modal_window_form" action="{% url 'email_2_en' %}" method="post"  >
+					{% csrf_token %}
+			    <h1>For acidification of soils and reservoirs</h1>
+			    
+			    <div class="contentform">
+			    	<div id="sendmessage"> Your message has been sent successfully. Thank you. </div>
+
+
+			    	<div class="leftcontact">
+						  <div class="form-group">
+							  <div class="div_p">Surname:<span>*</span></div>
+							  <span class="icon-case"><i class="fa fa-male"></i></span>
+								<input type="text" name="user_surname" id="user_surname" data-rule="required" data-msg="Vérifiez votre saisie sur les champs : Le champ 'Nom' doit être renseigné." required />
+				        <div class="validation" id="validation"></div>
+			      	</div> 
+
+				      <div class="form-group">
+				        <div class="div_p">Name <span>*</span></div>
+				        <span class="icon-case"><i class="fa fa-user"></i></span>
+								<input type="text" name="user_name" id="user_name" data-rule="required" data-msg="Vérifiez votre saisie sur les champs : Le champ 'Prénom' doit être renseigné." required/>
+				        <div class="validation"></div>
+							</div>
+
+							<div class="form-group">
+								<div class="div_p">E-mail <span>*</span></div>
+								<span class="icon-case"><i class="fa fa-envelope-o"></i></span>
+				        <input type="email" name="email" id="email" data-rule="email" data-msg="Vérifiez votre saisie sur les champs : Le champ 'E-mail' est obligatoire." />
+				        <div class="validation"></div>
+							</div>	
+
+							<div class="form-group">
+								<div class="div_p">Telefon <span>*</span></div>
+								<span class="icon-case"><i class="fa fa-phone"></i></span>
+								<input type="text" name="phone" id="phone" data-rule="maxlen:10" data-msg="Vérifiez votre saisie sur les champs : Le champ 'Téléphone' doit être renseigné. Minimum 10 chiffres" required/>
+				        <div class="validation"></div>
+							</div>
+						</div>
+
+						<div class="rightcontact">	
+
+							<div class="form-group">
+								<div class="div_p">Fractions <span>*</span></div>
+								<span class="icon-case"><i class="fa fa-building-o"></i></span>
+								<select name="select_fraction"  id="select_fraction">
+						        <option value="1">0-5 mm</option>
+						        <option value="2" >0-20 mm</option>
+						        <option value="3">20-40 mm</option>
+						        <option value="4" >40-80 mm</option>
+						        <option value="5">20-40 mm</option>
+						        <option value="6" >80-120mm</option>
+						      </select>
+							</div>	
+
+							<div class="form-group">
+								<div class="div_p">Enterprise <span>*</span></div>
+								<span class="icon-case"><i class="fa fa-home"></i></span>
+								<input type="text" name="enterprise" id="enterprise" data-rule="required" data-msg="Vérifiez votre saisie sur les champs : Le champ 'Société' doit être renseigné." required/>
+				        <div class="validation"></div>
+							</div>
+
+							<div class="form-group">
+								<div class="div_p">Delivery period <span>*</span></div>
+								<span class="icon-case"><i class="fa fa-info"></i></span>
+								<select name="delivery_period"  id="delivery_period">
+						        <option value="1">From 05.01.2018 to 08.01.2018</option>
+						        <option value="2">From 05.01.2018 to 08.01.2018</option>
+						        <option value="3">From 05.01.2018 to 08.01.2018</option>
+						        <option value="4">From 05.01.2018 to 08.01.2018</option>
+						        <option value="5">From 05.01.2018 to 08.01.2018</option>
+						        <option value="6">From 05.01.2018 to 08.01.2018</option>
+						      </select>
+							</div>
+
+							<div class="form-group">
+								<div class="div_p">Text message</div>
+								<span class="icon-case"><i class="fa fa-comment-o"></i></span>
+				        <input type="text" name="message" id="message" data-rule="required" data-msg="Vérifiez votre saisie sur les champs : Le champ 'Sujet' doit être renseigné."/>
+				        <div class="validation"></div>
+							</div>
+						</div>
+					</div>
+					<button type="submit" class="bouton-contact">Send request</button>
+				</form>
+	    </div>
+
+
+
+
+
+
+
+
+			<div class="production_block_3">
+				<div class="galuzi_3">
+					For the sugar industry
+				</div>
+				<div class="image_stone_3">
+					
+				</div>
+				<div class="frakzi_3">
+					Fraction: 40-80 mm, 80-120mm
+				</div>
+				<a href="#modal-order-for-sugar-industry">
+					<div class="zakazat">
+						<div class="zakazat_text">
+							To order
+						</div>
+					</div>
+				</a>
+			</div>
+
+
+
+
+			<div class="remodal" data-remodal-id="modal-order-for-sugar-industry">
+	      <button data-remodal-action="close" class="remodal-close"></button>
+	      <form class="modal_window_form" name="modal_window_form" action="{% url 'email_3_en' %}" method="post"  >
+					{% csrf_token %}
+			    <h1>For the sugar industry</h1>
+			    
+			    <div class="contentform">
+			    	<div id="sendmessage"> Your message has been sent successfully. Thank you. </div>
+
+
+			    	<div class="leftcontact">
+						  <div class="form-group">
+							  <div class="div_p">Surname:<span>*</span></div>
+							  <span class="icon-case"><i class="fa fa-male"></i></span>
+								<input type="text" name="user_surname" id="user_surname" data-rule="required" data-msg="Vérifiez votre saisie sur les champs : Le champ 'Nom' doit être renseigné." required />
+				        <div class="validation" id="validation"></div>
+			      	</div> 
+
+				      <div class="form-group">
+				        <div class="div_p">Name <span>*</span></div>
+				        <span class="icon-case"><i class="fa fa-user"></i></span>
+								<input type="text" name="user_name" id="user_name" data-rule="required" data-msg="Vérifiez votre saisie sur les champs : Le champ 'Prénom' doit être renseigné." required/>
+				        <div class="validation"></div>
+							</div>
+
+							<div class="form-group">
+								<div class="div_p">E-mail <span>*</span></div>
+								<span class="icon-case"><i class="fa fa-envelope-o"></i></span>
+				        <input type="email" name="email" id="email" data-rule="email" data-msg="Vérifiez votre saisie sur les champs : Le champ 'E-mail' est obligatoire." />
+				        <div class="validation"></div>
+							</div>	
+
+							<div class="form-group">
+								<div class="div_p">Telefon <span>*</span></div>
+								<span class="icon-case"><i class="fa fa-phone"></i></span>
+								<input type="text" name="phone" id="phone" data-rule="maxlen:10" data-msg="Vérifiez votre saisie sur les champs : Le champ 'Téléphone' doit être renseigné. Minimum 10 chiffres" required/>
+				        <div class="validation"></div>
+							</div>
+						</div>
+
+						<div class="rightcontact">	
+
+							<div class="form-group">
+								<div class="div_p">Fractions <span>*</span></div>
+								<span class="icon-case"><i class="fa fa-building-o"></i></span>
+								<select name="select_fraction"  id="select_fraction">
+						        <option value="1">0-5 mm</option>
+						        <option value="2" >0-20 mm</option>
+						        <option value="3">20-40 mm</option>
+						        <option value="4" >40-80 mm</option>
+						        <option value="5">20-40 mm</option>
+						        <option value="6" >80-120mm</option>
+						      </select>
+							</div>	
+
+							<div class="form-group">
+								<div class="div_p">Enterprise <span>*</span></div>
+								<span class="icon-case"><i class="fa fa-home"></i></span>
+								<input type="text" name="enterprise" id="enterprise" data-rule="required" data-msg="Vérifiez votre saisie sur les champs : Le champ 'Société' doit être renseigné." required/>
+				        <div class="validation"></div>
+							</div>
+
+							<div class="form-group">
+								<div class="div_p">Delivery period <span>*</span></div>
+								<span class="icon-case"><i class="fa fa-info"></i></span>
+								<select name="delivery_period"  id="delivery_period">
+						        <option value="1">From 05.01.2018 to 08.01.2018</option>
+						        <option value="2">From 05.01.2018 to 08.01.2018</option>
+						        <option value="3">From 05.01.2018 to 08.01.2018</option>
+						        <option value="4">From 05.01.2018 to 08.01.2018</option>
+						        <option value="5">From 05.01.2018 to 08.01.2018</option>
+						        <option value="6">From 05.01.2018 to 08.01.2018</option>
+						      </select>
+							</div>
+
+							<div class="form-group">
+								<div class="div_p">Text message</div>
+								<span class="icon-case"><i class="fa fa-comment-o"></i></span>
+				        <input type="text" name="message" id="message" data-rule="required" data-msg="Vérifiez votre saisie sur les champs : Le champ 'Sujet' doit être renseigné."/>
+				        <div class="validation"></div>
+							</div>
+						</div>
+					</div>
+					<button type="submit" class="bouton-contact">Send request</button>
+				</form>
+	    </div>
+
+
+
+
+
+
+
+
+
+			<div class="production_block_4">
+				<div class="galuzi_4">
+					For fodder and poultry feeding
+				</div>
+				<div class="image_stone_4">
+					
+				</div>
+				<div class="frakzi_4">
+					Fraction: 0-5 mm, 0-20 mm, 20-40 mm, 40-80 mm, 80-120mm
+				</div>
+				<span data-remodal-target="modal-order-for-fodder-birds"><!-- href="#modal-order-for-fodder-birds" -->
+					<div class="zakazat">
+						<div class="zakazat_text">
+							To order
+						</div>
+					</div>
+				</span>
+			</div>
+		</div>
+
+
+			<div class="remodal" data-remodal-id="modal-order-for-fodder-birds" data-remodal-options="closeOnOutsideClick: false"><!-- hashTracking: false, -->
+	      <button data-remodal-action="close" class="remodal-close"></button>
+
+				<form class="modal_window_form" name="modal_window_form" action="{% url 'email_4_en' %}" method="post"  >
+					{% csrf_token %}
+			    <h1>For fodder and poultry feeding</h1>
+			    
+			    <div class="contentform">
+			    	<div id="sendmessage"> Your message has been sent successfully. Thank you. </div>
+
+
+			    	<div class="leftcontact">
+						  <div class="form-group">
+							  <div class="div_p">Surname: <span>*</span></div>
+							  <span class="icon-case"><i class="fa fa-male"></i></span>
+								<input type="text" name="user_surname" id="user_surname" data-rule="required" data-msg="Vérifiez votre saisie sur les champs : Le champ 'Nom' doit être renseigné." minlength="3" required />
+				        <div class="validation" id="validation"></div>
+			      	</div> 
+
+				      <div class="form-group">
+				        <div class="div_p">Name <span>*</span></div>
+				        <span class="icon-case"><i class="fa fa-user"></i></span>
+								<input type="text" name="user_name" id="user_name" data-rule="required" data-msg="Vérifiez votre saisie sur les champs : Le champ 'Prénom' doit être renseigné." minlength="3" required/>
+				        <div class="validation"></div>
+							</div>
+
+							<div class="form-group">
+								<div class="div_p">E-mail <span>*</span></div>
+								<span class="icon-case"><i class="fa fa-envelope-o"></i></span>
+				        <input type="email" name="email" id="email" data-rule="email" data-msg="Vérifiez votre saisie sur les champs : Le champ 'E-mail' est obligatoire." required/>
+				        <div class="validation"></div>
+							</div>	
+
+							<div class="form-group">
+								<div class="div_p">Telefon <span>*</span></div>
+								<span class="icon-case"><i class="fa fa-phone"></i></span>
+								<input type="text" name="phone" id="phone" data-rule="maxlen:10" data-msg="Vérifiez votre saisie sur les champs : Le champ 'Téléphone' doit être renseigné. Minimum 10 chiffres" minlength="10" required/>
+				        <div class="validation"></div>
+							</div>
+						</div>
+
+						<div class="rightcontact">	
+
+							<div class="form-group">
+								<div class="div_p">Fractions <span>*</span></div>
+								<span class="icon-case"><i class="fa fa-building-o"></i></span>
+								<select name="select_fraction"  id="select_fraction">
+						        <option value="1">0-5 mm</option>
+						        <option value="2" >0-20 mm</option>
+						        <option value="3">20-40 mm</option>
+						        <option value="4" >40-80 mm</option>
+						        <option value="5">20-40 mm</option>
+						        <option value="6" >80-120mm</option>
+						      </select>
+							</div>	
+
+							<div class="form-group">
+								<div class="div_p">Enterprise <span>*</span></div>
+								<span class="icon-case"><i class="fa fa-home"></i></span>
+								<input type="text" name="enterprise" id="enterprise" data-rule="required" data-msg="Vérifiez votre saisie sur les champs : Le champ 'Société' doit être renseigné." required/>
+				        <div class="validation"></div>
+							</div>
+
+							<div class="form-group">
+								<div class="div_p">Delivery period <span>*</span></div>
+								<span class="icon-case"><i class="fa fa-info"></i></span>
+								<select name="delivery_period"  id="delivery_period">
+						        <option value="1">From 05.01.18 to 08.01.18</option>
+						        <option value="2">From 05.01.2018 to 08.01.2018</option>
+						        <option value="3">From 05.01.2018 to 08.01.2018</option>
+						        <option value="4">From 05.01.2018 to 08.01.2018</option>
+						        <option value="5">From 05.01.2018 to 08.01.2018</option>
+						        <option value="6">From 05.01.2018 to 08.01.2018</option>
+						      </select>
+							</div>
+
+							<div class="form-group">
+								<div class="div_p">Text message</div>
+								<span class="icon-case"><i class="fa fa-comment-o"></i></span>
+				        <input type="text" name="message" id="message" data-rule="required" data-msg="Vérifiez votre saisie sur les champs : Le champ 'Sujet' doit être renseigné."/>
+				        <div class="validation"></div>
+							</div>
+						</div>
+					</div>
+					<button type="submit" class="bouton-contact">Send request</button>
+				</form>
+	    </div>
+
+
+
+
+			
+
+
+
+
+
+
+			<!--    Футер   -->
+			<div class="footer">
+				<div class="footer-menu">
+					<div class="footer_menu_site">
+						<ul>
+							<li class="title">Site menu</li>
+							<li class="spisk"><a href="../services/">Our services</a></li>
+							<li class="spisk"><a href="../production/">Products</a></li>
+							<li class="spisk"><a href="../reviews/">Reviews</a></li>
+							<li><a href="../contact/">Contacts</a></li>
+						</ul>
+					</div>
+
+					<div class="footer_kategoria">
+						<ul>
+							<li class="title">Category of goods</li>
+							<li class="spisk"><a href="../production/">Displaced</a></li>
+							<li class="spisk"><a href="../production/">Cubes</a></li>
+							<li class="spisk"><a href="../production/">Stone</a></li>
+						</ul>
+					</div>
+
+					<div class="footer_our_production">
+						<ul>
+							<li class="title">Our products</li>
+							<li class="spisk"><a href="../services/">Delivery drop</a></li>
+							<li class="spisk"><a href="../services/">Delivery of crushed stone</a></li>
+							<li class="spisk"><a href="../services/">Delivery of stone</a></li>
+						</ul>
+					</div>
+
+					<div class="footer_servises">
+						<ul>
+							<li class="title">Services</li>
+							<li class="spisk"><a href="../services/">How to make an order</a></li>
+							<li class="spisk"><a href="../services/">Organization of transportation by carriages</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+
+
+
+
+
+
+
+			<!--    Нижний футер     -->
+			<div class="footer_bottom">
+				<div class="footer-menu_bottom">
+					<div class="logo_footer">
+						<img src="/static/production_en/images/Emblema2.png"
+								 alt="image_logo" id="icon_logo" class="image_logo"/>
+						
+						<div class="logo_text">
+							<div class="logo_title">
+								TRIUMPH
+							</div>
+							<div class="logo_title_text">
+								Production of limestone quarries
+							</div>
+						</div>
+					</div>
+
+
+					<div class="email_footer">
+						<i class="fa fa-envelope-open" id="icon_email" aria-hidden="true"></i>
+						<div class="email">tpk_triumph@ukr.net</div>
+					</div>
+
+
+					<div class="place_footer">
+						<i class="fa fa-map-marker" id="icon_place" aria-hidden="true"></i>
+						<div class="place">
+							<div class="place_town">
+								city Khmelnytskyi
+							</div>
+							<div class="place_vyl">
+								str. Svobody, bld. 9А, off. 202.
+							</div>
+						</div>
+					</div>
+
+
+
+					<div class="telefon_footer">
+						<i class="fa fa-phone" id="icon_telefon" aria-hidden="true"></i>
+						<div class="telefon">
+							+380 (97) 86-78-111
+						</div>
+					</div>
+					
+					
+				</div>
+			</div>
+
+
+
+
+
+			<div class="footer_mobile">
+				<div class="logo_footer_mobile">
+					<div class="icon_logo_footer_mobile">
+						
+					</div>
+						
+					<div class="logo_text_mobile">
+						<div class="logo_title_mobile">
+							TRIUMPH
+						</div>
+						<div class="logo_title_text_mobile">
+							Production of limestone quarries
+						</div>
+					</div>
+				</div>
+
+
+				<div class="email_footer_mobile">
+					<i class="fa fa-envelope-open" id="icon_email" aria-hidden="true"></i>
+					<div class="email_mobile">tpk_triumph@ukr.net</div>
+				</div>
+
+
+				<div class="place_footer_mobile">
+					<i class="fa fa-map-marker" id="icon_place" aria-hidden="true"></i>
+					<div class="place_mobile">
+						<div class="place_town_mobile">
+							c.Khmelnytskyi
+						</div>
+						<div class="place_vyl_mobile">
+							str. Svobody, bld. 9А, off. 202.
+						</div>
+					</div>
+				</div>
+
+
+
+				<div class="telefon_footer_mobile">
+					<i class="fa fa-phone" id="icon_telefon" aria-hidden="true"></i>
+					<div class="telefon_mobile">
+						+380 (97) 86-78-111
+					</div>
+				</div>
+			</div>
+		</main>
+
+
+
+		<!-- Подключение javascript файла для отображения прелоадера -->
+		<script src="{% static 'production_en/js/preloader_and_headfixed.js' %}"></script>
+	</body>
+</html>

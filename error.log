@@ -1,0 +1,495 @@
+Internal Server Error: /production/success/
+Traceback (most recent call last):
+  File "C:\Users\Anton\Desktop\TRIUMPH\production\views.py", line 131, in emailView
+    send_mail("Form contact", user_surname, 'antonsadlov@gmail.com', ['antonsadlov@gmail.com'])
+NameError: name 'send_mail' is not defined
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Anton\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "C:\Users\Anton\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Anton\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Anton\Desktop\TRIUMPH\production\views.py", line 132, in emailView
+    except BadHeaderError:
+NameError: name 'BadHeaderError' is not defined
+"POST /production/success/ HTTP/1.1" 500 70690
+Internal Server Error: /production/success/
+Traceback (most recent call last):
+  File "C:\Users\Anton\Desktop\TRIUMPH\production\views.py", line 131, in emailView
+    send_mail("Form contact", user_surname, 'antonsadlov@gmail.com', ['antonsadlov@gmail.com'])
+NameError: name 'send_mail' is not defined
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Anton\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "C:\Users\Anton\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Anton\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Anton\Desktop\TRIUMPH\production\views.py", line 132, in emailView
+    except BadHeaderError:
+NameError: name 'BadHeaderError' is not defined
+"POST /production/success/ HTTP/1.1" 500 70689
+Internal Server Error: /production/success/
+Traceback (most recent call last):
+  File "C:\Users\Anton\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "C:\Users\Anton\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Anton\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Anton\Desktop\TRIUMPH\production\views.py", line 131, in emailView
+    send_mail("Form contact", user_surname, 'antonsadlov@gmail.com', ['antonsadlov@gmail.com'])
+  File "C:\Users\Anton\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\mail\__init__.py", line 60, in send_mail
+    return mail.send()
+  File "C:\Users\Anton\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\mail\message.py", line 294, in send
+    return self.get_connection(fail_silently).send_messages([self])
+  File "C:\Users\Anton\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\mail\backends\smtp.py", line 103, in send_messages
+    new_conn_created = self.open()
+  File "C:\Users\Anton\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\mail\backends\smtp.py", line 63, in open
+    self.connection = self.connection_class(self.host, self.port, **connection_params)
+  File "C:\Users\Anton\AppData\Local\Programs\Python\Python36-32\lib\smtplib.py", line 251, in __init__
+    (code, msg) = self.connect(host, port)
+  File "C:\Users\Anton\AppData\Local\Programs\Python\Python36-32\lib\smtplib.py", line 336, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "C:\Users\Anton\AppData\Local\Programs\Python\Python36-32\lib\smtplib.py", line 307, in _get_socket
+    self.source_address)
+  File "C:\Users\Anton\AppData\Local\Programs\Python\Python36-32\lib\socket.py", line 722, in create_connection
+    raise err
+  File "C:\Users\Anton\AppData\Local\Programs\Python\Python36-32\lib\socket.py", line 713, in create_connection
+    sock.connect(sa)
+TimeoutError: [WinError 10060] Попытка установить соединение была безуспешной, т.к. от другого компьютера за требуемое время не получен нужный отклик, или было разорвано уже установленное соединение из-за неверного отклика уже подключенного компьютера
+"POST /production/success/ HTTP/1.1" 500 108856
+Internal Server Error: /production/success/
+Traceback (most recent call last):
+  File "C:\Users\Anton\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "C:\Users\Anton\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Anton\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Anton\Desktop\TRIUMPH\production\views.py", line 133, in emailView
+    send_mail('Subject here', 'Here is the message.', 'antonsadlov@gmail.com', ['antonsadlov@gmail.com'], fail_silently=False)
+  File "C:\Users\Anton\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\mail\__init__.py", line 60, in send_mail
+    return mail.send()
+  File "C:\Users\Anton\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\mail\message.py", line 294, in send
+    return self.get_connection(fail_silently).send_messages([self])
+  File "C:\Users\Anton\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\mail\backends\smtp.py", line 103, in send_messages
+    new_conn_created = self.open()
+  File "C:\Users\Anton\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\mail\backends\smtp.py", line 63, in open
+    self.connection = self.connection_class(self.host, self.port, **connection_params)
+  File "C:\Users\Anton\AppData\Local\Programs\Python\Python36-32\lib\smtplib.py", line 251, in __init__
+    (code, msg) = self.connect(host, port)
+  File "C:\Users\Anton\AppData\Local\Programs\Python\Python36-32\lib\smtplib.py", line 336, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "C:\Users\Anton\AppData\Local\Programs\Python\Python36-32\lib\smtplib.py", line 307, in _get_socket
+    self.source_address)
+  File "C:\Users\Anton\AppData\Local\Programs\Python\Python36-32\lib\socket.py", line 722, in create_connection
+    raise err
+  File "C:\Users\Anton\AppData\Local\Programs\Python\Python36-32\lib\socket.py", line 713, in create_connection
+    sock.connect(sa)
+TimeoutError: [WinError 10060] Попытка установить соединение была безуспешной, т.к. от другого компьютера за требуемое время не получен нужный отклик, или было разорвано уже установленное соединение из-за неверного отклика уже подключенного компьютера
+"POST /production/success/ HTTP/1.1" 500 109032
+"POST /production/success/ HTTP/1.1" 500 59
+Internal Server Error: /production/success/
+Traceback (most recent call last):
+  File "C:\Users\Anton\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "C:\Users\Anton\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Anton\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Anton\Desktop\TRIUMPH\production\views.py", line 144, in emailView
+    send_mail('Subject here', 'Here is the message.', 'from_email', ['to_email'], fail_silently=False)
+  File "C:\Users\Anton\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\mail\__init__.py", line 60, in send_mail
+    return mail.send()
+  File "C:\Users\Anton\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\mail\message.py", line 294, in send
+    return self.get_connection(fail_silently).send_messages([self])
+  File "C:\Users\Anton\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\mail\backends\smtp.py", line 103, in send_messages
+    new_conn_created = self.open()
+  File "C:\Users\Anton\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\mail\backends\smtp.py", line 63, in open
+    self.connection = self.connection_class(self.host, self.port, **connection_params)
+  File "C:\Users\Anton\AppData\Local\Programs\Python\Python36-32\lib\smtplib.py", line 251, in __init__
+    (code, msg) = self.connect(host, port)
+  File "C:\Users\Anton\AppData\Local\Programs\Python\Python36-32\lib\smtplib.py", line 336, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "C:\Users\Anton\AppData\Local\Programs\Python\Python36-32\lib\smtplib.py", line 307, in _get_socket
+    self.source_address)
+  File "C:\Users\Anton\AppData\Local\Programs\Python\Python36-32\lib\socket.py", line 722, in create_connection
+    raise err
+  File "C:\Users\Anton\AppData\Local\Programs\Python\Python36-32\lib\socket.py", line 713, in create_connection
+    sock.connect(sa)
+TimeoutError: [WinError 10060] Попытка установить соединение была безуспешной, т.к. от другого компьютера за требуемое время не получен нужный отклик, или было разорвано уже установленное соединение из-за неверного отклика уже подключенного компьютера
+"POST /production/success/ HTTP/1.1" 500 109536
+Internal Server Error: /production/success/
+Traceback (most recent call last):
+  File "C:\Users\Anton\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "C:\Users\Anton\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Anton\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Anton\Desktop\TRIUMPH\production\views.py", line 144, in emailView
+    send_mail(subject, contact_message, from_email, to_email, fail_silently=False)
+  File "C:\Users\Anton\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\mail\__init__.py", line 56, in send_mail
+    mail = EmailMultiAlternatives(subject, message, from_email, recipient_list, connection=connection)
+  File "C:\Users\Anton\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\mail\message.py", line 429, in __init__
+    headers, cc, reply_to,
+  File "C:\Users\Anton\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\mail\message.py", line 210, in __init__
+    raise TypeError('"to" argument must be a list or tuple')
+TypeError: "to" argument must be a list or tuple
+"POST /production/success/ HTTP/1.1" 500 82958
+Internal Server Error: /production/success/
+Traceback (most recent call last):
+  File "C:\Users\Anton\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "C:\Users\Anton\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Anton\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Anton\Desktop\TRIUMPH\production\views.py", line 140, in emailView
+    fail_silently = False)
+  File "C:\Users\Anton\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\mail\__init__.py", line 56, in send_mail
+    mail = EmailMultiAlternatives(subject, message, from_email, recipient_list, connection=connection)
+  File "C:\Users\Anton\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\mail\message.py", line 429, in __init__
+    headers, cc, reply_to,
+  File "C:\Users\Anton\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\mail\message.py", line 210, in __init__
+    raise TypeError('"to" argument must be a list or tuple')
+TypeError: "to" argument must be a list or tuple
+"POST /production/success/ HTTP/1.1" 500 82654
+Internal Server Error: /production/success/
+Traceback (most recent call last):
+  File "C:\Users\Anton\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "C:\Users\Anton\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Anton\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Anton\Desktop\TRIUMPH\production\views.py", line 140, in emailView
+    fail_silently = True)
+  File "C:\Users\Anton\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\mail\__init__.py", line 56, in send_mail
+    mail = EmailMultiAlternatives(subject, message, from_email, recipient_list, connection=connection)
+  File "C:\Users\Anton\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\mail\message.py", line 429, in __init__
+    headers, cc, reply_to,
+  File "C:\Users\Anton\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\mail\message.py", line 210, in __init__
+    raise TypeError('"to" argument must be a list or tuple')
+TypeError: "to" argument must be a list or tuple
+"POST /production/success/ HTTP/1.1" 500 82645
+Internal Server Error: /production/success/
+Traceback (most recent call last):
+  File "C:\Users\Anton\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "C:\Users\Anton\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Anton\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Anton\Desktop\TRIUMPH\production\views.py", line 139, in emailView
+    to_email,
+  File "C:\Users\Anton\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\mail\__init__.py", line 56, in send_mail
+    mail = EmailMultiAlternatives(subject, message, from_email, recipient_list, connection=connection)
+  File "C:\Users\Anton\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\mail\message.py", line 429, in __init__
+    headers, cc, reply_to,
+  File "C:\Users\Anton\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\mail\message.py", line 210, in __init__
+    raise TypeError('"to" argument must be a list or tuple')
+TypeError: "to" argument must be a list or tuple
+"POST /production/success/ HTTP/1.1" 500 82539
+Internal Server Error: /production/success/
+Traceback (most recent call last):
+  File "C:\Users\Anton\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "C:\Users\Anton\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Anton\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Anton\Desktop\TRIUMPH\production\views.py", line 139, in emailView
+    to_email,
+  File "C:\Users\Anton\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\mail\__init__.py", line 56, in send_mail
+    mail = EmailMultiAlternatives(subject, message, from_email, recipient_list, connection=connection)
+  File "C:\Users\Anton\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\mail\message.py", line 429, in __init__
+    headers, cc, reply_to,
+  File "C:\Users\Anton\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\mail\message.py", line 210, in __init__
+    raise TypeError('"to" argument must be a list or tuple')
+TypeError: "to" argument must be a list or tuple
+"POST /production/success/ HTTP/1.1" 500 82671
+Internal Server Error: /production/success/
+Traceback (most recent call last):
+  File "C:\Users\Anton\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "C:\Users\Anton\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Anton\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Anton\Desktop\TRIUMPH\production\views.py", line 139, in emailView
+    to_email
+  File "C:\Users\Anton\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\mail\__init__.py", line 56, in send_mail
+    mail = EmailMultiAlternatives(subject, message, from_email, recipient_list, connection=connection)
+  File "C:\Users\Anton\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\mail\message.py", line 429, in __init__
+    headers, cc, reply_to,
+  File "C:\Users\Anton\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\mail\message.py", line 210, in __init__
+    raise TypeError('"to" argument must be a list or tuple')
+TypeError: "to" argument must be a list or tuple
+"POST /production/success/ HTTP/1.1" 500 82805
+Internal Server Error: /production/success/
+Traceback (most recent call last):
+  File "C:\Users\Anton\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "C:\Users\Anton\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Anton\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Anton\Desktop\TRIUMPH\production\views.py", line 139, in emailView
+    to_email
+  File "C:\Users\Anton\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\mail\__init__.py", line 56, in send_mail
+    mail = EmailMultiAlternatives(subject, message, from_email, recipient_list, connection=connection)
+  File "C:\Users\Anton\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\mail\message.py", line 429, in __init__
+    headers, cc, reply_to,
+  File "C:\Users\Anton\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\mail\message.py", line 210, in __init__
+    raise TypeError('"to" argument must be a list or tuple')
+TypeError: "to" argument must be a list or tuple
+"POST /production/success/ HTTP/1.1" 500 82863
+Internal Server Error: /production/success/
+Traceback (most recent call last):
+  File "C:\Users\Anton\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "C:\Users\Anton\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Anton\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Anton\Desktop\TRIUMPH\production\views.py", line 140, in emailView
+    fail_silently=False,
+  File "C:\Users\Anton\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\mail\__init__.py", line 56, in send_mail
+    mail = EmailMultiAlternatives(subject, message, from_email, recipient_list, connection=connection)
+  File "C:\Users\Anton\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\mail\message.py", line 429, in __init__
+    headers, cc, reply_to,
+  File "C:\Users\Anton\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\mail\message.py", line 210, in __init__
+    raise TypeError('"to" argument must be a list or tuple')
+TypeError: "to" argument must be a list or tuple
+"POST /production/success/ HTTP/1.1" 500 82887
+Internal Server Error: /production/success/
+Traceback (most recent call last):
+  File "C:\Users\Anton\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "C:\Users\Anton\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Anton\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Anton\Desktop\TRIUMPH\production\views.py", line 140, in emailView
+    fail_silently=False
+  File "C:\Users\Anton\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\mail\__init__.py", line 56, in send_mail
+    mail = EmailMultiAlternatives(subject, message, from_email, recipient_list, connection=connection)
+  File "C:\Users\Anton\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\mail\message.py", line 429, in __init__
+    headers, cc, reply_to,
+  File "C:\Users\Anton\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\mail\message.py", line 210, in __init__
+    raise TypeError('"to" argument must be a list or tuple')
+TypeError: "to" argument must be a list or tuple
+"POST /production/success/ HTTP/1.1" 500 82886
+Internal Server Error: /production/success/
+Traceback (most recent call last):
+  File "C:\Users\Anton\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "C:\Users\Anton\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Anton\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Anton\Desktop\TRIUMPH\production\views.py", line 140, in emailView
+    fail_silently=False
+  File "C:\Users\Anton\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\mail\__init__.py", line 56, in send_mail
+    mail = EmailMultiAlternatives(subject, message, from_email, recipient_list, connection=connection)
+  File "C:\Users\Anton\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\mail\message.py", line 429, in __init__
+    headers, cc, reply_to,
+  File "C:\Users\Anton\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\mail\message.py", line 210, in __init__
+    raise TypeError('"to" argument must be a list or tuple')
+TypeError: "to" argument must be a list or tuple
+"POST /production/success/ HTTP/1.1" 500 82770
+Internal Server Error: /production/success/
+Traceback (most recent call last):
+  File "C:\Users\Anton\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\utils\datastructures.py", line 77, in __getitem__
+    list_ = super().__getitem__(key)
+KeyError: 'enterprise'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Anton\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "C:\Users\Anton\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Anton\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Anton\Desktop\TRIUMPH\production\views.py", line 126, in emailView
+    enterprise = request.POST['enterprise']
+  File "C:\Users\Anton\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\utils\datastructures.py", line 79, in __getitem__
+    raise MultiValueDictKeyError(key)
+django.utils.datastructures.MultiValueDictKeyError: 'enterprise'
+"POST /production/success/ HTTP/1.1" 500 74999
+Internal Server Error: /production/success/
+Traceback (most recent call last):
+  File "C:\Users\Anton\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\utils\datastructures.py", line 77, in __getitem__
+    list_ = super().__getitem__(key)
+KeyError: 'enterprise'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Anton\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "C:\Users\Anton\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Anton\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Anton\Desktop\TRIUMPH\production\views.py", line 126, in emailView
+    enterprise = request.POST['enterprise']
+  File "C:\Users\Anton\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\utils\datastructures.py", line 79, in __getitem__
+    raise MultiValueDictKeyError(key)
+django.utils.datastructures.MultiValueDictKeyError: 'enterprise'
+"POST /production/success/ HTTP/1.1" 500 75133
+Internal Server Error: /production/success/
+Traceback (most recent call last):
+  File "C:\Users\Anton\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "C:\Users\Anton\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Anton\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Anton\Desktop\TRIUMPH\production\views.py", line 149, in emailView
+    fail_silently=False
+  File "C:\Users\Anton\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\mail\__init__.py", line 56, in send_mail
+    mail = EmailMultiAlternatives(subject, message, from_email, recipient_list, connection=connection)
+  File "C:\Users\Anton\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\mail\message.py", line 429, in __init__
+    headers, cc, reply_to,
+  File "C:\Users\Anton\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\mail\message.py", line 210, in __init__
+    raise TypeError('"to" argument must be a list or tuple')
+TypeError: "to" argument must be a list or tuple
+"POST /production/success/ HTTP/1.1" 500 84463
+Internal Server Error: /production/success/
+Traceback (most recent call last):
+  File "C:\Users\Anton\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "C:\Users\Anton\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Anton\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Anton\Desktop\TRIUMPH\production\views.py", line 149, in emailView
+    fail_silently=False
+  File "C:\Users\Anton\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\mail\__init__.py", line 56, in send_mail
+    mail = EmailMultiAlternatives(subject, message, from_email, recipient_list, connection=connection)
+  File "C:\Users\Anton\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\mail\message.py", line 429, in __init__
+    headers, cc, reply_to,
+  File "C:\Users\Anton\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\mail\message.py", line 210, in __init__
+    raise TypeError('"to" argument must be a list or tuple')
+TypeError: "to" argument must be a list or tuple
+"POST /production/success/ HTTP/1.1" 500 84361
+Internal Server Error: /production/success/
+Traceback (most recent call last):
+  File "C:\Users\Anton\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "C:\Users\Anton\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Anton\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Anton\Desktop\TRIUMPH\production\views.py", line 155, in emailView
+    fail_silently=False,
+  File "C:\Users\Anton\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\mail\__init__.py", line 56, in send_mail
+    mail = EmailMultiAlternatives(subject, message, from_email, recipient_list, connection=connection)
+  File "C:\Users\Anton\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\mail\message.py", line 429, in __init__
+    headers, cc, reply_to,
+  File "C:\Users\Anton\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\mail\message.py", line 210, in __init__
+    raise TypeError('"to" argument must be a list or tuple')
+TypeError: "to" argument must be a list or tuple
+"POST /production/success/ HTTP/1.1" 500 83735
+Internal Server Error: /production/success/
+Traceback (most recent call last):
+  File "C:\Users\Anton\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "C:\Users\Anton\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Anton\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Anton\Desktop\TRIUMPH\production\views.py", line 154, in emailView
+    'to_email',
+  File "C:\Users\Anton\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\mail\__init__.py", line 56, in send_mail
+    mail = EmailMultiAlternatives(subject, message, from_email, recipient_list, connection=connection)
+  File "C:\Users\Anton\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\mail\message.py", line 429, in __init__
+    headers, cc, reply_to,
+  File "C:\Users\Anton\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\mail\message.py", line 210, in __init__
+    raise TypeError('"to" argument must be a list or tuple')
+TypeError: "to" argument must be a list or tuple
+"POST /production/success/ HTTP/1.1" 500 83885
+Internal Server Error: /production/success/
+Traceback (most recent call last):
+  File "C:\Users\Anton\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "C:\Users\Anton\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Anton\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Anton\Desktop\TRIUMPH\production\views.py", line 155, in emailView
+    fail_silently=False,
+  File "C:\Users\Anton\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\mail\__init__.py", line 56, in send_mail
+    mail = EmailMultiAlternatives(subject, message, from_email, recipient_list, connection=connection)
+  File "C:\Users\Anton\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\mail\message.py", line 429, in __init__
+    headers, cc, reply_to,
+  File "C:\Users\Anton\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\mail\message.py", line 210, in __init__
+    raise TypeError('"to" argument must be a list or tuple')
+TypeError: "to" argument must be a list or tuple
+"POST /production/success/ HTTP/1.1" 500 83903
+Internal Server Error: /production/success/
+Traceback (most recent call last):
+  File "C:\Users\Anton\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "C:\Users\Anton\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Anton\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Anton\Desktop\TRIUMPH\production\views.py", line 155, in emailView
+    fail_silently=False,
+  File "C:\Users\Anton\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\mail\__init__.py", line 56, in send_mail
+    mail = EmailMultiAlternatives(subject, message, from_email, recipient_list, connection=connection)
+  File "C:\Users\Anton\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\mail\message.py", line 429, in __init__
+    headers, cc, reply_to,
+  File "C:\Users\Anton\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\mail\message.py", line 210, in __init__
+    raise TypeError('"to" argument must be a list or tuple')
+TypeError: "to" argument must be a list or tuple
+"POST /production/success/ HTTP/1.1" 500 83869
+Internal Server Error: /production/success/
+Traceback (most recent call last):
+  File "C:\Users\Anton\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "C:\Users\Anton\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Anton\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Anton\Desktop\TRIUMPH\production\views.py", line 157, in emailView
+    fail_silently=False,
+  File "C:\Users\Anton\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\mail\__init__.py", line 56, in send_mail
+    mail = EmailMultiAlternatives(subject, message, from_email, recipient_list, connection=connection)
+  File "C:\Users\Anton\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\mail\message.py", line 429, in __init__
+    headers, cc, reply_to,
+  File "C:\Users\Anton\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\mail\message.py", line 210, in __init__
+    raise TypeError('"to" argument must be a list or tuple')
+TypeError: "to" argument must be a list or tuple
+"POST /production/success/ HTTP/1.1" 500 83869
+Internal Server Error: /production/success/
+Traceback (most recent call last):
+  File "C:\Users\Anton\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "C:\Users\Anton\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Anton\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Anton\Desktop\TRIUMPH\production\views.py", line 156, in emailView
+    'to_email',
+  File "C:\Users\Anton\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\mail\__init__.py", line 56, in send_mail
+    mail = EmailMultiAlternatives(subject, message, from_email, recipient_list, connection=connection)
+  File "C:\Users\Anton\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\mail\message.py", line 429, in __init__
+    headers, cc, reply_to,
+  File "C:\Users\Anton\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\mail\message.py", line 210, in __init__
+    raise TypeError('"to" argument must be a list or tuple')
+TypeError: "to" argument must be a list or tuple
+"POST /production/success/ HTTP/1.1" 500 83885
