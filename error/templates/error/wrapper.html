@@ -207,25 +207,17 @@
 					<div class="katalogue_text">
 						Каталог
 					</div>
-					
 				</div>
 				<form action="{% url 'error_search' %}" method="get" id="search_form">
 					{% csrf_token %}
-
-
 					<button type="submit" class="button_submit">
-
-
 						<div class="find_wrapper">
 							<div class="find">
-								<!-- <input type="submit" id="find_button" name='send' src='images/search1.png' value='Кнопка'/> -->
-									<!--<input type='image' id="find_button" name='send' src='images/search1.png' value='Кнопка'/>-->
 									<div class="find_icon">
 										<i class="fa fa-search" aria-hidden="true"></i>
 									</div>
 									<div class="find_text">
 										Найти
-										<!-- <input type="submit" id="find_button" name='send' src='images/search1.png' value='Кнопка'/> -->
 									</div>
 							</div>
 						</div>
@@ -246,7 +238,7 @@
 
 
 			<div class="error_404_text">
-				Нажаль нічого не знайдено по запросу: . Пошук по сайту не дав ніяких результатів. Попробуйте змінити чи скоротити ваш запит. 
+				Нажаль нічого не знайдено. Пошук по сайту не дав ніяких результатів. Попробуйте змінити чи скоротити ваш запит. 
 			</div>
 		</div>
 

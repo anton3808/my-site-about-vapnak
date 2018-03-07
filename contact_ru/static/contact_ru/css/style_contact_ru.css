@@ -2,6 +2,11 @@
 
 Primary style
 -------------------------------- */
+@media (max-width: 310px){
+  .menu_mobile{
+    height: 60px;
+  }
+}
 
 @media (min-width: 500px) and (max-width: 800px){
   .wrapper_production{
@@ -7454,17 +7459,17 @@ body{
 
 
 @media (min-width: 1900px){
-  .wrapper_logo_text_production{
+  .wrapper_logo_text_contact{
     height: 77px;
     background-color: #1b1b1b;
   }
-  .logo_text_production{
+  .logo_text_contact{
     width: 870px;
     height: 77px;
     background: url(../images/image_block_production.png) no-repeat;
     margin: 0 auto;
   }
-  .text_production{
+  .text_contact{
     width: 157px;
     font-family: 'Proxima Nova Bold';
     color: #fff;
@@ -7479,17 +7484,17 @@ body{
 
 
 @media (min-width: 1800px) and (max-width: 1900px){
-  .wrapper_logo_text_production{
+  .wrapper_logo_text_contact{
     height: 77px;
     background-color: #1b1b1b;
   }
-  .logo_text_production{
+  .logo_text_contact{
     width: 870px;
     height: 77px;
     background: url(../images/image_block_production.png) no-repeat;
     margin: 0 auto;
   }
-  .text_production{
+  .text_contact{
     width: 157px;
     font-family: 'Proxima Nova Bold';
     color: #fff;
@@ -7505,17 +7510,17 @@ body{
 
 
 @media (min-width: 1700px) and (max-width: 1800px){
-  .wrapper_logo_text_production{
+  .wrapper_logo_text_contact{
     height: 77px;
     background-color: #1b1b1b;
   }
-  .logo_text_production{
+  .logo_text_contact{
     width: 870px;
     height: 77px;
     background: url(../images/image_block_production.png) no-repeat;
     margin: 0 auto;
   }
-  .text_production{
+  .text_contact{
     width: 157px;
     font-family: 'Proxima Nova Bold';
     color: #fff;
@@ -7531,17 +7536,17 @@ body{
 
 
 @media (min-width: 1600px) and (max-width: 1700px){
-  .wrapper_logo_text_production{
+  .wrapper_logo_text_contact{
     height: 77px;
     background-color: #1b1b1b;
   }
-  .logo_text_production{
+  .logo_text_contact{
     width: 870px;
     height: 77px;
     background: url(../images/image_block_production.png) no-repeat;
     margin: 0 auto;
   }
-  .text_production{
+  .text_contact{
     width: 157px;
     font-family: 'Proxima Nova Bold';
     color: #fff;
@@ -7556,17 +7561,17 @@ body{
 
 
 @media (min-width: 1500px) and (max-width: 1600px){
-  .wrapper_logo_text_production{
+  .wrapper_logo_text_contact{
     height: 77px;
     background-color: #1b1b1b;
   }
-  .logo_text_production{
+  .logo_text_contact{
     width: 870px;
     height: 77px;
     background: url(../images/image_block_production.png) no-repeat;
     margin: 0 auto;
   }
-  .text_production{
+  .text_contact{
     width: 157px;
     font-family: 'Proxima Nova Bold';
     color: #fff;
@@ -7582,17 +7587,17 @@ body{
 
 
 @media (min-width: 1400px) and (max-width: 1500px){
-  .wrapper_logo_text_production{
+  .wrapper_logo_text_contact{
     height: 77px;
     background-color: #1b1b1b;
   }
-  .logo_text_production{
+  .logo_text_contact{
     width: 870px;
     height: 77px;
     background: url(../images/image_block_production.png) no-repeat;
     margin: 0 auto;
   }
-  .text_production{
+  .text_contact{
     width: 157px;
     font-family: 'Proxima Nova Bold';
     color: #fff;
@@ -7617,17 +7622,17 @@ body{
 
 
 @media (min-width: 1300px) and (max-width: 1400px){
-  .wrapper_logo_text_production{
+  .wrapper_logo_text_contact{
     height: 77px;
     background-color: #1b1b1b;
   }
-  .logo_text_production{
+  .logo_text_contact{
     width: 870px;
     height: 77px;
     background: url(../images/image_block_production.png) no-repeat;
     margin: 0 auto;
   }
-  .text_production{
+  .text_contact{
     width: 157px;
     font-family: 'Proxima Nova Bold';
     color: #fff;
@@ -7645,18 +7650,18 @@ body{
 
 
 @media (min-width: 1200px) and (max-width: 1300px){
-  .wrapper_logo_text_production{
+  .wrapper_logo_text_contact{
     height: 63px;
     background-color: #1b1b1b;
   }
-  .logo_text_production{
+  .logo_text_contact{
     width: 60%;
     height: 63px;
     background: url(../images/image_block_production.png) no-repeat;
     background-size: contain;
     margin: 0 auto;
   }
-  .text_production{
+  .text_contact{
     width: 157px;
     font-family: 'Proxima Nova Bold';
     color: #fff;
@@ -7675,18 +7680,18 @@ body{
 
 
 @media (min-width: 1100px) and (max-width: 1200px){
-  .wrapper_logo_text_production{
+  .wrapper_logo_text_contact{
     height: 59px;
     background-color: #1b1b1b;
   }
-  .logo_text_production{
+  .logo_text_contact{
     width: 60%;
     height: 59px;
     background: url(../images/image_block_production.png) no-repeat;
     background-size: contain;
     margin: 0 auto;
   }
-  .text_production{
+  .text_contact{
     width: 157px;
     font-family: 'Proxima Nova Bold';
     color: #fff;
@@ -7707,18 +7712,18 @@ body{
 
 
 @media (min-width: 1000px) and (max-width: 1100px){
-  .wrapper_logo_text_production{
+  .wrapper_logo_text_contact{
     height: 54px;
     background-color: #1b1b1b;
   }
-  .logo_text_production{
+  .logo_text_contact{
     width: 60%;
     height: 54px;
     background: url(../images/image_block_production.png) no-repeat;
     background-size: contain;
     margin: 0 auto;
   }
-  .text_production{
+  .text_contact{
     width: 157px;
     font-family: 'Proxima Nova Bold';
     color: #fff;
@@ -7734,18 +7739,18 @@ body{
 
 
 @media (min-width: 900px) and (max-width: 1000px){
-  .wrapper_logo_text_production{
+  .wrapper_logo_text_contact{
     height: 48px;
     background-color: #1b1b1b;
   }
-  .logo_text_production{
+  .logo_text_contact{
     width: 60%;
     height: 48px;
     background: url(../images/image_block_production.png) no-repeat;
     background-size: contain;
     margin: 0 auto;
   }
-  .text_production{
+  .text_contact{
     width: 157px;
     font-family: 'Proxima Nova Bold';
     color: #fff;
@@ -7764,18 +7769,18 @@ body{
 
 
 @media (min-width: 800px) and (max-width: 900px){
-  .wrapper_logo_text_production{
+  .wrapper_logo_text_contact{
     height: 43px;
     background-color: #1b1b1b;
   }
-  .logo_text_production{
+  .logo_text_contact{
     width: 60%;
     height: 43px;
     background: url(../images/image_block_production.png) no-repeat;
     background-size: contain;
     margin: 0 auto;
   }
-  .text_production{
+  .text_contact{
     width: 157px;
     font-family: 'Proxima Nova Bold';
     color: #fff;
@@ -7792,24 +7797,25 @@ body{
 
 
 @media (min-width: 700px) and (max-width: 800px){
-  .wrapper_logo_text_production{
-    height: 37px;
+  .wrapper_logo_text_contact{
+    height: 44px;
     background-color: #1b1b1b;
     margin-top: 18px;
+    overflow: hidden;
   }
-  .logo_text_production{
-    width: 60%;
-    height: 37px;
+  .logo_text_contact{
+    width: 70%;
+    height: 67px;
     background: url(../images/image_block_production.png) no-repeat;
     background-size: contain;
     margin: 0 auto;
   }
-  .text_production{
-    width: 157px;
+  .text_contact{
+    width: 90px;
     font-family: 'Proxima Nova Bold';
     color: #fff;
-    font-size: 21px;
-    padding-top: 8px;
+    font-size: 23px;
+    padding-top: 12px;
     margin: 0 auto;
   }
 }
@@ -7819,23 +7825,24 @@ body{
 
 
 @media (min-width: 600px) and (max-width: 700px){
-  .wrapper_logo_text_production{
+  .wrapper_logo_text_contact{
     height: 37px;
     background-color: #1b1b1b;
     margin-top: 18px;
+    overflow: hidden;
   }
-  .logo_text_production{
-    width: 60%;
-    height: 37px;
+  .logo_text_contact{
+    width: 70%;
+    height: 57px;
     background: url(../images/image_block_production.png) no-repeat;
     background-size: contain;
     margin: 0 auto;
   }
-  .text_production{
-    width: 157px;
+  .text_contact{
+    width: 90px;
     font-family: 'Proxima Nova Bold';
     color: #fff;
-    font-size: 21px;
+    font-size: 22px;
     padding-top: 8px;
     margin: 0 auto;
   }
@@ -7843,24 +7850,25 @@ body{
 
 
 @media (min-width: 500px) and (max-width: 600px){
-  .wrapper_logo_text_production{
-    height: 37px;
+  .wrapper_logo_text_contact{
+    height: 32px;
     background-color: #1b1b1b;
     margin-top: 18px;
+    overflow: hidden;
   }
-  .logo_text_production{
-    width: 60%;
-    height: 37px;
+  .logo_text_contact{
+    width: 73%;
+    height: 60px;
     background: url(../images/image_block_production.png) no-repeat;
     background-size: contain;
     margin: 0 auto;
   }
-  .text_production{
-    width: 157px;
+  .text_contact{
+    width: 82px;
     font-family: 'Proxima Nova Bold';
     color: #fff;
-    font-size: 21px;
-    padding-top: 8px;
+    font-size: 19px;
+    padding-top: 6px;
     margin: 0 auto;
   }
 }
@@ -7868,23 +7876,25 @@ body{
 
 
 @media (min-width: 450px) and (max-width: 500px){
-  .wrapper_logo_text_production{
-    height: 54px;
+  .wrapper_logo_text_contact{
+    height: 50px;
     background-color: #1b1b1b;
+    overflow: hidden;
   }
-  .logo_text_production{
-    width: 60%;
-    height: 54px;
+  .logo_text_contact{
+    width: 80%;
+    height: 68px;
     background: url(../images/image_block_production.png) no-repeat;
     background-size: contain;
-    margin: 0 auto;
+    margin-top: 18px;
+    margin-left: 45px;
   }
-  .text_production{
-    width: 157px;
+  .text_contact{
+    width: 85px;
     font-family: 'Proxima Nova Bold';
     color: #fff;
-    font-size: 26px;
-    padding-top: 13px;
+    font-size: 21px;
+    padding-top: 6px;
     margin: 0 auto;
   }
 }
@@ -7895,23 +7905,25 @@ body{
 
 
 @media (min-width: 400px) and (max-width: 450px){
-  .wrapper_logo_text_production{
-    height: 54px;
+  .wrapper_logo_text_contact{
+    height: 48px;
     background-color: #1b1b1b;
+    overflow: hidden;
   }
-  .logo_text_production{
-    width: 60%;
-    height: 54px;
+  .logo_text_contact{
+    width: 85%;
+    height: 64px;
     background: url(../images/image_block_production.png) no-repeat;
     background-size: contain;
-    margin: 0 auto;
+    margin-top: 18px;
+    margin-left: 28px;
   }
-  .text_production{
-    width: 157px;
+  .text_contact{
+    width: 71px;
     font-family: 'Proxima Nova Bold';
     color: #fff;
-    font-size: 26px;
-    padding-top: 13px;
+    font-size: 20px;
+    padding-top: 5px;
     margin: 0 auto;
   }
 }
@@ -7922,23 +7934,25 @@ body{
 
 
 @media (min-width: 350px) and (max-width: 400px){
-  .wrapper_logo_text_production{
-    height: 54px;
+  .wrapper_logo_text_contact{
+    height: 46px;
     background-color: #1b1b1b;
+    overflow: hidden;
   }
-  .logo_text_production{
-    width: 60%;
+  .logo_text_contact{
+    width: 90%;
     height: 54px;
     background: url(../images/image_block_production.png) no-repeat;
     background-size: contain;
-    margin: 0 auto;
+    margin-top: 18px;
+    margin-left: 17px;
   }
-  .text_production{
-    width: 157px;
+  .text_contact{
+    width: 72px;
     font-family: 'Proxima Nova Bold';
     color: #fff;
-    font-size: 26px;
-    padding-top: 13px;
+    font-size: 20px;
+    padding-top: 4px;
     margin: 0 auto;
   }
 }
@@ -7950,24 +7964,54 @@ body{
 
 
 
-@media (min-width: 300px) and (max-width: 350px){
-  .wrapper_logo_text_production{
-    height: 54px;
+@media (min-width: 310px) and (max-width: 350px){
+  .wrapper_logo_text_contact{
+    height: 43px;
     background-color: #1b1b1b;
+    overflow: hidden;
   }
-  .logo_text_production{
-    width: 60%;
-    height: 54px;
+  .logo_text_contact{
+    width: 90%;
+    height: 84px;
     background: url(../images/image_block_production.png) no-repeat;
     background-size: contain;
-    margin: 0 auto;
+    margin-top: 18px;
+    margin-left: 15px;
   }
-  .text_production{
-    width: 157px;
+  .text_contact{
+    width: 70px;
     font-family: 'Proxima Nova Bold';
     color: #fff;
-    font-size: 26px;
-    padding-top: 13px;
+    font-size: 19px;
+    padding-top: 3px;
+    margin: 0 auto;
+  }
+}
+
+
+
+
+
+@media (min-width: 300px) and (max-width: 310px){
+  .wrapper_logo_text_contact{
+    height: 33px;
+    background-color: #1b1b1b;
+    overflow: hidden;
+  }
+  .logo_text_contact{
+    width: 90%;
+    height: 84px;
+    background: url(../images/image_block_production.png) no-repeat;
+    background-size: contain;
+    margin-top: 10px;
+    margin-left: 15px;
+  }
+  .text_contact{
+    width: 70px;
+    font-family: 'Proxima Nova Bold';
+    color: #fff;
+    font-size: 19px;
+    padding-top: 3px;
     margin: 0 auto;
   }
 }
@@ -7978,23 +8022,25 @@ body{
 
 
 @media (min-width: 280px) and (max-width: 300px){
-  .wrapper_logo_text_production{
-    height: 54px;
+  .wrapper_logo_text_contact{
+    height: 32px;
     background-color: #1b1b1b;
+    overflow: hidden;
   }
-  .logo_text_production{
-    width: 60%;
+  .logo_text_contact{
+    width: 90%;
     height: 54px;
     background: url(../images/image_block_production.png) no-repeat;
     background-size: contain;
-    margin: 0 auto;
+    margin-top: 10px;
+    margin-left: 17px;
   }
-  .text_production{
-    width: 157px;
+  .text_contact{
+    width: 62px;
     font-family: 'Proxima Nova Bold';
     color: #fff;
-    font-size: 26px;
-    padding-top: 13px;
+    font-size: 17px;
+    padding-top: 3px;
     margin: 0 auto;
   }
 }

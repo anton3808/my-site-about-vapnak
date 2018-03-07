@@ -2,6 +2,11 @@
 
 Primary style
 -------------------------------- */
+@media (max-width: 310px){
+  .menu_mobile{
+    height: 60px;
+  }
+}
 
 body{
   max-width: 1935px;
@@ -9638,27 +9643,28 @@ body{
 @media (min-width: 700px) and (max-width: 800px){
 
   .wrapper_logo_text_production{
-    height: 37px;
+    height: 44px;
     background-color: #1b1b1b;
     margin-top: 18px;
+    overflow: hidden;
   }
 
 
   .logo_text_production{
     /*width: 870px;*/
-    width: 60%;
-    height: 37px;
+    width: 70%;
+    height: 67px;
     background: url(../images/image_block_production.png) no-repeat;
     background-size: contain;
     margin: 0 auto;
   }
 
   .text_production{
-    width: 157px;
+    width: 122px;
     font-family: 'Proxima Nova Bold';
     color: #fff;
-    font-size: 21px;
-    padding-top: 8px;
+    font-size: 23px;
+    padding-top: 12px;
     margin: 0 auto;
   }
 
@@ -9892,23 +9898,24 @@ body{
     height: 37px;
     background-color: #1b1b1b;
     margin-top: 18px;
+    overflow: hidden;
   }
 
 
   .logo_text_production{
     /*width: 870px;*/
-    width: 60%;
-    height: 37px;
+    width: 70%;
+    height: 57px;
     background: url(../images/image_block_production.png) no-repeat;
     background-size: contain;
     margin: 0 auto;
   }
 
   .text_production{
-    width: 157px;
+    width: 102px;
     font-family: 'Proxima Nova Bold';
     color: #fff;
-    font-size: 21px;
+    font-size: 22px;
     padding-top: 8px;
     margin: 0 auto;
   }
@@ -10137,27 +10144,28 @@ body{
 @media (min-width: 500px) and (max-width: 600px){
 
   .wrapper_logo_text_production{
-    height: 37px;
+    height: 32px;
     background-color: #1b1b1b;
     margin-top: 18px;
+    overflow: hidden;
   }
 
 
   .logo_text_production{
     /*width: 870px;*/
-    width: 60%;
-    height: 37px;
+    width: 73%;
+    height: 60px;
     background: url(../images/image_block_production.png) no-repeat;
     background-size: contain;
     margin: 0 auto;
   }
 
   .text_production{
-    width: 157px;
+    width: 92px;
     font-family: 'Proxima Nova Bold';
     color: #fff;
-    font-size: 21px;
-    padding-top: 8px;
+    font-size: 19px;
+    padding-top: 6px;
     margin: 0 auto;
   }
 
@@ -10377,26 +10385,29 @@ body{
 @media (min-width: 450px) and (max-width: 500px){
 
   .wrapper_logo_text_production{
-    height: 54px;
+    height: 50px;
     background-color: #1b1b1b;
+    overflow: hidden;
   }
 
 
   .logo_text_production{
     /*width: 870px;*/
-    width: 60%;
-    height: 54px;
+    width: 80%;
+    height: 68px;
     background: url(../images/image_block_production.png) no-repeat;
     background-size: contain;
-    margin: 0 auto;
+    margin-top: 18px;
+    margin-left: 45px;
+    /*margin: 0 auto;*/
   }
 
   .text_production{
-    width: 157px;
+    width: 85px;
     font-family: 'Proxima Nova Bold';
     color: #fff;
-    font-size: 26px;
-    padding-top: 13px;
+    font-size: 21px;
+    padding-top: 6px;
     margin: 0 auto;
   }
 
@@ -10632,26 +10643,29 @@ body{
 @media (min-width: 400px) and (max-width: 450px){
 
   .wrapper_logo_text_production{
-    height: 54px;
+    height: 48px;
     background-color: #1b1b1b;
+    overflow: hidden;
   }
 
 
   .logo_text_production{
     /*width: 870px;*/
-    width: 60%;
-    height: 54px;
+    width: 85%;
+    height: 64px;
     background: url(../images/image_block_production.png) no-repeat;
     background-size: contain;
-    margin: 0 auto;
+    margin-top: 18px;
+    margin-left: 28px;
+    /*margin: 0 auto;*/
   }
 
   .text_production{
-    width: 157px;
+    width: 75px;
     font-family: 'Proxima Nova Bold';
     color: #fff;
-    font-size: 26px;
-    padding-top: 13px;
+    font-size: 20px;
+    padding-top: 5px;
     margin: 0 auto;
   }
 
@@ -10889,26 +10903,29 @@ body{
 @media (min-width: 350px) and (max-width: 400px){
 
   .wrapper_logo_text_production{
-    height: 54px;
+    height: 46px;
     background-color: #1b1b1b;
+    overflow: hidden;
   }
 
 
   .logo_text_production{
     /*width: 870px;*/
-    width: 60%;
+    width: 90%;
     height: 54px;
     background: url(../images/image_block_production.png) no-repeat;
     background-size: contain;
-    margin: 0 auto;
+    margin-top: 18px;
+    margin-left: 17px;
+    /*margin: 0 auto;*/
   }
 
   .text_production{
-    width: 157px;
+    width: 75px;
     font-family: 'Proxima Nova Bold';
     color: #fff;
-    font-size: 26px;
-    padding-top: 13px;
+    font-size: 20px;
+    padding-top: 4px;
     margin: 0 auto;
   }
 
@@ -11143,29 +11160,32 @@ body{
 
 
 
-@media (min-width: 300px) and (max-width: 350px){
+@media (min-width: 310px) and (max-width: 350px){
 
   .wrapper_logo_text_production{
-    height: 54px;
+    height: 43px;
     background-color: #1b1b1b;
+    overflow: hidden;
   }
 
 
   .logo_text_production{
     /*width: 870px;*/
-    width: 60%;
-    height: 54px;
+    width: 90%;
+    height: 84px;
     background: url(../images/image_block_production.png) no-repeat;
     background-size: contain;
-    margin: 0 auto;
+    margin-top: 18px;
+    margin-left: 15px;
+    /*margin: 0 auto;*/
   }
 
   .text_production{
-    width: 157px;
+    width: 75px;
     font-family: 'Proxima Nova Bold';
     color: #fff;
-    font-size: 26px;
-    padding-top: 13px;
+    font-size: 19px;
+    padding-top: 3px;
     margin: 0 auto;
   }
 
@@ -11408,29 +11428,296 @@ body{
 
 
 
-@media (min-width: 280px) and (max-width: 300px){
-
+@media (min-width: 300px) and (max-width: 310px){
   .wrapper_logo_text_production{
-    height: 54px;
+    height: 34px;
     background-color: #1b1b1b;
+    overflow: hidden;
   }
 
 
   .logo_text_production{
     /*width: 870px;*/
-    width: 60%;
-    height: 54px;
+    width: 90%;
+    height: 84px;
     background: url(../images/image_block_production.png) no-repeat;
     background-size: contain;
-    margin: 0 auto;
+    margin-top: 10px;
+    margin-left: 15px;
+    /*margin: 0 auto;*/
   }
 
   .text_production{
-    width: 157px;
+    width: 75px;
     font-family: 'Proxima Nova Bold';
     color: #fff;
-    font-size: 26px;
-    padding-top: 13px;
+    font-size: 19px;
+    padding-top: 2px;
+    margin: 0 auto;
+  }
+
+  .wrapper_production{
+    width: 84%;
+    margin: 0 auto;
+    height: 830px;
+    overflow: hidden;
+  }
+
+
+
+  .production_block_1{
+    overflow: hidden;
+    /*float: left;*/
+    margin-top: 50px;
+    /*width: 44%;*/
+    width: 100%;
+    height: 145px;
+    background-color: #212121;
+    border-radius: 30px;
+  }
+  .galuzi_1{
+    padding-top: 15px;
+    font-family: 'Proxima Nova Bold';
+    color: #fff;
+    font-size: 14px;
+    width: 224px;
+    margin: 0 auto;
+  }
+  .image_stone_1{
+    float: left;
+    margin-top: 20px;
+    margin-left: 3px;
+    width: 77px;
+    height: 77px;
+    border-radius: 100px;
+    background-color: #fff;
+    background: url(../images/photo_stone_1.png) no-repeat;
+    background-size: contain;
+  }
+  .frakzi_1{
+    margin-top: 25px;
+    margin-right: 1px;
+    float: right;
+    width: 170px;
+    font-family: 'Proxima Nova Lt';
+    color: #fff;
+    font-size: 12px;
+  }
+
+
+
+
+
+
+  .production_block_2{
+    overflow: hidden;
+    /*float: right;*/
+    margin-top: 50px;
+    /*width: 470px;*/
+    /*width: 44%;*/
+    width: 100%;
+    height: 145px;
+    background-color: #212121;
+    border-radius: 30px;
+  }
+
+  .galuzi_2{
+    padding-top: 15px;
+    font-family: 'Proxima Nova Bold';
+    color: #fff;
+    font-size: 14px;
+    width: 244px;
+    margin: 0 auto;
+  }
+
+  .image_stone_2{
+    float: left;
+    margin-top: 17px;
+    margin-left: 7px;
+    width: 77px;
+    height: 77px;
+    border-radius: 80px;
+    background-color: #fff;
+    background: url(../images/photo_stone_1.png) no-repeat;
+    background-size: contain;
+  }
+  .frakzi_2{
+    margin-top: 25px;
+    margin-right: 2px;
+    float: right;
+    width: 165px;
+    font-family: 'Proxima Nova Lt';
+    color: #fff;
+    font-size: 12px;
+  }
+
+
+
+
+
+
+  .production_block_3{
+    overflow: hidden;
+    /*float: left;*/
+    margin-top: 50px;
+    /*width: 44%;*/
+    width: 100%;
+    height: 145px;
+    background-color: #212121;
+    border-radius: 30px;
+  }
+  .galuzi_3{
+    padding-top: 10px;
+    font-family: 'Proxima Nova Bold';
+    color: #fff;
+    font-size: 15px;
+    width: 150px;
+    margin: 0 auto;
+  }
+  .image_stone_3{
+    float: left;
+    margin-top: 17px;
+    margin-left: 2px;
+    width: 75px;
+    height: 75px;
+    border-radius: 80px;
+    background-color: #fff;
+    background: url(../images/photo_stone_1.png) no-repeat;
+    background-size: contain;
+  }
+  .frakzi_3{
+    margin-top: 30px;
+    margin-right: 2px;
+    float: right;
+    width: 169px;
+    font-family: 'Proxima Nova Lt';
+    color: #fff;
+    font-size: 12px;
+    height: 30px;
+  }
+
+
+
+
+
+
+
+  .production_block_4{
+    overflow: hidden;
+    /*float: right;*/
+    margin-top: 50px;
+    /*width: 44%;*/
+    width: 100%;
+    height: 145px;
+    background-color: #212121;
+    border-radius: 30px;
+  }
+  .galuzi_4{
+    padding-top: 10px;
+    font-family: 'Proxima Nova Bold';
+    color: #fff;
+    font-size: 14px;
+    width: 195px;
+    margin: 0 auto;
+  }
+  .image_stone_4{
+    float: left;
+    margin-top: 17px;
+    margin-left: 3px;
+    width: 77px;
+    height: 77px;
+    border-radius: 80px;
+    background-color: #fff;
+    background: url(../images/photo_stone_1.png) no-repeat;
+    background-size: contain;
+  }
+  .frakzi_4{
+    margin-top: 25px;
+    margin-right: 2px;
+    float: right;
+    width: 170px;
+    font-family: 'Proxima Nova Lt';
+    color: #fff;
+    font-size: 12px;
+  }
+
+
+
+
+  .production_block_3 .zakazat{
+    margin-top: 15px;
+    margin-right: 30px;
+    float: right;
+    width: 105px;
+    height: 25px;
+    border-radius: 20px;
+    background-color: #009037;
+    cursor: pointer;
+  }
+  .production_block_1 .zakazat{
+    margin-top: 15px;
+    margin-right: 30px;
+    float: right;
+    width: 105px;
+    height: 25px;
+    border-radius: 20px;
+    background-color: #009037;
+    cursor: pointer;
+  }
+
+
+
+  .zakazat{
+    margin-top: 20px;
+    margin-right: 30px;
+    float: right;
+    width: 105px;
+    height: 25px;
+    border-radius: 20px;
+    background-color: #009037;
+    cursor: pointer;
+  }
+  .zakazat_text{
+    font-family: 'Proxima Nova Lt';
+    color: #fff;
+    width: 60px;
+    font-size: 15px;
+    padding-top: 5px;
+    margin: 0 auto;
+  }
+}
+
+
+
+
+
+
+@media (min-width: 280px) and (max-width: 300px){
+
+  .wrapper_logo_text_production{
+    height: 32px;
+    background-color: #1b1b1b;
+    overflow: hidden;
+  }
+
+
+  .logo_text_production{
+    /*width: 870px;*/
+    width: 90%;
+    height: 54px;
+    background: url(../images/image_block_production.png) no-repeat;
+    background-size: contain;
+    margin-top: 10px;
+    margin-left: 17px;
+    /*margin: 0 auto;*/
+  }
+
+  .text_production{
+    width: 65px;
+    font-family: 'Proxima Nova Bold';
+    color: #fff;
+    font-size: 17px;
+    padding-top: 3px;
     margin: 0 auto;
   }
 
