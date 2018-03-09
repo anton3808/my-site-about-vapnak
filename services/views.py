@@ -30,7 +30,7 @@ def send(request):
     
     if contact_person and phone and cargo and cod_cargo_railway and load_station and cod_load_station and unloading_station and cod_unloading_station:       
         try:
-            send_mail(subject, contact_message, from_email, ['antonsadlov@gmail.com'])
+            send_mail(subject, contact_message, from_email, ['admin@triumph-vapnak.com.ua'])
         except BadHeaderError:
             return HttpResponse('Invalid header found.')
         return HttpResponseRedirect('../')
