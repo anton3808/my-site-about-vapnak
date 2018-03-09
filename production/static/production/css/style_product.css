@@ -11461,15 +11461,6 @@ body{
 
 
 
-
-
-
-
-
-
-
-
-
 @media (min-width: 800px){
   .info p {
     text-align:center;
@@ -11483,7 +11474,7 @@ body{
   .info i {
     color:#F6AA93;
   }
-  form h1 {
+  .remodal form h1 {
     font-size: 27px;
     font-family: 'Proxima Nova Rg';
     /*background-color: #009037;*/
@@ -11495,7 +11486,7 @@ body{
     text-shadow: none; 
   }
 
-  form {
+  .remodal form {
     font-family: 'Proxima Nova Rg';
     border-radius: 5px;
     max-width:700px;
@@ -11614,7 +11605,7 @@ body{
   }
 
   .bouton-contact{
-    background-color: #81BDA4;
+    background-color: #4d8f40;
     color: #FFF;
     text-align: center;
     /*width: 100%;*/
@@ -11668,6 +11659,11 @@ body{
     display:block;
   }
 }
+
+
+
+
+
 
 
 
@@ -11807,7 +11803,7 @@ body{
   }
 
   .bouton-contact{
-    background-color: #81BDA4;
+    background-color: #4d8f40;
     color: #FFF;
     text-align: center;
     /*width: 100%;*/
@@ -12014,7 +12010,7 @@ body{
   }
 
   .bouton-contact{
-    background-color: #81BDA4;
+    background-color: #4d8f40;
     color: #FFF;
     text-align: center;
     /*width: 100%;*/
@@ -12230,7 +12226,7 @@ body{
   }
 
   .bouton-contact{
-    background-color: #81BDA4;
+    background-color: #4d8f40;
     color: #FFF;
     text-align: center;
     /*width: 100%;*/
@@ -12448,7 +12444,7 @@ body{
   }
 
   .bouton-contact{
-    background-color: #81BDA4;
+    background-color: #4d8f40;
     color: #FFF;
     text-align: center;
     /*width: 100%;*/
@@ -12509,54 +12505,6 @@ body{
 
 
 @media (min-width: 400px) and (max-width: 500px){
-  .leftcontact input{
-    font-family: 'Proxima Nova Rg';
-    font-size: 14px;
-    border-radius: 0px 5px 5px 0px;
-    border: 1px solid #eee;
-    border-left: none;
-    margin-bottom: 15px;
-    width: 87%;
-    height: 42px;
-    float: right;
-    padding: 0px 6px;
-  }
-
-  .rightcontact input{
-    font-family: 'Proxima Nova Rg';
-    font-size: 14px;
-    border-radius: 0px 5px 5px 0px;
-    border: 1px solid #eee;
-    border-left: none;
-    margin-bottom: 15px;
-    width: 85.7%;
-    height: 42px;
-    float: right;
-    padding: 0px 6px;
-  }
-
-
-  select {
-    margin-bottom: 15px;
-    font-family: 'Proxima Nova Rg';
-    font-size: 14px;
-    border-radius: 0px 5px 5px 0px;
-    border: 1px solid #eee;
-    border-left: none;
-    margin-bottom: 15px;
-    width: 85.7%;
-    height: 42px;
-    float: right;
-    padding: 0px 4px;
-  }
-
-
-
-
-
-
-
-
   .info p {
     text-align:center;
     color: #999;
@@ -12565,57 +12513,87 @@ body{
     font-size:15px;
     margin-top:2px
   }
-
   .info i {
     color:#F6AA93;
   }
   .remodal form h1 {
-    font-size: 27px;
+    width: 96%;
+    font-size: 20px;
     font-family: 'Proxima Nova Rg';
-    /*background-color: #009037;*/
     background: #009037 none repeat scroll 0% 0%;
     color: rgb(255, 255, 255);
-    padding: 22px 25px;
+    padding: 10px 10px;
     border-radius: 5px 5px 5px 5px;
     margin: auto;
     text-shadow: none; 
+    margin-bottom: 20px;
   }
-
   .remodal form {
+    padding-top: 0px;
     font-family: 'Proxima Nova Rg';
     border-radius: 5px;
-    max-width:700px;
-    width:100%;
-    margin: 5% auto;
+    width: 322px;
+    margin: 0 auto;
     background-color: #FFFFFF;
     overflow: hidden;
   }
-
   .div_p span {
     color: #F00;
   }
-
   .div_p{
     text-align: left;
+    font-size: 11px;
     padding-left: 2px;
     margin: 0px;
     font-weight: 500;
     line-height: 2;
     color:#333;
   }
-
   h1 {
     text-align:center; 
     color: #666;
     text-shadow: 1px 1px 0px #FFF;
     margin:50px 0px 0px 0px
   }
-
-
+  .leftcontact input{
+    font-family: 'Proxima Nova Rg';
+    font-size: 11px;
+    border-radius: 0px 5px 5px 0px;
+    border: 1px solid #eee;
+    border-left: none;
+    margin-bottom: 15px;
+    width: 113px;
+    height: 32px;
+    float: right;
+    padding: 0px 6px;
+  }
+  .rightcontact input{
+    font-family: 'Proxima Nova Rg';
+    font-size: 11px;
+    border-radius: 0px 5px 5px 0px;
+    border: 1px solid #eee;
+    border-left: none;
+    margin-bottom: 15px;
+    width: 120px;
+    height: 32px;
+    float: right;
+    padding: 0px 6px;
+  }
+  select {
+    font-family: 'Proxima Nova Rg';
+    font-size: 11px;
+    border-radius: 0px 5px 5px 0px;
+    border: 1px solid #eee;
+    border-left: none;
+    margin-bottom: 15px;
+    width: 120px;
+    height: 32px;
+    float: right;
+    padding: 0px 6px;
+  }
   a {
     text-decoration:inherit;
   }
-
   textarea {
     border-radius: 0px 5px 5px 0px;
     border: 1px solid #EEE;
@@ -12625,64 +12603,50 @@ body{
     float: left;
     padding: 0px 15px;
   }
-
   .form-group {
     overflow: hidden;
     clear: both;
   }
-
   .icon-case {
-    /*width: 35px;*/
-    width: 13%;
+    width: 25px;
+    font-size: 14px;
     float: left;
     border-radius: 5px 0px 0px 5px;
     background:#eeeeee;
-    height:42px;
-    position: relative;
-    /*position: absolute;*/
+    height: 32px;
     text-align: center;
-    line-height:40px;
+    line-height: 35px;
   }
-
   i {
     color:#555;
   }
-
   .contentform {
-    padding: 40px 60px;
+    padding: 0 10px;
   }
-
   .bouton-contact{
-    background-color: #81BDA4;
+    background-color: #4d8f40;
     color: #FFF;
     text-align: center;
-    /*width: 100%;*/
-    border:0;
-    padding: 17px 25px;
+    border: 0;
+    padding: 10px 14px;
     border-radius: 15px 15px 15px 15px;
     cursor: pointer;
-    margin-top: 40px;
-    font-size: 18px;
+    margin-top: 20px;
+    font-size: 13px;
   }
-
   .leftcontact {
-    /*width: 90%;*/
-    /*width:49.5%; 
+    width:49.5%; 
     float:left;
-    border-right: 1px dotted #CCC;*/
+    border-right: 1px dotted #CCC;
     box-sizing: border-box;
-    padding: 0px 0px 0px 0px;
+    padding: 0px 10px 0px 0px;
   }
-
   .rightcontact {
-    /*width: 70%;*/
-    /*width:49.5%;
-    float:right;*/
+    width:49.5%;
+    float:right;
     box-sizing: border-box;
-    padding: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 4px;
   }
-
-
   .validation {
     display:none;
     margin: 0 0 10px;
@@ -12690,7 +12654,6 @@ body{
     font-size:13px;
     color: #DE5959;
   }
-
   #sendmessage {
     border:1px solid #fff;
     display:none;
@@ -12705,7 +12668,6 @@ body{
     border-radius: 3px;
     box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.03);
   }
-
   #sendmessage.show,.show  {
     display:block;
   }
@@ -12714,55 +12676,27 @@ body{
 
 
 
-@media (min-width: 350px) and (max-width: 400px){
-  .leftcontact input{
+@media (min-width: 340px) and (max-width: 400px){
+  .remodal form h1 {
+    width: 96%;
+    font-size: 18px;
     font-family: 'Proxima Nova Rg';
-    font-size: 14px;
-    border-radius: 0px 5px 5px 0px;
-    border: 1px solid #eee;
-    border-left: none;
-    margin-bottom: 15px;
-    width: 87%;
-    height: 42px;
-    float: right;
-    padding: 0px 6px;
+    background: #009037 none repeat scroll 0% 0%;
+    color: rgb(255, 255, 255);
+    padding: 10px 10px;
+    border-radius: 5px 5px 5px 5px;
+    margin: auto;
+    text-shadow: none; 
+    margin-bottom: 20px;
   }
-
-  .rightcontact input{
+  .remodal form {
     font-family: 'Proxima Nova Rg';
-    font-size: 14px;
-    border-radius: 0px 5px 5px 0px;
-    border: 1px solid #eee;
-    border-left: none;
-    margin-bottom: 15px;
-    width: 85.7%;
-    height: 42px;
-    float: right;
-    padding: 0px 6px;
+    border-radius: 5px;
+    width: 265px;
+    margin: 0 auto;
+    background-color: #FFFFFF;
+    overflow: hidden;
   }
-
-
-  select {
-    margin-bottom: 15px;
-    font-family: 'Proxima Nova Rg';
-    font-size: 14px;
-    border-radius: 0px 5px 5px 0px;
-    border: 1px solid #eee;
-    border-left: none;
-    margin-bottom: 15px;
-    width: 85.7%;
-    height: 42px;
-    float: right;
-    padding: 0px 4px;
-  }
-
-
-
-
-
-
-
-
   .info p {
     text-align:center;
     color: #999;
@@ -12771,57 +12705,66 @@ body{
     font-size:15px;
     margin-top:2px
   }
-
   .info i {
     color:#F6AA93;
   }
-  .remodal form h1 {
-    font-size: 27px;
-    font-family: 'Proxima Nova Rg';
-    /*background-color: #009037;*/
-    background: #009037 none repeat scroll 0% 0%;
-    color: rgb(255, 255, 255);
-    padding: 22px 25px;
-    border-radius: 5px 5px 5px 5px;
-    margin: auto;
-    text-shadow: none; 
-  }
-
-  .remodal form {
-    font-family: 'Proxima Nova Rg';
-    border-radius: 5px;
-    max-width:700px;
-    width:100%;
-    margin: 5% auto;
-    background-color: #FFFFFF;
-    overflow: hidden;
-  }
-
   .div_p span {
     color: #F00;
   }
-
   .div_p{
     text-align: left;
+    font-size: 10px;
     padding-left: 2px;
     margin: 0px;
     font-weight: 500;
     line-height: 2;
     color:#333;
   }
-
   h1 {
     text-align:center; 
     color: #666;
     text-shadow: 1px 1px 0px #FFF;
     margin:50px 0px 0px 0px
   }
-
-
+  .leftcontact input{
+    font-family: 'Proxima Nova Rg';
+    font-size: 9px;
+    border-radius: 0px 5px 5px 0px;
+    border: 1px solid #eee;
+    border-left: none;
+    margin-bottom: 15px;
+    width: 101px;
+    height: 30px;
+    float: right;
+    padding: 0px 6px;
+  }
+  .rightcontact input{
+    font-family: 'Proxima Nova Rg';
+    font-size: 9px;
+    border-radius: 0px 5px 5px 0px;
+    border: 1px solid #eee;
+    border-left: none;
+    margin-bottom: 15px;
+    width: 103px;
+    height: 30px;
+    float: right;
+    padding: 0px 6px;
+  }
+  select {
+    font-family: 'Proxima Nova Rg';
+    font-size: 9px;
+    border-radius: 0px 5px 5px 0px;
+    border: 1px solid #eee;
+    border-left: none;
+    margin-bottom: 15px;
+    width: 103px;
+    height: 30px;
+    float: right;
+    padding: 0px 6px;
+  }
   a {
     text-decoration:inherit;
   }
-
   textarea {
     border-radius: 0px 5px 5px 0px;
     border: 1px solid #EEE;
@@ -12831,64 +12774,50 @@ body{
     float: left;
     padding: 0px 15px;
   }
-
   .form-group {
     overflow: hidden;
     clear: both;
   }
-
   .icon-case {
-    /*width: 35px;*/
-    width: 13%;
+    width: 23px;
+    font-size: 12px;
     float: left;
     border-radius: 5px 0px 0px 5px;
     background:#eeeeee;
-    height:42px;
-    position: relative;
-    /*position: absolute;*/
+    height: 30px;
     text-align: center;
-    line-height:40px;
+    line-height: 32px;
   }
-
   i {
     color:#555;
   }
-
   .contentform {
-    padding: 40px 30px;
+    padding: 0 0;
   }
-
   .bouton-contact{
-    background-color: #81BDA4;
+    background-color: #4d8f40;
     color: #FFF;
     text-align: center;
-    /*width: 100%;*/
-    border:0;
-    padding: 17px 25px;
+    border: 0;
+    padding: 8px 12px;
     border-radius: 15px 15px 15px 15px;
     cursor: pointer;
-    margin-top: 40px;
-    font-size: 18px;
+    margin-top: 20px;
+    font-size: 12px;
   }
-
   .leftcontact {
-    /*width: 90%;*/
-    /*width:49.5%; 
+    width:49.5%; 
     float:left;
-    border-right: 1px dotted #CCC;*/
+    border-right: 1px dotted #CCC;
     box-sizing: border-box;
-    padding: 0px 0px 0px 0px;
+    padding: 0px 6px 0px 0px;
   }
-
   .rightcontact {
-    /*width: 70%;*/
-    /*width:49.5%;
-    float:right;*/
+    width:49.5%;
+    float:right;
     box-sizing: border-box;
-    padding: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 5px;
   }
-
-
   .validation {
     display:none;
     margin: 0 0 10px;
@@ -12896,7 +12825,6 @@ body{
     font-size:13px;
     color: #DE5959;
   }
-
   #sendmessage {
     border:1px solid #fff;
     display:none;
@@ -12911,7 +12839,6 @@ body{
     border-radius: 3px;
     box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.03);
   }
-
   #sendmessage.show,.show  {
     display:block;
   }
@@ -12920,55 +12847,27 @@ body{
 
 
 
-@media (min-width: 300px) and (max-width: 350px){
-  .leftcontact input{
+@media (min-width: 315px) and (max-width: 340px){
+  .remodal form h1 {
+    width: 96%;
+    font-size: 16px;
     font-family: 'Proxima Nova Rg';
-    font-size: 13px;
-    border-radius: 0px 5px 5px 0px;
-    border: 1px solid #eee;
-    border-left: none;
-    margin-bottom: 15px;
-    width: 84%;
-    height: 40px;
-    float: right;
-    padding: 0px 4px;
+    background: #009037 none repeat scroll 0% 0%;
+    color: rgb(255, 255, 255);
+    padding: 10px 10px;
+    border-radius: 5px 5px 5px 5px;
+    margin: auto;
+    text-shadow: none; 
+    margin-bottom: 20px;
   }
-
-  .rightcontact input{
+  .remodal form {
     font-family: 'Proxima Nova Rg';
-    font-size: 13px;
-    border-radius: 0px 5px 5px 0px;
-    border: 1px solid #eee;
-    border-left: none;
-    margin-bottom: 15px;
-    width: 84%;
-    height: 40px;
-    float: right;
-    padding: 0px 4px;
+    border-radius: 5px;
+    width: 245px;
+    margin: 0 auto;
+    background-color: #FFFFFF;
+    overflow: hidden;
   }
-
-
-  select {
-    margin-bottom: 15px;
-    font-family: 'Proxima Nova Rg';
-    font-size: 13px;
-    border-radius: 0px 5px 5px 0px;
-    border: 1px solid #eee;
-    border-left: none;
-    margin-bottom: 15px;
-    width: 84%;
-    height: 40px;
-    float: right;
-    padding: 0px 1px;
-  }
-
-
-
-
-
-
-
-
   .info p {
     text-align:center;
     color: #999;
@@ -12977,57 +12876,66 @@ body{
     font-size:15px;
     margin-top:2px
   }
-
   .info i {
     color:#F6AA93;
   }
-  form h1 {
-    font-size: 27px;
-    font-family: 'Proxima Nova Rg';
-    /*background-color: #009037;*/
-    background: #009037 none repeat scroll 0% 0%;
-    color: rgb(255, 255, 255);
-    padding: 22px 25px;
-    border-radius: 5px 5px 5px 5px;
-    margin: auto;
-    text-shadow: none; 
-  }
-
-  form {
-    font-family: 'Proxima Nova Rg';
-    border-radius: 5px;
-    max-width:700px;
-    width:100%;
-    margin: 5% auto;
-    background-color: #FFFFFF;
-    overflow: hidden;
-  }
-
   .div_p span {
     color: #F00;
   }
-
   .div_p{
     text-align: left;
+    font-size: 10px;
     padding-left: 2px;
     margin: 0px;
     font-weight: 500;
     line-height: 2;
     color:#333;
   }
-
   h1 {
     text-align:center; 
     color: #666;
     text-shadow: 1px 1px 0px #FFF;
     margin:50px 0px 0px 0px
   }
-
-
+  .leftcontact input{
+    font-family: 'Proxima Nova Rg';
+    font-size: 9px;
+    border-radius: 0px 5px 5px 0px;
+    border: 1px solid #eee;
+    border-left: none;
+    margin-bottom: 15px;
+    width: 91px;
+    height: 30px;
+    float: right;
+    padding: 0px 6px;
+  }
+  .rightcontact input{
+    font-family: 'Proxima Nova Rg';
+    font-size: 9px;
+    border-radius: 0px 5px 5px 0px;
+    border: 1px solid #eee;
+    border-left: none;
+    margin-bottom: 15px;
+    width: 93px;
+    height: 30px;
+    float: right;
+    padding: 0px 6px;
+  }
+  select {
+    font-family: 'Proxima Nova Rg';
+    font-size: 9px;
+    border-radius: 0px 5px 5px 0px;
+    border: 1px solid #eee;
+    border-left: none;
+    margin-bottom: 15px;
+    width: 93px;
+    height: 30px;
+    float: right;
+    padding: 0px 6px;
+  }
   a {
     text-decoration:inherit;
   }
-
   textarea {
     border-radius: 0px 5px 5px 0px;
     border: 1px solid #EEE;
@@ -13037,65 +12945,50 @@ body{
     float: left;
     padding: 0px 15px;
   }
-
   .form-group {
     overflow: hidden;
     clear: both;
   }
-
   .icon-case {
-    /*width: 35px;*/
-    width: 16%;
-    font-size: 13px;
+    width: 23px;
+    font-size: 12px;
     float: left;
     border-radius: 5px 0px 0px 5px;
     background:#eeeeee;
-    height:40px;
-    position: relative;
-    /*position: absolute;*/
+    height: 30px;
     text-align: center;
-    line-height:40px;
+    line-height: 32px;
   }
-
   i {
     color:#555;
   }
-
   .contentform {
-    padding: 40px 20px;
+    padding: 0 0;
   }
-
   .bouton-contact{
-    background-color: #81BDA4;
+    background-color: #4d8f40;
     color: #FFF;
     text-align: center;
-    /*width: 100%;*/
-    border:0;
-    padding: 17px 25px;
+    border: 0;
+    padding: 8px 12px;
     border-radius: 15px 15px 15px 15px;
     cursor: pointer;
-    margin-top: 40px;
-    font-size: 18px;
+    margin-top: 20px;
+    font-size: 12px;
   }
-
   .leftcontact {
-    /*width: 90%;*/
-    /*width:49.5%; 
+    width:49.5%; 
     float:left;
-    border-right: 1px dotted #CCC;*/
+    border-right: 1px dotted #CCC;
     box-sizing: border-box;
-    padding: 0px 0px 0px 0px;
+    padding: 0px 6px 0px 0px;
   }
-
   .rightcontact {
-    /*width: 70%;*/
-    /*width:49.5%;
-    float:right;*/
+    width:49.5%;
+    float:right;
     box-sizing: border-box;
-    padding: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 5px;
   }
-
-
   .validation {
     display:none;
     margin: 0 0 10px;
@@ -13103,7 +12996,6 @@ body{
     font-size:13px;
     color: #DE5959;
   }
-
   #sendmessage {
     border:1px solid #fff;
     display:none;
@@ -13118,7 +13010,6 @@ body{
     border-radius: 3px;
     box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.03);
   }
-
   #sendmessage.show,.show  {
     display:block;
   }
@@ -13129,55 +13020,27 @@ body{
 
 
 
-@media (min-width: 280px) and (max-width: 300px){
-  .leftcontact input{
+@media (min-width: 280px) and (max-width: 315px){
+  .remodal form h1 {
+    width: 96%;
+    font-size: 16px;
     font-family: 'Proxima Nova Rg';
-    font-size: 13px;
-    border-radius: 0px 5px 5px 0px;
-    border: 1px solid #eee;
-    border-left: none;
-    margin-bottom: 15px;
-    width: 84%;
-    height: 40px;
-    float: right;
-    padding: 0px 4px;
+    background: #009037 none repeat scroll 0% 0%;
+    color: rgb(255, 255, 255);
+    padding: 10px 10px;
+    border-radius: 5px 5px 5px 5px;
+    margin: auto;
+    text-shadow: none; 
+    margin-bottom: 20px;
   }
-
-  .rightcontact input{
+  .remodal form {
     font-family: 'Proxima Nova Rg';
-    font-size: 13px;
-    border-radius: 0px 5px 5px 0px;
-    border: 1px solid #eee;
-    border-left: none;
-    margin-bottom: 15px;
-    width: 84%;
-    height: 40px;
-    float: right;
-    padding: 0px 4px;
+    border-radius: 5px;
+    width: 225px;
+    margin: 0 auto;
+    background-color: #FFFFFF;
+    overflow: hidden;
   }
-
-
-  select {
-    margin-bottom: 15px;
-    font-family: 'Proxima Nova Rg';
-    font-size: 13px;
-    border-radius: 0px 5px 5px 0px;
-    border: 1px solid #eee;
-    border-left: none;
-    margin-bottom: 15px;
-    width: 84%;
-    height: 40px;
-    float: right;
-    padding: 0px 1px;
-  }
-
-
-
-
-
-
-
-
   .info p {
     text-align:center;
     color: #999;
@@ -13186,57 +13049,66 @@ body{
     font-size:15px;
     margin-top:2px
   }
-
   .info i {
     color:#F6AA93;
   }
-  .remodal form h1 {
-    font-size: 27px;
-    font-family: 'Proxima Nova Rg';
-    /*background-color: #009037;*/
-    background: #009037 none repeat scroll 0% 0%;
-    color: rgb(255, 255, 255);
-    padding: 22px 25px;
-    border-radius: 5px 5px 5px 5px;
-    margin: auto;
-    text-shadow: none; 
-  }
-
-  .remodal form {
-    font-family: 'Proxima Nova Rg';
-    border-radius: 5px;
-    max-width:700px;
-    width:100%;
-    margin: 5% auto;
-    background-color: #FFFFFF;
-    overflow: hidden;
-  }
-
   .div_p span {
     color: #F00;
   }
-
   .div_p{
     text-align: left;
+    font-size: 10px;
     padding-left: 2px;
     margin: 0px;
     font-weight: 500;
     line-height: 2;
     color:#333;
   }
-
   h1 {
     text-align:center; 
     color: #666;
     text-shadow: 1px 1px 0px #FFF;
     margin:50px 0px 0px 0px
   }
-
-
+  .leftcontact input{
+    font-family: 'Proxima Nova Rg';
+    font-size: 9px;
+    border-radius: 0px 5px 5px 0px;
+    border: 1px solid #eee;
+    border-left: none;
+    margin-bottom: 15px;
+    width: 81px;
+    height: 28px;
+    float: right;
+    padding: 0px 6px;
+  }
+  .rightcontact input{
+    font-family: 'Proxima Nova Rg';
+    font-size: 9px;
+    border-radius: 0px 5px 5px 0px;
+    border: 1px solid #eee;
+    border-left: none;
+    margin-bottom: 15px;
+    width: 83px;
+    height: 28px;
+    float: right;
+    padding: 0px 6px;
+  }
+  select {
+    font-family: 'Proxima Nova Rg';
+    font-size: 9px;
+    border-radius: 0px 5px 5px 0px;
+    border: 1px solid #eee;
+    border-left: none;
+    margin-bottom: 15px;
+    width: 83px;
+    height: 28px;
+    float: right;
+    padding: 0px 6px;
+  }
   a {
     text-decoration:inherit;
   }
-
   textarea {
     border-radius: 0px 5px 5px 0px;
     border: 1px solid #EEE;
@@ -13246,65 +13118,50 @@ body{
     float: left;
     padding: 0px 15px;
   }
-
   .form-group {
     overflow: hidden;
     clear: both;
   }
-
   .icon-case {
-    /*width: 35px;*/
-    width: 16%;
-    font-size: 13px;
+    width: 23px;
+    font-size: 11px;
     float: left;
     border-radius: 5px 0px 0px 5px;
     background:#eeeeee;
-    height:40px;
-    position: relative;
-    /*position: absolute;*/
+    height: 28px;
     text-align: center;
-    line-height:40px;
+    line-height: 30px;
   }
-
   i {
     color:#555;
   }
-
   .contentform {
-    padding: 40px 10px;
+    padding: 0 0;
   }
-
   .bouton-contact{
-    background-color: #81BDA4;
+    background-color: #4d8f40;
     color: #FFF;
     text-align: center;
-    /*width: 100%;*/
-    border:0;
-    padding: 17px 25px;
+    border: 0;
+    padding: 8px 12px;
     border-radius: 15px 15px 15px 15px;
     cursor: pointer;
-    margin-top: 40px;
-    font-size: 18px;
+    margin-top: 20px;
+    font-size: 11px;
   }
-
   .leftcontact {
-    /*width: 90%;*/
-    /*width:49.5%; 
+    width:49.5%; 
     float:left;
-    border-right: 1px dotted #CCC;*/
+    border-right: 1px dotted #CCC;
     box-sizing: border-box;
-    padding: 0px 0px 0px 0px;
+    padding: 0px 6px 0px 0px;
   }
-
   .rightcontact {
-    /*width: 70%;*/
-    /*width:49.5%;
-    float:right;*/
+    width:49.5%;
+    float:right;
     box-sizing: border-box;
-    padding: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 5px;
   }
-
-
   .validation {
     display:none;
     margin: 0 0 10px;
@@ -13312,7 +13169,6 @@ body{
     font-size:13px;
     color: #DE5959;
   }
-
   #sendmessage {
     border:1px solid #fff;
     display:none;
@@ -13327,7 +13183,6 @@ body{
     border-radius: 3px;
     box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.03);
   }
-
   #sendmessage.show,.show  {
     display:block;
   }
