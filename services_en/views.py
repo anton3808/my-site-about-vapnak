@@ -42,7 +42,7 @@ def services_en_search_mobile(request):
 
 
 
-def send(request):
+def send_en(request):
     # return HttpResponseRedirect("production/")
     contact_person = request.POST.get('contact_person', '')
     phone = request.POST.get('phone', '')
