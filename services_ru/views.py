@@ -44,7 +44,7 @@ def services_ru_search_mobile(request):
 
 
 
-def send(request):
+def send_ru(request):
     # return HttpResponseRedirect("production/")
     contact_person = request.POST.get('contact_person', '')
     phone = request.POST.get('phone', '')

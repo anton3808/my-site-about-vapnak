@@ -18,6 +18,6 @@ from . import views
 
 urlpatterns = [
 	path('', views.index, name='index'),
-	path('processing_1/', views.send, name='send'),
+	path('processing_1/', views.send_ru, name='send_ru'),
 	path('error_404/', views.services_ru_search_mobile, name='services_ru_search_mobile'),
 ]
