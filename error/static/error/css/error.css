@@ -7628,6 +7628,7 @@ body{
     border-radius: 0 50px 50px 0;
   }
   .find_wrapper{
+    margin-top: -2px;
     overflow: hidden;
     width: 130px;
     height: 33px;
@@ -7763,6 +7764,7 @@ body{
     border-radius: 0 50px 50px 0;
   }
   .find_wrapper{
+    margin-top: -2px;
     overflow: hidden;
     width: 120px;
     height: 33px;
@@ -7894,6 +7896,7 @@ body{
     border-radius: 0 50px 50px 0;
   }
   .find_wrapper{
+    margin-top: -2px;
     overflow: hidden;
     width: 100px;
     height: 30px;
@@ -8015,6 +8018,7 @@ body{
     border-radius: 0 50px 50px 0;
   }
   .find_wrapper{
+    margin-top: -2px;
     overflow: hidden;
     width: 80px;
     height: 30px;
@@ -8144,6 +8148,7 @@ body{
   }
   .find_wrapper{
     overflow: hidden;
+    margin-top: -2px;
     width: 80px;
     height: 26px;
     border-radius: 0 50px 50px 0;
