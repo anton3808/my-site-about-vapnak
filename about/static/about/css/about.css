@@ -430,7 +430,6 @@ body{
     overflow: hidden;
     float: right;
     margin-right: 5px;
-    margin-top: -2px;
     width: 85px;
     height: 36px;
     background-color: #fff;
@@ -448,6 +447,7 @@ body{
 
   .find_button_mobile{
     margin-right: 3px;
+    margin-top: -2px;
     overflow: hidden;
     background-color: #009037;
     width: 85px;
