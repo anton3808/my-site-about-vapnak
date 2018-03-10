@@ -430,6 +430,7 @@ body{
     overflow: hidden;
     float: right;
     margin-right: 5px;
+    margin-top: -2px;
     width: 85px;
     height: 36px;
     background-color: #fff;
