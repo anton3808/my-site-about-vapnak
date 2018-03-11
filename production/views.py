@@ -2,6 +2,9 @@ from django.core.mail import send_mail, BadHeaderError
 from django.http import HttpResponse, HttpResponseRedirect
 from django.shortcuts import render, redirect
 from django.conf import settings
+import smtplib
+from email.mime.text import MIMEText
+from email.mime.multipart import MIMEMultipart
 
 from django.core.mail import send_mail, BadHeaderError
 from django.http import HttpResponse, HttpResponseRedirect
@@ -15,23 +18,44 @@ def send_email_4(request):
     enterprise = request.POST.get('enterprise', '')
     delivery_period = request.POST.get('delivery_period', '')
     message = request.POST['message']
-    # message = request.POST.get('message', '')
 
-    subject = "Contact form(dla kombikormov i pidkormku ptizu)"
-    from_email = settings.EMAIL_HOST_USER
-    to_email = from_email
+    
     if message:
         contact_message = "Контактна особа: %s, почта: %s, номер телефона: %s, обєм вантажу: %s, фракція: %s, підприємство: %s, період доставки: %s, текстов повідомлення: %s"%(user_surname, email, phone, volume, select_fraction, enterprise, delivery_period, message)
     else:
         contact_message = "Фамілія: %s, імя: %s, почта: %s, номер телефона: %s, фракція: %s, підприємство: %s, період доставки: %s"%(user_surname, user_name, email, phone, select_fraction, enterprise, delivery_period)
+    
+
+    from_addr = 'antonsadlov@ukr.net'
+    to_addr = 'antonsadlov@ukr.net'
+
+    username = 'antonsadlov@ukr.net'
+    password = 'antoha2003'
+
+    msg = MIMEMultipart()
+
+    msg['From'] = from_addr
+    msg['To'] = to_addr
+    msg['Subject'] = 'Contact form(dla kombikormov i pidkormku ptizu)'
+    msg.attach(MIMEText(contact_message))
+
+    try:
+        server = smtplib.SMTP_SSL('smtp.ukr.net:2525')
+    except TimeoutError:
+        return HttpResponseRedirect('/')
+
+    server.login(username,password)
+
     if user_surname and volume and email and phone and select_fraction and enterprise and delivery_period:
         try:
-            send_mail(subject, contact_message, from_email, ['antonsadlov@gmail.com'])
+            server.sendmail(from_addr,to_addr,msg.as_string())
         except BadHeaderError:
             return HttpResponse('Invalid header found.')
+        server.quit()
         return HttpResponseRedirect('../')
     else:
         return HttpResponse('Make sure all fields are entered and valid.')
+    
 
 
 def send_email_3(request):
@@ -43,23 +67,44 @@ def send_email_3(request):
     enterprise = request.POST.get('enterprise', '')
     delivery_period = request.POST.get('delivery_period', '')
     message = request.POST['message']
-    # message = request.POST.get('message', '')
 
-    subject = "Contact form(dla zukrovoi promuslovosti)"
-    from_email = settings.EMAIL_HOST_USER
-    to_email = from_email
+    
     if message:
         contact_message = "Контактна особа: %s, почта: %s, номер телефона: %s, обєм вантажу: %s, фракція: %s, підприємство: %s, період доставки: %s, текстов повідомлення: %s"%(user_surname, email, phone, volume, select_fraction, enterprise, delivery_period, message)
     else:
         contact_message = "Фамілія: %s, імя: %s, почта: %s, номер телефона: %s, фракція: %s, підприємство: %s, період доставки: %s"%(user_surname, user_name, email, phone, select_fraction, enterprise, delivery_period)
+    
+
+    from_addr = 'antonsadlov@ukr.net'
+    to_addr = 'antonsadlov@ukr.net'
+
+    username = 'antonsadlov@ukr.net'
+    password = 'antoha2003'
+
+    msg = MIMEMultipart()
+
+    msg['From'] = from_addr
+    msg['To'] = to_addr
+    msg['Subject'] = 'Contact form(dla zukrovoi promuslovosti)'
+    msg.attach(MIMEText(contact_message))
+
+    try:
+        server = smtplib.SMTP_SSL('smtp.ukr.net:2525')
+    except TimeoutError:
+        return HttpResponseRedirect('/')
+
+    server.login(username,password)
+
     if user_surname and volume and email and phone and select_fraction and enterprise and delivery_period:
         try:
-            send_mail(subject, contact_message, from_email, ['antonsadlov@gmail.com'])
+            server.sendmail(from_addr,to_addr,msg.as_string())
         except BadHeaderError:
             return HttpResponse('Invalid header found.')
+        server.quit()
         return HttpResponseRedirect('../')
     else:
         return HttpResponse('Make sure all fields are entered and valid.')
+    
 
 
 
@@ -73,23 +118,45 @@ def send_email_2(request):
     enterprise = request.POST.get('enterprise', '')
     delivery_period = request.POST.get('delivery_period', '')
     message = request.POST['message']
-    # message = request.POST.get('message', '')
 
-    subject = "Contact form(dla rozkusnenya gruntu i vodoyom)"
-    from_email = settings.EMAIL_HOST_USER
-    to_email = from_email
+    
     if message:
         contact_message = "Контактна особа: %s, почта: %s, номер телефона: %s, обєм вантажу: %s, фракція: %s, підприємство: %s, період доставки: %s, текстов повідомлення: %s"%(user_surname, email, phone, volume, select_fraction, enterprise, delivery_period, message)
     else:
         contact_message = "Фамілія: %s, імя: %s, почта: %s, номер телефона: %s, фракція: %s, підприємство: %s, період доставки: %s"%(user_surname, user_name, email, phone, select_fraction, enterprise, delivery_period)
+    
+
+    from_addr = 'antonsadlov@ukr.net'
+    to_addr = 'antonsadlov@ukr.net'
+
+    username = 'antonsadlov@ukr.net'
+    password = 'antoha2003'
+
+    msg = MIMEMultipart()
+
+    msg['From'] = from_addr
+    msg['To'] = to_addr
+    msg['Subject'] = 'Contact form(dla rozkusnenya gruntu i vodoyom)'
+    msg.attach(MIMEText(contact_message))
+
+    try:
+        server = smtplib.SMTP_SSL('smtp.ukr.net:2525')
+    except TimeoutError:
+        return HttpResponseRedirect('/')
+
+    server.login(username,password)
+
     if user_surname and volume and email and phone and select_fraction and enterprise and delivery_period:
         try:
-            send_mail(subject, contact_message, from_email, ['antonsadlov@gmail.com'])
+            server.sendmail(from_addr,to_addr,msg.as_string())
         except BadHeaderError:
             return HttpResponse('Invalid header found.')
+        server.quit()
         return HttpResponseRedirect('../')
     else:
         return HttpResponse('Make sure all fields are entered and valid.')
+
+    
 
 
 
@@ -106,20 +173,40 @@ def send_email_1(request):
     enterprise = request.POST.get('enterprise', '')
     delivery_period = request.POST.get('delivery_period', '')
     message = request.POST['message']
-    # message = request.POST.get('message', '')
 
-    subject = "Contact form(dla metalurgii ta vurobnukiv vapna)"
-    from_email = settings.EMAIL_HOST_USER
-    to_email = from_email
+    
     if message:
         contact_message = "Контактна особа: %s, почта: %s, номер телефона: %s, обєм вантажу: %s, фракція: %s, підприємство: %s, період доставки: %s, текстов повідомлення: %s"%(user_surname, email, phone, volume, select_fraction, enterprise, delivery_period, message)
     else:
         contact_message = "Фамілія: %s, імя: %s, почта: %s, номер телефона: %s, фракція: %s, підприємство: %s, період доставки: %s"%(user_surname, user_name, email, phone, select_fraction, enterprise, delivery_period)
+    
+
+    from_addr = 'antonsadlov@ukr.net'
+    to_addr = 'antonsadlov@ukr.net'
+
+    username = 'antonsadlov@ukr.net'
+    password = 'antoha2003'
+
+    msg = MIMEMultipart()
+
+    msg['From'] = from_addr
+    msg['To'] = to_addr
+    msg['Subject'] = 'Contact form(dla metalurgii ta vurobnukiv vapna)'
+    msg.attach(MIMEText(contact_message))
+
+    try:
+        server = smtplib.SMTP_SSL('smtp.ukr.net:2525')
+    except TimeoutError:
+        return HttpResponseRedirect('/')
+
+    server.login(username,password)
+
     if user_surname and volume and email and phone and select_fraction and enterprise and delivery_period:
         try:
-            send_mail(subject, contact_message, from_email, ['antonsadlov@gmail.com'])
+            server.sendmail(from_addr,to_addr,msg.as_string())
         except BadHeaderError:
             return HttpResponse('Invalid header found.')
+        server.quit()
         return HttpResponseRedirect('../')
     else:
         return HttpResponse('Make sure all fields are entered and valid.')
