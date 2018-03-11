@@ -14,50 +14,51 @@ from django.core.mail import EmailMessage
 
 
 def send_en(request):
-    contact_person = request.POST.get('contact_person', '')
-    phone = request.POST.get('phone', '')
-    cargo = request.POST.get('cargo', '')
-    cod_cargo_railway = request.POST.get('cod_cargo_railway', '')
-    load_station = request.POST.get('load_station', '')
-    cod_load_station = request.POST.get('cod_load_station', '')
-    unloading_station = request.POST.get('unloading_station', '')
-    cod_unloading_station = request.POST['cod_unloading_station']
+	return HttpResponseRedirect('../')
+    # contact_person = request.POST.get('contact_person', '')
+    # phone = request.POST.get('phone', '')
+    # cargo = request.POST.get('cargo', '')
+    # cod_cargo_railway = request.POST.get('cod_cargo_railway', '')
+    # load_station = request.POST.get('load_station', '')
+    # cod_load_station = request.POST.get('cod_load_station', '')
+    # unloading_station = request.POST.get('unloading_station', '')
+    # cod_unloading_station = request.POST['cod_unloading_station']
 
 
 
-    contact_message = "Контактна особа: %s, номер телефона: %s, вантаж: %s, код вантажу по залізниці: %s, станція навантаження: %s, код станції навантаження: %s, станція вивантаження: %s, код станція вивантаження: %s"%(contact_person, phone, cargo, cod_cargo_railway, load_station, cod_load_station, unloading_station, cod_unloading_station)
+    # contact_message = "Контактна особа: %s, номер телефона: %s, вантаж: %s, код вантажу по залізниці: %s, станція навантаження: %s, код станції навантаження: %s, станція вивантаження: %s, код станція вивантаження: %s"%(contact_person, phone, cargo, cod_cargo_railway, load_station, cod_load_station, unloading_station, cod_unloading_station)
     
 
-    from_addr = 'antonsadlov@ukr.net'
-    to_addr = 'antonsadlov@ukr.net'
+    # from_addr = 'antonsadlov@ukr.net'
+    # to_addr = 'antonsadlov@ukr.net'
 
-    username = 'antonsadlov@ukr.net'
-    password = 'antoha2003'
+    # username = 'antonsadlov@ukr.net'
+    # password = 'antoha2003'
 
-    msg = MIMEMultipart()
+    # msg = MIMEMultipart()
 
-    msg['From'] = from_addr
-    msg['To'] = to_addr
-    msg['Subject'] = 'Organization of cargo transportation'
-    msg.attach(MIMEText(contact_message))
+    # msg['From'] = from_addr
+    # msg['To'] = to_addr
+    # msg['Subject'] = 'Organization of cargo transportation'
+    # msg.attach(MIMEText(contact_message))
 
-    try:
-        server = smtplib.SMTP_SSL('smtp.ukr.net:2525')
-    except TimeoutError:
-        return HttpResponseRedirect('/')
+    # try:
+    #     server = smtplib.SMTP_SSL('smtp.ukr.net:2525')
+    # except TimeoutError:
+    #     return HttpResponseRedirect('/')
 
 
-    server.login(username,password)
+    # server.login(username,password)
 
-    if contact_person and phone and cargo and cod_cargo_railway and load_station and cod_load_station and unloading_station and cod_unloading_station:       
-        try:
-            server.sendmail(from_addr,to_addr,msg.as_string())
-        except BadHeaderError:
-            return HttpResponse('Invalid header found.')
-        server.quit()
-        return HttpResponseRedirect('../')
-    else:
-        return HttpResponse('Make sure all fields are entered and valid.')
+    # if contact_person and phone and cargo and cod_cargo_railway and load_station and cod_load_station and unloading_station and cod_unloading_station:       
+    #     try:
+    #         server.sendmail(from_addr,to_addr,msg.as_string())
+    #     except BadHeaderError:
+    #         return HttpResponse('Invalid header found.')
+    #     server.quit()
+    #     return HttpResponseRedirect('../')
+    # else:
+    #     return HttpResponse('Make sure all fields are entered and valid.')
 
 # Create your views here.
 
