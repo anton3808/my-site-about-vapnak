@@ -25,7 +25,7 @@ SECRET_KEY = 'wib9grl2skh3jzgw0b%!w^e*s2x!(-mdm@mi437e0gjeb^vke@'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 EMAIL_USE_TLS = True
@@ -102,10 +102,16 @@ WSGI_APPLICATION = 'TRIUMPH.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/2.0/ref/settings/#databases
 
+
+
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'db1',
+        'USER': 'django_triumph',
+        'PASSWORD': '3655699',
+        'HOST': 'localhost',
+        'PORT': '',
     }
 }
 
@@ -155,7 +161,7 @@ STATIC_URL = '/static/'
 
 
 
-try:
-    from .settings_prod1 import *
-except:
-    pass
+# try:
+#     from .settings_prod1 import *
+# except:
+#     pass
