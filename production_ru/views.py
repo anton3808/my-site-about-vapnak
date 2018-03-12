@@ -9,7 +9,7 @@ from email.mime.multipart import MIMEMultipart
 from django.core.mail import send_mail, BadHeaderError
 from django.http import HttpResponse, HttpResponseRedirect
 
-def send_email_4(request):
+def send_email_4_ru(request):
     # return HttpResponseRedirect('../')
     user_surname = request.POST.get('user_surname', '')
     volume = request.POST.get('volume', '')
@@ -59,7 +59,7 @@ def send_email_4(request):
     
 
 
-def send_email_3(request):
+def send_email_3_ru(request):
     # return HttpResponseRedirect('../')
     user_surname = request.POST.get('user_surname', '')
     volume = request.POST.get('volume', '')
@@ -111,7 +111,7 @@ def send_email_3(request):
 
 
 
-def send_email_2(request):
+def send_email_2_ru(request):
     # return HttpResponseRedirect('../')
     user_surname = request.POST.get('user_surname', '')
     volume = request.POST.get('volume', '')
@@ -167,7 +167,7 @@ def send_email_2(request):
 
 
 
-def send_email_1(request):
+def send_email_1_ru(request):
     # return HttpResponseRedirect('../')
     user_surname = request.POST.get('user_surname', '')
     volume = request.POST.get('volume', '')
