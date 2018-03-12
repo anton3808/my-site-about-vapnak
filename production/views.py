@@ -171,7 +171,7 @@ def send_email_1(request):
     # return HttpResponseRedirect('../')
     user_surname = request.POST.get('user_surname', '')
     volume = request.POST.get('volume', '')
-    mail = request.POST.get('email', '')
+    email = request.POST.get('email', '')
     phone = request.POST.get('phone', '')
     select_fraction = request.POST.get('select_fraction', '')
     enterprise = request.POST.get('enterprise', '')
