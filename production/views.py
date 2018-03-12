@@ -169,6 +169,8 @@ def send_email_2(request):
 
 def send_email_1(request):
     # return HttpResponseRedirect('../')
+    user_surname = request.POST.get('user_surname', '')
+    volume = request.POST.get('volume', '')
     mail = request.POST.get('email', '')
     phone = request.POST.get('phone', '')
     select_fraction = request.POST.get('select_fraction', '')
@@ -178,9 +180,6 @@ def send_email_1(request):
 
     
     if message:
-    user_surname = request.POST.get('user_surname', '')
-    volume = request.POST.get('volume', '')
-    e
         contact_message = "Контактна особа: %s, почта: %s, номер телефона: %s, обєм вантажу: %s, фракція: %s, підприємство: %s, період доставки: %s, текстов повідомлення: %s"%(user_surname, email, phone, volume, select_fraction, enterprise, delivery_period, message)
     else:
         contact_message = "Фамілія: %s, імя: %s, почта: %s, номер телефона: %s, фракція: %s, підприємство: %s, період доставки: %s"%(user_surname, user_name, email, phone, select_fraction, enterprise, delivery_period)
