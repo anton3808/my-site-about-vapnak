@@ -27,30 +27,14 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
-# EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
-# EMAIL_HOST = 'mail.ukraine.com.ua'
-# EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+
 EMAIL_USE_TLS = True
 EMAIL_HOST = 'smtp.ukr.net'
 EMAIL_PORT = 2525
 EMAIL_HOST_USER = 'antonsadlov@ukr.net'
 EMAIL_HOST_PASSWORD = 'antoha2003'
 
-# EMAIL_HOST_USER = 'illon1703@gmal.com'
-# EMAIL_HOST_PASSWORD = 'antoha1703'
-# EMAIL_PORT = 25
 
-# EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
-
-
-
-
-
-#  EMAIL_HOST = 'smtp.gmail.com' 
-#  EMAIL_HOST_USER = 'illon1703@gmail.com' 
-#  EMAIL_HOST_PASSWORD = 'antoha1703' 
-#  EMAIL_PORT = 587 
-# EMAIL_USE_TLS = True 
 
 
 INSTALLED_APPS = [
@@ -172,6 +156,6 @@ STATIC_URL = '/static/'
 
 
 try:
-    from .settings_prod import *
+    from .settings_prod1 import *
 except:
     pass
