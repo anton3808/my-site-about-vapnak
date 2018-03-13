@@ -29,11 +29,11 @@ def send(request):
     contact_message = "Контактна особа: %s, номер телефона: %s, вантаж: %s, код вантажу по залізниці: %s, станція навантаження: %s, код станції навантаження: %s, станція вивантаження: %s, код станція вивантаження: %s"%(contact_person, phone, cargo, cod_cargo_railway, load_station, cod_load_station, unloading_station, cod_unloading_station)
     
 
-    from_addr = 'antonsadlov@ukr.net'
-    to_addr = 'antonsadlov@ukr.net'
+    from_addr = 'tpk_triumph@ukr.net'
+    to_addr = 'tpk_triumph@ukr.net'
 
-    username = 'antonsadlov@ukr.net'
-    password = 'antoha2003'
+    username = 'tpk_triumph@ukr.net'
+    password = 'Sad_!123'
 
     msg = MIMEMultipart()
 
