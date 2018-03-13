@@ -236,7 +236,7 @@
 
 			    	<div class="leftcontact">
 						  <div class="form-group">
-							  <div class="div_p">Контактна особа: <span>*</span></div>
+							  <div class="div_p">Contact person: <span>*</span></div>
 							  <span class="icon-case"><i class="fa fa-male"></i></span>
 								<input type="text" name="user_surname" id="user_surname" data-rule="required" data-msg="Vérifiez votre saisie sur les champs : Le champ 'Nom' doit être renseigné." required />
 				        <div class="validation" id="validation"></div>
@@ -251,14 +251,14 @@
 							</div>	
 
 							<div class="form-group">
-								<div class="div_p">Номер телефону <span>*</span></div>
+								<div class="div_p">Phone number <span>*</span></div>
 								<span class="icon-case"><i class="fa fa-phone"></i></span>
 								<input type="text" name="phone" id="phone" data-rule="maxlen:10" data-msg="Vérifiez votre saisie sur les champs : Le champ 'Téléphone' doit être renseigné. Minimum 10 chiffres" required/>
 				        <div class="validation"></div>
 							</div>
 
 							<div class="form-group">
-				        <div class="div_p">Об'єм вантажу: <span>*</span></div>
+				        <div class="div_p">The volume of cargo: <span>*</span></div>
 				        <span class="icon-case"><i class="fas fa-briefcase"></i></span>
 								<input type="text" name="volume" id="volume" data-rule="required" data-msg="Vérifiez votre saisie sur les champs : Le champ 'Prénom' doit être renseigné." required/>
 				        <div class="validation"></div>
@@ -275,8 +275,7 @@
 						        <option value="2" >0-20 mm</option>
 						        <option value="3">20-40 mm</option>
 						        <option value="4" >40-80 mm</option>
-						        <option value="5">20-40 mm</option>
-						        <option value="6" >80-120mm</option>
+						        <option value="5" >80-120mm</option>
 						      </select>
 							</div>	
 
@@ -287,7 +286,7 @@
 				        <div class="validation"></div>
 							</div>
 
-							<div class="form-group">
+							<!-- <div class="form-group">
 								<div class="div_p">Delivery period <span>*</span></div>
 								<span class="icon-case"><i class="fa fa-info"></i></span>
 								<select name="delivery_period"  id="delivery_period">
@@ -298,6 +297,43 @@
 						        <option value="5">From 05.01.2018 to 08.01.2018</option>
 						        <option value="6">From 05.01.2018 to 08.01.2018</option>
 						      </select>
+							</div> -->
+							<div class="form-group">
+								<div class="div_p">Delivery period <span>*</span></div>
+								<span class="icon-case"><i class="fas fa-bus"></i></span>
+						      <select name="delivery_period"  id="delivery_period_1">
+						      	<option value="1">january</option>
+						        <option value="2">february</option>
+						        <option value="3">march</option>
+						        <option value="4">april</option>
+						        <option value="5">may</option>
+						        <option value="6">june</option>
+						        <option value="7">july</option>
+						        <option value="8">august</option>
+						        <option value="9">september</option>
+						        <option value="10">october</option>
+						        <option value="11">november</option>
+						        <option value="12">december</option>
+						     	</select>
+
+						     	<div class="to_month">till</div>
+
+						     	<select name="delivery_period"  id="delivery_period_2">
+						        <option value="1">january</option>
+						        <option value="2">february</option>
+						        <option value="3">march</option>
+						        <option value="4">april</option>
+						        <option value="5">may</option>
+						        <option value="6">june</option>
+						        <option value="7">july</option>
+						        <option value="8">august</option>
+						        <option value="9">september</option>
+						        <option value="10">october</option>
+						        <option value="11">november</option>
+						        <option value="12">december</option>
+						     	</select>
+
+						     	<div class="from_month">From</div>
 							</div>
 
 							<div class="form-group">
@@ -352,7 +388,7 @@
 
 			    	<div class="leftcontact">
 						  <div class="form-group">
-							  <div class="div_p">Контактна особа: <span>*</span></div>
+							  <div class="div_p">Contact person: <span>*</span></div>
 							  <span class="icon-case"><i class="fa fa-male"></i></span>
 								<input type="text" name="user_surname" id="user_surname" data-rule="required" data-msg="Vérifiez votre saisie sur les champs : Le champ 'Nom' doit être renseigné." required />
 				        <div class="validation" id="validation"></div>
@@ -367,19 +403,20 @@
 							</div>	
 
 							<div class="form-group">
-								<div class="div_p">Номер телефону <span>*</span></div>
+								<div class="div_p">Phone number <span>*</span></div>
 								<span class="icon-case"><i class="fa fa-phone"></i></span>
 								<input type="text" name="phone" id="phone" data-rule="maxlen:10" data-msg="Vérifiez votre saisie sur les champs : Le champ 'Téléphone' doit être renseigné. Minimum 10 chiffres" required/>
 				        <div class="validation"></div>
 							</div>
 
 							<div class="form-group">
-				        <div class="div_p">Об'єм вантажу: <span>*</span></div>
+				        <div class="div_p">The volume of cargo: <span>*</span></div>
 				        <span class="icon-case"><i class="fas fa-briefcase"></i></span>
 								<input type="text" name="volume" id="volume" data-rule="required" data-msg="Vérifiez votre saisie sur les champs : Le champ 'Prénom' doit être renseigné." required/>
 				        <div class="validation"></div>
 							</div>
 						</div>
+
 
 						<div class="rightcontact">	
 
@@ -387,12 +424,10 @@
 								<div class="div_p">Fractions <span>*</span></div>
 								<span class="icon-case"><i class="fa fa-building-o"></i></span>
 								<select name="select_fraction"  id="select_fraction">
-						        <option value="1">0-5 mm</option>
-						        <option value="2" >0-20 mm</option>
-						        <option value="3">20-40 mm</option>
-						        <option value="4" >40-80 mm</option>
-						        <option value="5">20-40 mm</option>
-						        <option value="6" >80-120mm</option>
+										<option value="1">0-1 mm</option>
+						        <option value="2">0-5 mm</option>
+						        <option value="3" >0-20 mm</option>
+						        <option value="4">20-40 mm</option>
 						      </select>
 							</div>	
 
@@ -405,15 +440,40 @@
 
 							<div class="form-group">
 								<div class="div_p">Delivery period <span>*</span></div>
-								<span class="icon-case"><i class="fa fa-info"></i></span>
-								<select name="delivery_period"  id="delivery_period">
-						        <option value="1">From 05.01.2018 to 08.01.2018</option>
-						        <option value="2">From 05.01.2018 to 08.01.2018</option>
-						        <option value="3">From 05.01.2018 to 08.01.2018</option>
-						        <option value="4">From 05.01.2018 to 08.01.2018</option>
-						        <option value="5">From 05.01.2018 to 08.01.2018</option>
-						        <option value="6">From 05.01.2018 to 08.01.2018</option>
-						      </select>
+								<span class="icon-case"><i class="fas fa-bus"></i></span>
+						      <select name="delivery_period"  id="delivery_period_1">
+						      	<option value="1">january</option>
+						        <option value="2">february</option>
+						        <option value="3">march</option>
+						        <option value="4">april</option>
+						        <option value="5">may</option>
+						        <option value="6">june</option>
+						        <option value="7">july</option>
+						        <option value="8">august</option>
+						        <option value="9">september</option>
+						        <option value="10">october</option>
+						        <option value="11">november</option>
+						        <option value="12">december</option>
+						     	</select>
+
+						     	<div class="to_month">till</div>
+
+						     	<select name="delivery_period"  id="delivery_period_2">
+						        <option value="1">january</option>
+						        <option value="2">february</option>
+						        <option value="3">march</option>
+						        <option value="4">april</option>
+						        <option value="5">may</option>
+						        <option value="6">june</option>
+						        <option value="7">july</option>
+						        <option value="8">august</option>
+						        <option value="9">september</option>
+						        <option value="10">october</option>
+						        <option value="11">november</option>
+						        <option value="12">december</option>
+						     	</select>
+
+						     	<div class="from_month">From</div>
 							</div>
 
 							<div class="form-group">
@@ -469,7 +529,7 @@
 
 			    	<div class="leftcontact">
 						  <div class="form-group">
-							  <div class="div_p">Контактна особа: <span>*</span></div>
+							  <div class="div_p">Contact person: <span>*</span></div>
 							  <span class="icon-case"><i class="fa fa-male"></i></span>
 								<input type="text" name="user_surname" id="user_surname" data-rule="required" data-msg="Vérifiez votre saisie sur les champs : Le champ 'Nom' doit être renseigné." required />
 				        <div class="validation" id="validation"></div>
@@ -484,14 +544,14 @@
 							</div>	
 
 							<div class="form-group">
-								<div class="div_p">Номер телефону <span>*</span></div>
+								<div class="div_p">Phone number <span>*</span></div>
 								<span class="icon-case"><i class="fa fa-phone"></i></span>
 								<input type="text" name="phone" id="phone" data-rule="maxlen:10" data-msg="Vérifiez votre saisie sur les champs : Le champ 'Téléphone' doit être renseigné. Minimum 10 chiffres" required/>
 				        <div class="validation"></div>
 							</div>
 
 							<div class="form-group">
-				        <div class="div_p">Об'єм вантажу: <span>*</span></div>
+				        <div class="div_p">The volume of cargo: <span>*</span></div>
 				        <span class="icon-case"><i class="fas fa-briefcase"></i></span>
 								<input type="text" name="volume" id="volume" data-rule="required" data-msg="Vérifiez votre saisie sur les champs : Le champ 'Prénom' doit être renseigné." required/>
 				        <div class="validation"></div>
@@ -504,12 +564,8 @@
 								<div class="div_p">Fractions <span>*</span></div>
 								<span class="icon-case"><i class="fa fa-building-o"></i></span>
 								<select name="select_fraction"  id="select_fraction">
-						        <option value="1">0-5 mm</option>
-						        <option value="2" >0-20 mm</option>
-						        <option value="3">20-40 mm</option>
-						        <option value="4" >40-80 mm</option>
-						        <option value="5">20-40 mm</option>
-						        <option value="6" >80-120mm</option>
+						        <option value="1" >40-80 mm</option>
+						        <option value="2" >80-120mm</option>
 						      </select>
 							</div>	
 
@@ -522,15 +578,40 @@
 
 							<div class="form-group">
 								<div class="div_p">Delivery period <span>*</span></div>
-								<span class="icon-case"><i class="fa fa-info"></i></span>
-								<select name="delivery_period"  id="delivery_period">
-						        <option value="1">From 05.01.2018 to 08.01.2018</option>
-						        <option value="2">From 05.01.2018 to 08.01.2018</option>
-						        <option value="3">From 05.01.2018 to 08.01.2018</option>
-						        <option value="4">From 05.01.2018 to 08.01.2018</option>
-						        <option value="5">From 05.01.2018 to 08.01.2018</option>
-						        <option value="6">From 05.01.2018 to 08.01.2018</option>
-						      </select>
+								<span class="icon-case"><i class="fas fa-bus"></i></span>
+						      <select name="delivery_period"  id="delivery_period_1">
+						      	<option value="1">january</option>
+						        <option value="2">february</option>
+						        <option value="3">march</option>
+						        <option value="4">april</option>
+						        <option value="5">may</option>
+						        <option value="6">june</option>
+						        <option value="7">july</option>
+						        <option value="8">august</option>
+						        <option value="9">september</option>
+						        <option value="10">october</option>
+						        <option value="11">november</option>
+						        <option value="12">december</option>
+						     	</select>
+
+						     	<div class="to_month">till</div>
+
+						     	<select name="delivery_period"  id="delivery_period_2">
+						        <option value="1">january</option>
+						        <option value="2">february</option>
+						        <option value="3">march</option>
+						        <option value="4">april</option>
+						        <option value="5">may</option>
+						        <option value="6">june</option>
+						        <option value="7">july</option>
+						        <option value="8">august</option>
+						        <option value="9">september</option>
+						        <option value="10">october</option>
+						        <option value="11">november</option>
+						        <option value="12">december</option>
+						     	</select>
+
+						     	<div class="from_month">From</div>
 							</div>
 
 							<div class="form-group">
@@ -587,7 +668,7 @@
 
 			    	<div class="leftcontact">
 						  <div class="form-group">
-							  <div class="div_p">Контактна особа: <span>*</span></div>
+							  <div class="div_p">Contact person: <span>*</span></div>
 							  <span class="icon-case"><i class="fa fa-male"></i></span>
 								<input type="text" name="user_surname" id="user_surname" data-rule="required" data-msg="Vérifiez votre saisie sur les champs : Le champ 'Nom' doit être renseigné." required />
 				        <div class="validation" id="validation"></div>
@@ -602,14 +683,14 @@
 							</div>	
 
 							<div class="form-group">
-								<div class="div_p">Номер телефону <span>*</span></div>
+								<div class="div_p">Phone number <span>*</span></div>
 								<span class="icon-case"><i class="fa fa-phone"></i></span>
 								<input type="text" name="phone" id="phone" data-rule="maxlen:10" data-msg="Vérifiez votre saisie sur les champs : Le champ 'Téléphone' doit être renseigné. Minimum 10 chiffres" required/>
 				        <div class="validation"></div>
 							</div>
 
 							<div class="form-group">
-				        <div class="div_p">Об'єм вантажу: <span>*</span></div>
+				        <div class="div_p">The volume of cargo: <span>*</span></div>
 				        <span class="icon-case"><i class="fas fa-briefcase"></i></span>
 								<input type="text" name="volume" id="volume" data-rule="required" data-msg="Vérifiez votre saisie sur les champs : Le champ 'Prénom' doit être renseigné." required/>
 				        <div class="validation"></div>
@@ -626,8 +707,7 @@
 						        <option value="2" >0-20 mm</option>
 						        <option value="3">20-40 mm</option>
 						        <option value="4" >40-80 mm</option>
-						        <option value="5">20-40 mm</option>
-						        <option value="6" >80-120mm</option>
+						        <option value="5" >80-120mm</option>
 						      </select>
 							</div>	
 
@@ -640,15 +720,40 @@
 
 							<div class="form-group">
 								<div class="div_p">Delivery period <span>*</span></div>
-								<span class="icon-case"><i class="fa fa-info"></i></span>
-								<select name="delivery_period"  id="delivery_period">
-						        <option value="1">From 05.01.18 to 08.01.18</option>
-						        <option value="2">From 05.01.2018 to 08.01.2018</option>
-						        <option value="3">From 05.01.2018 to 08.01.2018</option>
-						        <option value="4">From 05.01.2018 to 08.01.2018</option>
-						        <option value="5">From 05.01.2018 to 08.01.2018</option>
-						        <option value="6">From 05.01.2018 to 08.01.2018</option>
-						      </select>
+								<span class="icon-case"><i class="fas fa-bus"></i></span>
+						      <select name="delivery_period"  id="delivery_period_1">
+						      	<option value="1">january</option>
+						        <option value="2">february</option>
+						        <option value="3">march</option>
+						        <option value="4">april</option>
+						        <option value="5">may</option>
+						        <option value="6">june</option>
+						        <option value="7">july</option>
+						        <option value="8">august</option>
+						        <option value="9">september</option>
+						        <option value="10">october</option>
+						        <option value="11">november</option>
+						        <option value="12">december</option>
+						     	</select>
+
+						     	<div class="to_month">till</div>
+
+						     	<select name="delivery_period"  id="delivery_period_2">
+						        <option value="1">january</option>
+						        <option value="2">february</option>
+						        <option value="3">march</option>
+						        <option value="4">april</option>
+						        <option value="5">may</option>
+						        <option value="6">june</option>
+						        <option value="7">july</option>
+						        <option value="8">august</option>
+						        <option value="9">september</option>
+						        <option value="10">october</option>
+						        <option value="11">november</option>
+						        <option value="12">december</option>
+						     	</select>
+
+						     	<div class="from_month">From</div>
 							</div>
 
 							<div class="form-group">
