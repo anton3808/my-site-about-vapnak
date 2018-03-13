@@ -12083,9 +12083,59 @@ body{
     height: 42px;
     float: right;
     padding: 0px 4px;
-    /*padding: 0px 2px;
-    margin-left: 14px;*/
   }
+
+
+
+  .from_month{
+    font-family: 'Proxima Nova Rg';
+    font-size: 14px;
+    text-align: center;
+    padding-top: 13px;
+    border: 1px solid #eee;
+    margin-bottom: 15px;
+    border-right: none;
+    border-left: none;
+    width: 14px;
+    height: 27px;
+    float: right;
+  }
+  .to_month{
+    font-family: 'Proxima Nova Rg';
+    font-size: 14px;
+    text-align: center;
+    padding-top: 13px;
+    border: 1px solid #eee;
+    margin-bottom: 15px;
+    border-right: none;
+    border-left: none;
+    width: 28px;
+    height: 27px;
+    float: right;
+  }
+  #delivery_period_1 {
+    font-family: 'Proxima Nova Rg';
+    font-size: 14px;
+    border: 1px solid #eee;
+    border-right: none;
+    border-left: none;
+    margin-bottom: 15px;
+    width: 90px;
+    height: 42px;
+    float: right;
+  }
+  #delivery_period_2 {
+    font-family: 'Proxima Nova Rg';
+    font-size: 14px;
+    border: 1px solid #eee;
+    border-right: none;
+    border-left: none;
+    margin-bottom: 15px;
+    width: 95px;
+    height: 42px;
+    float: right;
+  }
+
 
   a {
     text-decoration:inherit;
@@ -12184,6 +12234,11 @@ body{
 
 
 
+
+
+
+
+
 @media (min-width: 720px) and (max-width: 800px){
   .info p {
     text-align:center;
@@ -12266,6 +12321,60 @@ body{
   }
 
 
+
+
+  .from_month{
+    font-family: 'Proxima Nova Rg';
+    font-size: 14px;
+    text-align: center;
+    padding-top: 13px;
+    border: 1px solid #eee;
+    margin-bottom: 15px;
+    border-right: none;
+    border-left: none;
+    width: 14px;
+    height: 42px;
+    float: right;
+  }
+  .to_month{
+    font-family: 'Proxima Nova Rg';
+    font-size: 14px;
+    text-align: center;
+    padding-top: 13px;
+    border: 1px solid #eee;
+    margin-bottom: 15px;
+    border-right: none;
+    border-left: none;
+    width: 28px;
+    height: 42px;
+    float: right;
+  }
+  #delivery_period_1 {
+    font-family: 'Proxima Nova Rg';
+    font-size: 14px;
+    border: 1px solid #eee;
+    border-right: none;
+    border-left: none;
+    margin-bottom: 15px;
+    width: 90px;
+    height: 42px;
+    float: right;
+  }
+  #delivery_period_2 {
+    font-family: 'Proxima Nova Rg';
+    font-size: 14px;
+    border: 1px solid #eee;
+    border-right: none;
+    border-left: none;
+    margin-bottom: 15px;
+    width: 95px;
+    height: 42px;
+    float: right;
+  }
+
+
+
+
   select {
     font-family: 'Proxima Nova Rg';
     font-size: 14px;
@@ -12276,8 +12385,6 @@ body{
     height: 42px;
     float: right;
     padding: 0px 4px;
-    /*padding: 0px 2px;
-    margin-left: 14px;*/
   }
 
   a {
@@ -12408,6 +12515,60 @@ body{
     height: 42px;
     float: right;
     padding: 0px 6px;
+  }
+
+  
+
+
+
+  
+  .from_month{
+    font-family: 'Proxima Nova Rg';
+    font-size: 14px;
+    text-align: center;
+    padding-top: 13px;
+    border: 1px solid #eee;
+    margin-bottom: 15px;
+    border-right: none;
+    border-left: none;
+    width: 6.7%;
+    height: 42px;
+    float: right;
+  }
+  .to_month{
+    font-family: 'Proxima Nova Rg';
+    font-size: 14px;
+    text-align: center;
+    padding-top: 13px;
+    border: 1px solid #eee;
+    margin-bottom: 15px;
+    border-right: none;
+    border-left: none;
+    width: 9%;
+    height: 42px;
+    float: right;
+  }
+  #delivery_period_1 {
+    font-family: 'Proxima Nova Rg';
+    font-size: 14px;
+    border: 1px solid #eee;
+    border-right: none;
+    border-left: none;
+    margin-bottom: 15px;
+    width: 36%;
+    height: 42px;
+    float: right;
+  }
+  #delivery_period_2 {
+    font-family: 'Proxima Nova Rg';
+    font-size: 14px;
+    border: 1px solid #eee;
+    border-right: none;
+    border-left: none;
+    margin-bottom: 15px;
+    width: 34%;
+    height: 42px;
+    float: right;
   }
 
 
@@ -12613,6 +12774,60 @@ body{
     height: 42px;
     float: right;
     padding: 0px 6px;
+  }
+
+
+
+
+
+
+  .from_month{
+    font-family: 'Proxima Nova Rg';
+    font-size: 14px;
+    text-align: center;
+    padding-top: 13px;
+    border: 1px solid #eee;
+    margin-bottom: 15px;
+    border-right: none;
+    border-left: none;
+    width: 5.7%;
+    height: 42px;
+    float: right;
+  }
+  .to_month{
+    font-family: 'Proxima Nova Rg';
+    font-size: 14px;
+    text-align: center;
+    padding-top: 13px;
+    border: 1px solid #eee;
+    margin-bottom: 15px;
+    border-right: none;
+    border-left: none;
+    width: 7.7%;
+    height: 42px;
+    float: right;
+  }
+  #delivery_period_1 {
+    font-family: 'Proxima Nova Rg';
+    font-size: 14px;
+    border: 1px solid #eee;
+    border-right: none;
+    border-left: none;
+    margin-bottom: 15px;
+    width: 36%;
+    height: 42px;
+    float: right;
+  }
+  #delivery_period_2 {
+    font-family: 'Proxima Nova Rg';
+    font-size: 14px;
+    border: 1px solid #eee;
+    border-right: none;
+    border-left: none;
+    margin-bottom: 15px;
+    width: 36%;
+    height: 42px;
+    float: right;
   }
 
 
@@ -12827,6 +13042,60 @@ body{
     height: 38px;
     float: right;
     padding: 0px 5px;
+  }
+
+
+
+
+
+
+  .from_month{
+    font-family: 'Proxima Nova Rg';
+    font-size: 12px;
+    text-align: center;
+    padding-top: 13px;
+    border: 1px solid #eee;
+    margin-bottom: 15px;
+    border-right: none;
+    border-left: none;
+    width: 5.7%;
+    height: 38px;
+    float: right;
+  }
+  .to_month{
+    font-family: 'Proxima Nova Rg';
+    font-size: 12px;
+    text-align: center;
+    padding-top: 13px;
+    border: 1px solid #eee;
+    margin-bottom: 15px;
+    border-right: none;
+    border-left: none;
+    width: 7.7%;
+    height: 38px;
+    float: right;
+  }
+  #delivery_period_1 {
+    font-family: 'Proxima Nova Rg';
+    font-size: 12px;
+    border: 1px solid #eee;
+    border-right: none;
+    border-left: none;
+    margin-bottom: 15px;
+    width: 36%;
+    height: 38px;
+    float: right;
+  }
+  #delivery_period_2 {
+    font-family: 'Proxima Nova Rg';
+    font-size: 12px;
+    border: 1px solid #eee;
+    border-right: none;
+    border-left: none;
+    margin-bottom: 15px;
+    width: 36%;
+    height: 38px;
+    float: right;
   }
 
 
@@ -13096,6 +13365,55 @@ body{
     float: right;
     padding: 0px 6px;
   }
+
+  .from_month{
+    font-family: 'Proxima Nova Rg';
+    font-size: 11px;
+    text-align: center;
+    padding-top: 11px;
+    border: 1px solid #eee;
+    margin-bottom: 15px;
+    border-right: none;
+    border-left: none;
+    width: 5px;
+    height: 32px;
+    float: right;
+  }
+  .to_month{
+    font-family: 'Proxima Nova Rg';
+    font-size: 11px;
+    text-align: center;
+    padding-top: 10px;
+    border: 1px solid #eee;
+    margin-bottom: 15px;
+    border-right: none;
+    border-left: none;
+    width: 10px;
+    height: 32px;
+    float: right;
+  }
+  #delivery_period_1 {
+    font-family: 'Proxima Nova Rg';
+    font-size: 11px;
+    border: 1px solid #eee;
+    border-right: none;
+    border-left: none;
+    margin-bottom: 15px;
+    width: 52px;
+    height: 32px;
+    float: right;
+  }
+  #delivery_period_2 {
+    font-family: 'Proxima Nova Rg';
+    font-size: 11px;
+    border: 1px solid #eee;
+    border-right: none;
+    border-left: none;
+    margin-bottom: 15px;
+    width: 52px;
+    height: 32px;
+    float: right;
+  }
   select {
     font-family: 'Proxima Nova Rg';
     font-size: 11px;
@@ -13267,6 +13585,56 @@ body{
     float: right;
     padding: 0px 6px;
   }
+  .from_month{
+    font-family: 'Proxima Nova Rg';
+    font-size: 9px;
+    text-align: center;
+    padding-left: 3px;
+    padding-top: 10px;
+    border: 1px solid #eee;
+    margin-bottom: 15px;
+    border-right: none;
+    border-left: none;
+    width: 5px;
+    height: 30px;
+    float: right;
+  }
+  .to_month{
+    font-family: 'Proxima Nova Rg';
+    font-size: 9px;
+    text-align: center;
+    padding-top: 9px;
+    border: 1px solid #eee;
+    margin-bottom: 15px;
+    border-right: none;
+    border-left: none;
+    padding-left: 3px;
+    width: 8px;
+    height: 30px;
+    float: right;
+  }
+  #delivery_period_1 {
+    font-family: 'Proxima Nova Rg';
+    font-size: 9px;
+    border: 1px solid #eee;
+    border-right: none;
+    border-left: none;
+    margin-bottom: 15px;
+    width: 45px;
+    height: 30px;
+    float: right;
+  }
+  #delivery_period_2 {
+    font-family: 'Proxima Nova Rg';
+    font-size: 9px;
+    border: 1px solid #eee;
+    border-right: none;
+    border-left: none;
+    margin-bottom: 15px;
+    width: 45px;
+    height: 30px;
+    float: right;
+  }
   select {
     font-family: 'Proxima Nova Rg';
     font-size: 9px;
@@ -13437,6 +13805,56 @@ body{
     height: 30px;
     float: right;
     padding: 0px 6px;
+  }
+  .from_month{
+    font-family: 'Proxima Nova Rg';
+    font-size: 9px;
+    text-align: center;
+    padding-left: 3px;
+    padding-top: 10px;
+    border: 1px solid #eee;
+    margin-bottom: 15px;
+    border-right: none;
+    border-left: none;
+    width: 5px;
+    height: 30px;
+    float: right;
+  }
+  .to_month{
+    font-family: 'Proxima Nova Rg';
+    font-size: 9px;
+    text-align: center;
+    padding-top: 9px;
+    border: 1px solid #eee;
+    margin-bottom: 15px;
+    border-right: none;
+    border-left: none;
+    padding-left: 3px;
+    width: 8px;
+    height: 30px;
+    float: right;
+  }
+  #delivery_period_1 {
+    font-family: 'Proxima Nova Rg';
+    font-size: 9px;
+    border: 1px solid #eee;
+    border-right: none;
+    border-left: none;
+    margin-bottom: 15px;
+    width: 40px;
+    height: 30px;
+    float: right;
+  }
+  #delivery_period_2 {
+    font-family: 'Proxima Nova Rg';
+    font-size: 9px;
+    border: 1px solid #eee;
+    border-right: none;
+    border-left: none;
+    margin-bottom: 15px;
+    width: 40px;
+    height: 30px;
+    float: right;
   }
   select {
     font-family: 'Proxima Nova Rg';
@@ -13610,6 +14028,56 @@ body{
     height: 28px;
     float: right;
     padding: 0px 6px;
+  }
+  .from_month{
+    font-family: 'Proxima Nova Rg';
+    font-size: 9px;
+    text-align: center;
+    padding-left: 3px;
+    padding-top: 9px;
+    border: 1px solid #eee;
+    margin-bottom: 15px;
+    border-right: none;
+    border-left: none;
+    width: 5px;
+    height: 30px;
+    float: right;
+  }
+  .to_month{
+    font-family: 'Proxima Nova Rg';
+    font-size: 9px;
+    text-align: center;
+    padding-top: 9px;
+    border: 1px solid #eee;
+    margin-bottom: 15px;
+    border-right: none;
+    border-left: none;
+    padding-left: 3px;
+    width: 8px;
+    height: 30px;
+    float: right;
+  }
+  #delivery_period_1 {
+    font-family: 'Proxima Nova Rg';
+    font-size: 9px;
+    border: 1px solid #eee;
+    border-right: none;
+    border-left: none;
+    margin-bottom: 15px;
+    width: 35px;
+    height: 30px;
+    float: right;
+  }
+  #delivery_period_2 {
+    font-family: 'Proxima Nova Rg';
+    font-size: 9px;
+    border: 1px solid #eee;
+    border-right: none;
+    border-left: none;
+    margin-bottom: 15px;
+    width:35px;
+    height: 30px;
+    float: right;
   }
   select {
     font-family: 'Proxima Nova Rg';
