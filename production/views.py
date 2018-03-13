@@ -27,11 +27,11 @@ def send_email_4(request):
         contact_message = "Фамілія: %s, імя: %s, почта: %s, номер телефона: %s, фракція: %s, підприємство: %s, період доставки: %s"%(user_surname, user_name, email, phone, select_fraction, enterprise, delivery_period)
     
 
-    from_addr = 'antonsadlov@ukr.net'
-    to_addr = 'antonsadlov@ukr.net'
+    from_addr = 'tpk_triumph@ukr.net'
+    to_addr = 'tpk_triumph@ukr.net'
 
-    username = 'antonsadlov@ukr.net'
-    password = 'antoha2003'
+    username = 'tpk_triumph@ukr.net'
+    password = 'Sad_!123'
 
     msg = MIMEMultipart()
 
@@ -77,11 +77,11 @@ def send_email_3(request):
         contact_message = "Фамілія: %s, імя: %s, почта: %s, номер телефона: %s, фракція: %s, підприємство: %s, період доставки: %s"%(user_surname, user_name, email, phone, select_fraction, enterprise, delivery_period)
     
 
-    from_addr = 'antonsadlov@ukr.net'
-    to_addr = 'antonsadlov@ukr.net'
+    from_addr = 'tpk_triumph@ukr.net'
+    to_addr = 'tpk_triumph@ukr.net'
 
-    username = 'antonsadlov@ukr.net'
-    password = 'antoha2003'
+    username = 'tpk_triumph@ukr.net'
+    password = 'Sad_!123'
 
     msg = MIMEMultipart()
 
@@ -129,11 +129,11 @@ def send_email_2(request):
         contact_message = "Фамілія: %s, імя: %s, почта: %s, номер телефона: %s, фракція: %s, підприємство: %s, період доставки: %s"%(user_surname, user_name, email, phone, select_fraction, enterprise, delivery_period)
     
 
-    from_addr = 'antonsadlov@ukr.net'
-    to_addr = 'antonsadlov@ukr.net'
+    from_addr = 'tpk_triumph@ukr.net'
+    to_addr = 'tpk_triumph@ukr.net'
 
-    username = 'antonsadlov@ukr.net'
-    password = 'antoha2003'
+    username = 'tpk_triumph@ukr.net'
+    password = 'Sad_!123'
 
     msg = MIMEMultipart()
 
@@ -185,11 +185,11 @@ def send_email_1(request):
         contact_message = "Фамілія: %s, імя: %s, почта: %s, номер телефона: %s, фракція: %s, підприємство: %s, період доставки: %s"%(user_surname, user_name, email, phone, select_fraction, enterprise, delivery_period)
     
 
-    from_addr = 'antonsadlov@ukr.net'
-    to_addr = 'antonsadlov@ukr.net'
+    from_addr = 'tpk_triumph@ukr.net'
+    to_addr = 'tpk_triumph@ukr.net'
 
-    username = 'antonsadlov@ukr.net'
-    password = 'antoha2003'
+    username = 'tpk_triumph@ukr.net'
+    password = 'Sad_!123'
 
     msg = MIMEMultipart()
 
