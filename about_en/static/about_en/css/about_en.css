@@ -173,6 +173,9 @@ body{
     width: 83%;
     margin: 0 auto;
   }
+
+
+
   .logo_footer{
     float: left;
     width: 31%;
@@ -209,8 +212,6 @@ body{
 
 
 
-
-
   .email_footer{
     margin-left: 6.2%;
     float: left;
@@ -232,9 +233,6 @@ body{
     margin-right: 2.5%;
     color: #4d8f40;
   }
-
-
-
 
 
 
@@ -263,8 +261,6 @@ body{
 
 
 
-
-
   .telefon_footer{
     margin-left: 3.5%;
     margin-top: 17px;
@@ -289,29 +285,49 @@ body{
 
 
 
-
-
   .footer_mobile{
     height: 178px;
     width: 100%;
     background: #383838;
   }
+
   .logo_footer_mobile{
-    width: 300px;
+    width: 310px;
+    height: 60px;
     overflow: hidden;
   }
   .icon_logo_footer_mobile{
     margin-top: 10px;
     float: left;
     margin-left: 10px;
-    width: 54px;
+    width: 100px;
     height: 40px;
-    background: url(../images/Emblema2.png) no-repeat;
+    background: url(../images/Triumph_bez_fona.png) no-repeat;
     background-size: cover;
   }
+  .small_text{
+    float: right;
+    margin-top: 2px;
+    font-family: 'Proxima Nova Lt';
+    font-size: 18px;
+  }
+  .footer_logo_text_mobile{
+    float: left;
+    width: 164px;
+    margin-top: 25px;
+    margin-left: 10px;
+    margin-right: 26px;
+    color: #fff;
+    font-family: 'Proxima Nova Bold';
+    font-size: 20px;
+  }
+
+
+
+
+
   .logo_text_mobile{
     float: right;
-    /*float: left;*/
     width: 200px;
     margin-top: 12px;
     margin-left: 10px;
@@ -333,6 +349,9 @@ body{
     font-family: 'Proxima Nova Lt';
     font-size: 12px;
   }
+
+
+
   .email_footer_mobile{
     overflow: hidden;
     width: 215px;
@@ -354,10 +373,6 @@ body{
 
 
 
-
-
-  
-
   .telefon_footer_mobile{
     overflow: hidden;
     width: 215px;
@@ -376,10 +391,6 @@ body{
     font-family: 'Proxima Nova Lt';
     font-size: 13px;
   }
-
-
-
-
 
 
 
@@ -3067,21 +3078,21 @@ body{
   /*---------------------Нижний футер--------------------*/
   .footer_bottom{
     overflow: hidden;
-    height: 63px;
+    height: 90px;
     background: #383838;
   }
   .footer-menu_bottom{
     overflow: hidden;
-    height: 63px;
+    height: 90px;
     width: 83%;
     margin: 0 auto;
   }
-  .logo_footer{
+  /*.logo_footer{
     float: left;
     width: 31%;
     margin-top: 6px;
     margin-left: 10px;
-  }
+  }*/
   .logo_text{
     width: 80%;
     float: left;
@@ -3104,23 +3115,27 @@ body{
     margin-top: 4px;
   }
   #icon_logo{
-    width: 69px;
-    height: 50px;
+    width: 13.5%;
     float: left;
     color: #4d8f40;
     font-size: 40px;
   }
+
+  
+
+
+
 
 
 
 
 
   .email_footer{
-    margin-left: 6.5%;
+    margin-left: 11.7%;
     float: left;
     overflow: hidden;
     width: 17%;
-    margin-top: 20px;
+    margin-top: 40px;
   }
   .email{
     margin-top: 3px;
@@ -3141,14 +3156,12 @@ body{
 
 
 
-
-
   .place_footer{
-    margin-left: 5%;
-    margin-top: 11px;
+    margin-left: 7%;
+    margin-top: 31px;
     overflow: hidden;
     float: left;
-    width: 20%;
+    width: 24.8%;
   }
   .place{
     width: 90%;
@@ -3168,10 +3181,9 @@ body{
 
 
 
-
   .telefon_footer{
-    margin-left: 3.5%;
-    margin-top: 17px;
+    margin-left: 6.5%;
+    margin-top: 37px;
     overflow: hidden;
     float: left;
     width: 16%;
@@ -3664,21 +3676,21 @@ body{
   /*---------------------Нижний футер--------------------*/
   .footer_bottom{
     overflow: hidden;
-    height: 63px;
+    height: 95px;
     background: #383838;
   }
   .footer-menu_bottom{
     overflow: hidden;
-    height: 63px;
+    height: 95px;
     width: 83%;
     margin: 0 auto;
   }
-  .logo_footer{
+  /*.logo_footer{
     float: left;
     width: 31%;
     margin-top: 6px;
     margin-left: 10px;
-  }
+  }*/
   .logo_text{
     width: 80%;
     float: left;
@@ -3701,23 +3713,27 @@ body{
     margin-top: 4px;
   }
   #icon_logo{
-    /*width: 18%;*/
-    width: 69px;
-    height: 50px;
+    width: 15.5%;
     float: left;
     color: #4d8f40;
     font-size: 40px;
   }
 
+  
+
+
+
+
+
 
 
 
   .email_footer{
-    margin-left: 6.5%;
+    margin-left: 11.7%;
     float: left;
     overflow: hidden;
     width: 17%;
-    margin-top: 20px;
+    margin-top: 40px;
   }
   .email{
     margin-top: 3px;
@@ -3738,14 +3754,12 @@ body{
 
 
 
-
-
   .place_footer{
-    margin-left: 5%;
-    margin-top: 11px;
+    margin-left: 7%;
+    margin-top: 31px;
     overflow: hidden;
     float: left;
-    width: 20%;
+    width: 24.8%;
   }
   .place{
     width: 90%;
@@ -3765,10 +3779,9 @@ body{
 
 
 
-
   .telefon_footer{
-    margin-left: 3.5%;
-    margin-top: 17px;
+    margin-left: 6.5%;
+    margin-top: 37px;
     overflow: hidden;
     float: left;
     width: 16%;
@@ -4255,21 +4268,21 @@ body{
   /*---------------------Нижний футер--------------------*/
   .footer_bottom{
     overflow: hidden;
-    height: 63px;
+    height: 88px;
     background: #383838;
   }
   .footer-menu_bottom{
     overflow: hidden;
-    height: 63px;
+    height: 88px;
     width: 83%;
     margin: 0 auto;
   }
-  .logo_footer{
+/*  .logo_footer{
     float: left;
     width: 31%;
     margin-top: 6px;
     margin-left: 10px;
-  }
+  }*/
   .logo_text{
     width: 80%;
     float: left;
@@ -4292,8 +4305,7 @@ body{
     margin-top: 4px;
   }
   #icon_logo{
-    width: 69px;
-    height: 50px;
+    width: 15.5%;
     float: left;
     color: #4d8f40;
     font-size: 40px;
@@ -4302,12 +4314,25 @@ body{
 
 
 
+
+
+
+
+  
+
+
+
+
+
+
+
+
   .email_footer{
-    margin-left: 6.5%;
+    margin-left: 11.7%;
     float: left;
     overflow: hidden;
     width: 17%;
-    margin-top: 20px;
+    margin-top: 40px;
   }
   .email{
     margin-top: 3px;
@@ -4329,11 +4354,11 @@ body{
 
 
   .place_footer{
-    margin-left: 5%;
-    margin-top: 11px;
+    margin-left: 7%;
+    margin-top: 31px;
     overflow: hidden;
     float: left;
-    width: 20%;
+    width: 24.8%;
   }
   .place{
     width: 90%;
@@ -4355,8 +4380,8 @@ body{
 
 
   .telefon_footer{
-    margin-left: 3.5%;
-    margin-top: 17px;
+    margin-left: 6.5%;
+    margin-top: 37px;
     overflow: hidden;
     float: left;
     width: 16%;
@@ -4834,21 +4859,21 @@ body{
   /*---------------------Нижний футер--------------------*/
   .footer_bottom{
     overflow: hidden;
-    height: 63px;
+    height: 83px;
     background: #383838;
   }
   .footer-menu_bottom{
     overflow: hidden;
-    height: 63px;
+    height: 83px;
     width: 83%;
     margin: 0 auto;
   }
-  .logo_footer{
+  /*.logo_footer{
     float: left;
     width: 31%;
     margin-top: 8px;
     margin-left: 10px;
-  }
+  }*/
   .logo_text{
     width: 80%;
     float: left;
@@ -4871,7 +4896,7 @@ body{
     margin-top: 4px;
   }
   #icon_logo{
-    width: 18%;
+    width: 15.5%;
     float: left;
     color: #4d8f40;
     font-size: 40px;
@@ -4880,12 +4905,16 @@ body{
 
 
 
+
+
+
+
   .email_footer{
-    margin-left: 3.5%;
+    margin-left: 11.7%;
     float: left;
     overflow: hidden;
     width: 17%;
-    margin-top: 20px;
+    margin-top: 35px;
   }
   .email{
     margin-top: 3px;
@@ -4908,11 +4937,11 @@ body{
 
 
   .place_footer{
-    margin-left: 5%;
-    margin-top: 11px;
+    margin-left: 7%;
+    margin-top: 26px;
     overflow: hidden;
     float: left;
-    width: 23%;
+    width: 24.8%;
   }
   .place{
     width: 90%;
@@ -4934,8 +4963,8 @@ body{
 
 
   .telefon_footer{
-    margin-left: 3.5%;
-    margin-top: 17px;
+    margin-left: 6.5%;
+    margin-top: 32px;
     overflow: hidden;
     float: left;
     width: 16%;
@@ -5416,21 +5445,21 @@ body{
   /*---------------------Нижний футер--------------------*/
   .footer_bottom{
     overflow: hidden;
-    height: 63px;
+    height: 83px;
     background: #383838;
   }
   .footer-menu_bottom{
     overflow: hidden;
-    height: 63px;
+    height: 83px;
     width: 83%;
     margin: 0 auto;
   }
-  .logo_footer{
+  /*.logo_footer{
     float: left;
     width: 31%;
-    margin-top: 8px;
+    margin-top: 0px;
     margin-left: 10px;
-  }
+  }*/
   .logo_text{
     width: 80%;
     float: left;
@@ -5453,7 +5482,8 @@ body{
     margin-top: 4px;
   }
   #icon_logo{
-    width: 18%;
+    margin-top: 5px;
+    width: 15.5%;
     float: left;
     color: #4d8f40;
     font-size: 40px;
@@ -5461,14 +5491,12 @@ body{
 
 
 
-
-
   .email_footer{
-    margin-left: 6.5%;
+    margin-left: 11.7%;
     float: left;
     overflow: hidden;
     width: 17%;
-    margin-top: 20px;
+    margin-top: 35px;
   }
   .email{
     margin-top: 1px;
@@ -5488,13 +5516,12 @@ body{
 
 
 
-
   .place_footer{
-    margin-left: 5%;
-    margin-top: 11px;
+    margin-left: 7%;
+    margin-top: 26px;
     overflow: hidden;
     float: left;
-    width: 20%;
+    width: 24.8%;
   }
   .place{
     width: 90%;
@@ -5514,10 +5541,9 @@ body{
 
 
 
-
   .telefon_footer{
-    margin-left: 3.5%;
-    margin-top: 17px;
+    margin-left: 6.5%;
+    margin-top: 32px;
     overflow: hidden;
     float: left;
     width: 16%;
@@ -5620,21 +5646,21 @@ body{
   /*---------------------Нижний футер--------------------*/
   .footer_bottom{
     overflow: hidden;
-    height: 63px;
+    height: 83px;
     background: #383838;
   }
   .footer-menu_bottom{
     overflow: hidden;
-    height: 63px;
+    height: 83px;
     width: 83%;
     margin: 0 auto;
   }
-  .logo_footer{
+  /*.logo_footer{
     float: left;
     width: 31%;
     margin-top: 11px;
     margin-left: 5px;
-  }
+  }*/
   .logo_text{
     width: 80%;
     float: left;
@@ -5657,7 +5683,8 @@ body{
     margin-top: 2px;
   }
   #icon_logo{
-    width: 18%;
+    margin-top: 5px;
+    width: 15.5%;
     float: left;
     color: #4d8f40;
     font-size: 40px;
@@ -5665,13 +5692,12 @@ body{
 
 
 
-
   .email_footer{
-    margin-left: 3.5%;
+    margin-left: 11.7%;
     float: left;
     overflow: hidden;
-    width: 18%;
-    margin-top: 20px;
+    width: 17%;
+    margin-top: 35px;
   }
   .email{
     margin-top: 2px;
@@ -5692,13 +5718,12 @@ body{
 
 
 
-
   .place_footer{
-    margin-left: 3%;
-    margin-top: 13px;
+    margin-left: 7%;
+    margin-top: 26px;
     overflow: hidden;
     float: left;
-    width: 25%;
+    width: 24.8%;
   }
   .place{
     width: 90%;
@@ -5718,10 +5743,9 @@ body{
 
 
 
-
   .telefon_footer{
-    margin-left: 2%;
-    margin-top: 17px;
+    margin-left: 6.5%;
+    margin-top: 32px;
     overflow: hidden;
     float: left;
     width: 16%;
@@ -6333,7 +6357,7 @@ body{
 
 
 
-  /*---------------------Нижний футер--------------------*/
+   /*---------------------Нижний футер--------------------*/
   .footer_bottom{
     overflow: hidden;
     height: 63px;
@@ -6345,12 +6369,12 @@ body{
     width: 83%;
     margin: 0 auto;
   }
-  .logo_footer{
+  /*.logo_footer{
     float: left;
     width: 31%;
     margin-top: 8px;
     margin-left: 5px;
-  }
+  }*/
   .logo_text{
     margin-top: 4px;
     width: 80%;
@@ -6374,8 +6398,8 @@ body{
     margin-top: 0;
   }
   #icon_logo{
-    margin-top: 3px;
-    width: 18%;
+    margin-top: 5px;
+    width: 15.5%;
     float: left;
     color: #4d8f40;
     font-size: 40px;
@@ -6384,12 +6408,16 @@ body{
 
 
 
+
+
+
+
   .email_footer{
-    margin-left: 3.5%;
+    margin-left: 11.7%;
     float: left;
     overflow: hidden;
-    width: 18%;
-    margin-top: 21px;
+    width: 17%;
+    margin-top: 25px;
   }
   .email{
     margin-top: 2px;
@@ -6412,11 +6440,11 @@ body{
 
 
   .place_footer{
-    margin-left: 2%;
-    margin-top: 13px;
+    margin-left: 7%;
+    margin-top: 16px;
     overflow: hidden;
     float: left;
-    width: 25.5%;
+    width: 24.8%;
   }
   .place{
     width: 90%;
@@ -6438,11 +6466,11 @@ body{
 
 
   .telefon_footer{
-    margin-left: 2%;
-    margin-top: 17px;
+    margin-left: 6.5%;
+    margin-top: 22px;
     overflow: hidden;
     float: left;
-    width: 16.5%;
+    width: 16%;
   }
   .telefon{
     margin-top: 2px;
@@ -6977,12 +7005,12 @@ body{
     width: 90%;
     margin: 0 auto;
   }
-  .logo_footer{
+  /*.logo_footer{
     float: left;
     width: 30%;
     margin-top: 8px;
     margin-left: 5px;
-  }
+  }*/
   .logo_text{
     width: 80%;
     float: left;
@@ -7005,8 +7033,8 @@ body{
     margin-top: 0;
   }
   #icon_logo{
-    margin-top: 1px;
-    width: 18%;
+    margin-top: 5px;
+    width: 15.5%;
     float: left;
     color: #4d8f40;
     font-size: 40px;
@@ -7016,12 +7044,18 @@ body{
 
 
 
+
+
+
+
+
+
   .email_footer{
-    margin-left: 3%;
+    margin-left: 10.7%;
     float: left;
     overflow: hidden;
-    width: 19%;
-    margin-top: 20px;
+    width: 18%;
+    margin-top: 25px;
   }
   .email{
     margin-top: 2px;
@@ -7044,11 +7078,11 @@ body{
 
 
   .place_footer{
-    margin-left: 2%;
-    margin-top: 13px;
+    margin-left: 6%;
+    margin-top: 16px;
     overflow: hidden;
     float: left;
-    width: 26%;
+    width: 26.8%;
   }
   .place{
     width: 90%;
@@ -7070,11 +7104,11 @@ body{
 
 
   .telefon_footer{
-    margin-left: 2%;
-    margin-top: 18px;
+    margin-left: 6.5%;
+    margin-top: 22px;
     overflow: hidden;
     float: left;
-    width: 17%;
+    width: 16%;
   }
   .telefon{
     width: 88%;
@@ -7616,12 +7650,12 @@ body{
     width: 92%;
     margin: 0 auto;
   }
-  .logo_footer{
+  /*.logo_footer{
     float: left;
     width: 30%;
     margin-top: 8px;
     margin-left: 5px;
-  }
+  }*/
   .logo_text{
     width: 80%;
     float: left;
@@ -7644,21 +7678,29 @@ body{
     margin-top: 0;
   }
   #icon_logo{
-    width: 18%;
+    margin-top: 5px;
+    width: 15.5%;
     float: left;
     color: #4d8f40;
-    margin-top: 2px;
     font-size: 40px;
   }
 
 
 
+
+
+
+
+
+
+
+
   .email_footer{
-    margin-left: 3%;
+    margin-left: 10.7%;
     float: left;
     overflow: hidden;
-    width: 17%;
-    margin-top: 20px;
+    width: 18%;
+    margin-top: 25px;
   }
   .email{
     margin-top: 2px;
@@ -7680,11 +7722,11 @@ body{
 
 
   .place_footer{
-    margin-left: 4%;
-    margin-top: 12px;
+    margin-left: 6%;
+    margin-top: 16px;
     overflow: hidden;
     float: left;
-    width: 26.6%;
+    width: 26.8%;
   }
   .place{
     width: 90%;
@@ -7705,8 +7747,8 @@ body{
 
 
   .telefon_footer{
-    margin-left: 2%;
-    margin-top: 17px;
+    margin-left: 6.5%;
+    margin-top: 22px;
     overflow: hidden;
     float: left;
     width: 16%;
