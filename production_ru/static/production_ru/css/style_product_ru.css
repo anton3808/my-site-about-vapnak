@@ -58,6 +58,9 @@ body{
     width: 83%;
     margin: 0 auto;
   }
+
+
+
   .logo_footer{
     float: left;
     width: 31%;
@@ -94,8 +97,6 @@ body{
 
 
 
-
-
   .email_footer{
     margin-left: 6.2%;
     float: left;
@@ -117,9 +118,6 @@ body{
     margin-right: 2.5%;
     color: #4d8f40;
   }
-
-
-
 
 
 
@@ -148,8 +146,6 @@ body{
 
 
 
-
-
   .telefon_footer{
     margin-left: 3.5%;
     margin-top: 17px;
@@ -171,29 +167,52 @@ body{
     font-size: 23px;
     color: #4d8f40;
   }
-  
-  
+
+
+
   .footer_mobile{
     height: 178px;
     width: 100%;
     background: #383838;
   }
+
   .logo_footer_mobile{
-    width: 300px;
+    width: 310px;
+    height: 60px;
     overflow: hidden;
   }
   .icon_logo_footer_mobile{
     margin-top: 10px;
     float: left;
     margin-left: 10px;
-    width: 54px;
+    width: 100px;
     height: 40px;
-    background: url(../images/Emblema2.png) no-repeat;
+    background: url(../images/Triumph_bez_fona.png) no-repeat;
     background-size: cover;
   }
+  .small_text{
+    float: right;
+    margin-top: 2px;
+    font-family: 'Proxima Nova Lt';
+    font-size: 18px;
+  }
+  .footer_logo_text_mobile{
+    float: left;
+    width: 164px;
+    margin-top: 25px;
+    margin-left: 10px;
+    margin-right: 26px;
+    color: #fff;
+    font-family: 'Proxima Nova Bold';
+    font-size: 20px;
+  }
+
+
+
+
+
   .logo_text_mobile{
     float: right;
-    /*float: left;*/
     width: 200px;
     margin-top: 12px;
     margin-left: 10px;
@@ -213,8 +232,11 @@ body{
     height: 15px;
     color: #fff;
     font-family: 'Proxima Nova Lt';
-    font-size: 11px;
+    font-size: 12px;
   }
+
+
+
   .email_footer_mobile{
     overflow: hidden;
     width: 215px;
@@ -236,10 +258,6 @@ body{
 
 
 
-
-
-  
-
   .telefon_footer_mobile{
     overflow: hidden;
     width: 215px;
@@ -258,10 +276,6 @@ body{
     font-family: 'Proxima Nova Lt';
     font-size: 13px;
   }
-
-
-
-
 
 
 
@@ -1164,10 +1178,6 @@ body{
 
 
 
-
-
-
-
   /*---------------------Шапка--------------------*/
   .header{
     overflow: hidden;
@@ -1203,7 +1213,6 @@ body{
     margin-left: 2%;
     height: 138px;
     float: left;
-    /*margin-top: 30px;*/
     margin-top: 2px;
   }
   #logo_size{
@@ -1304,17 +1313,6 @@ body{
     width: 85px;
     color: #a1a1a1;
   }
-  /*.language_country_header{
-    font-family: 'Proxima Nova Rg';
-    font-size: 20px;
-    height: 20px;
-    width: 100px;
-    border-bottom: 1.5px solid #4d8f40;
-  }*/
-
-
-
-
   .language_country_header{
     font-family: 'Proxima Nova Rg';
     font-size: 20px;
@@ -1334,7 +1332,7 @@ body{
 
 
 
-  /*Стили для выбора языка для странички*/
+  /*----------------------------Стили для выбора языка для странички---------------------------*/
   .languages_ul{
     display: none;
     position: absolute;
@@ -1435,9 +1433,6 @@ body{
 
 
 
-
-
-
   /*---------------------Поле для поиска--------------------*/
   .wrapper_find_field{
     overflow: hidden;
@@ -1481,7 +1476,6 @@ body{
   }
   .find_wrapper{
     overflow: hidden;
-    /*float: right;*/
     width: 177px;
     height: 47px;
     border-radius: 0 50px 50px 0;
@@ -1527,7 +1521,6 @@ body{
     font-family: 'Proxima Nova Rg';
     font-size: 18px;
   }
-
 
 
 
@@ -1590,25 +1583,24 @@ body{
 
 
 
-
-  /*---------------------Нижний футер--------------------*/
+ /*---------------------Нижний футер--------------------*/
   .footer_bottom{
     overflow: hidden;
-    height: 63px;
+    height: 90px;
     background: #383838;
   }
   .footer-menu_bottom{
     overflow: hidden;
-    height: 63px;
+    height: 90px;
     width: 83%;
     margin: 0 auto;
   }
-  .logo_footer{
+  /*.logo_footer{
     float: left;
     width: 31%;
     margin-top: 6px;
     margin-left: 10px;
-  }
+  }*/
   .logo_text{
     width: 80%;
     float: left;
@@ -1631,23 +1623,27 @@ body{
     margin-top: 4px;
   }
   #icon_logo{
-    width: 69px;
-    height: 50px;
+    width: 13.5%;
     float: left;
     color: #4d8f40;
     font-size: 40px;
   }
+
+  
+
+
+
 
 
 
 
 
   .email_footer{
-    margin-left: 6.5%;
+    margin-left: 11.7%;
     float: left;
     overflow: hidden;
     width: 17%;
-    margin-top: 20px;
+    margin-top: 40px;
   }
   .email{
     margin-top: 3px;
@@ -1668,14 +1664,12 @@ body{
 
 
 
-
-
   .place_footer{
-    margin-left: 5%;
-    margin-top: 11px;
+    margin-left: 7%;
+    margin-top: 31px;
     overflow: hidden;
     float: left;
-    width: 20%;
+    width: 24.8%;
   }
   .place{
     width: 90%;
@@ -1695,10 +1689,9 @@ body{
 
 
 
-
   .telefon_footer{
-    margin-left: 3.5%;
-    margin-top: 17px;
+    margin-left: 6.5%;
+    margin-top: 37px;
     overflow: hidden;
     float: left;
     width: 16%;
@@ -1719,13 +1712,6 @@ body{
     color: #4d8f40;
   }
 }
-
-
-
-
-
-
-
 
 
 
@@ -1770,10 +1756,6 @@ body{
 
 
 
-
-
-
-
   /*---------------------Шапка--------------------*/
   .header{
     overflow: hidden;
@@ -1810,7 +1792,6 @@ body{
     margin-left: 1%;
     height: 138px;
     float: left;
-    /*margin-top: 30px;*/
     margin-top: 2px;
   }
   #logo_size{
@@ -1823,7 +1804,6 @@ body{
     font-family: 'Proxima Nova Lt';
     font-size: 20px;
   }
-
 
 
 
@@ -1872,7 +1852,6 @@ body{
 
 
 
-
   /*---------------------Выбор языка--------------------*/
   .language_header{
     overflow: hidden;
@@ -1883,9 +1862,6 @@ body{
   }
   .icon_language_div{
     float: left;
-    /*height: 69px;
-    width: 67px;
-    background: url(../images/circle_fon.png) no-repeat;*/
     margin-top: 8px;
     margin-left: 8px;
     height: 53px;
@@ -1914,18 +1890,6 @@ body{
     width: 85px;
     color: #a1a1a1;
   }
-  /*.language_country_header{
-    font-family: 'Proxima Nova Rg';
-    font-size: 20px;
-    height: 20px;
-    width: 100px;
-    border-bottom: 1.5px solid #4d8f40;
-  }*/
-
-
-
-
-
   .language_country_header{
     font-family: 'Proxima Nova Rg';
     font-size: 20px;
@@ -1945,7 +1909,7 @@ body{
 
 
 
-  /*Стили для выбора языка для странички*/
+  /*----------------------------------Стили для выбора языка для странички-----------------------------*/
   .languages_ul{
     display: none;
     position: absolute;
@@ -1996,7 +1960,6 @@ body{
 
 
 
-
   /*---------------------Номер телефона начальства--------------------*/
   .icon_telefon_div{
     float: left;
@@ -2043,7 +2006,6 @@ body{
     font-family: 'Proxima Nova Lt';
     font-size: 17px;
   }
-
 
 
 
@@ -2091,7 +2053,6 @@ body{
   }
   .find_wrapper{
     overflow: hidden;
-    /*float: right;*/
     width: 177px;
     height: 47px;
     border-radius: 0 50px 50px 0;
@@ -2137,7 +2098,6 @@ body{
     font-family: 'Proxima Nova Rg';
     font-size: 18px;
   }
-
 
 
 
@@ -2203,21 +2163,21 @@ body{
   /*---------------------Нижний футер--------------------*/
   .footer_bottom{
     overflow: hidden;
-    height: 63px;
+    height: 95px;
     background: #383838;
   }
   .footer-menu_bottom{
     overflow: hidden;
-    height: 63px;
+    height: 95px;
     width: 83%;
     margin: 0 auto;
   }
-  .logo_footer{
+  /*.logo_footer{
     float: left;
     width: 31%;
     margin-top: 6px;
     margin-left: 10px;
-  }
+  }*/
   .logo_text{
     width: 80%;
     float: left;
@@ -2240,23 +2200,27 @@ body{
     margin-top: 4px;
   }
   #icon_logo{
-    /*width: 18%;*/
-    width: 69px;
-    height: 50px;
+    width: 15.5%;
     float: left;
     color: #4d8f40;
     font-size: 40px;
   }
 
+  
+
+
+
+
+
 
 
 
   .email_footer{
-    margin-left: 3.5%;
+    margin-left: 11.7%;
     float: left;
     overflow: hidden;
     width: 17%;
-    margin-top: 20px;
+    margin-top: 40px;
   }
   .email{
     margin-top: 3px;
@@ -2277,14 +2241,12 @@ body{
 
 
 
-
-
   .place_footer{
-    margin-left: 5%;
-    margin-top: 11px;
+    margin-left: 7%;
+    margin-top: 31px;
     overflow: hidden;
     float: left;
-    width: 23%;
+    width: 24.8%;
   }
   .place{
     width: 90%;
@@ -2304,10 +2266,9 @@ body{
 
 
 
-
   .telefon_footer{
-    margin-left: 3.5%;
-    margin-top: 17px;
+    margin-left: 6.5%;
+    margin-top: 37px;
     overflow: hidden;
     float: left;
     width: 16%;
@@ -2328,6 +2289,8 @@ body{
     color: #4d8f40;
   }
 }
+
+
 
 
 @media (min-width: 1500px) and (max-width: 1700px){
@@ -2370,7 +2333,6 @@ body{
 
 
 
-
   /*---------------------Шапка--------------------*/
   .header{
     overflow: hidden;
@@ -2386,18 +2348,6 @@ body{
 
 
   /*---------------------Емблема в шапци--------------------*/
-  .logo_text_header{
-    float: left;
-    width: 23%;
-    margin-top: 37px;
-  }
-  .logo_title_header{
-    height: 16px;
-    color: #000;
-    font-family: 'Proxima Nova Bold';
-    font-size: 20px;
-    margin-top: 11px;
-  }
   .icon_logo{
     background: url(../images/Triumph.jpg) no-repeat;
     background-size: contain;
@@ -2405,18 +2355,7 @@ body{
     margin-left: 1%;
     height: 138px;
     float: left;
-    /*margin-top: 30px;*/
     margin-top: 2px;
-  }
-  #logo_size{
-    height: 70px;
-    width: 100%;
-  }
-  .logo_title_text_header{
-    height: 14px;
-    color: #000;
-    font-family: 'Proxima Nova Lt';
-    font-size: 19px;
   }
 
 
@@ -2478,9 +2417,6 @@ body{
   }
   .icon_language_div{
     float: left;
-    /*height: 69px;
-    width: 67px;
-    background: url(../images/circle_fon.png) no-repeat;*/
     margin-top: 8px;
     margin-left: 8px;
     height: 51px;
@@ -2509,15 +2445,6 @@ body{
     width: 85px;
     color: #a1a1a1;
   }
-/*  .language_country_header{
-    font-family: 'Proxima Nova Rg';
-    font-size: 19px;
-    height: 18px;
-    width: 93px;
-    border-bottom: 1.5px solid #4d8f40;
-  }*/
-
-
   .language_country_header{
     font-family: 'Proxima Nova Rg';
     font-size: 19px;
@@ -2537,7 +2464,7 @@ body{
 
 
 
-  /*Стили для выбора языка для странички*/
+  /*----------------------------------------Стили для выбора языка для странички-------------------------------*/
   .languages_ul{
     display: none;
     position: absolute;
@@ -2606,7 +2533,6 @@ body{
     margin-left: 16px;
     font-size: 28px;
     color: #4d8f40;
-    
   }
   .telefon_header{
     overflow: hidden;
@@ -2635,9 +2561,6 @@ body{
     font-family: 'Proxima Nova Lt';
     font-size: 16px;
   }
-
-
-
 
 
 
@@ -2684,7 +2607,6 @@ body{
   }
   .find_wrapper{
     overflow: hidden;
-    /*float: right;*/
     width: 177px;
     height: 47px;
     border-radius: 0 50px 50px 0;
@@ -2733,7 +2655,6 @@ body{
 
 
 
-
     /*---------------------Футер--------------------*/
   .footer{
     overflow: hidden;
@@ -2745,7 +2666,6 @@ body{
     height: 277px;
     width: 82.7%;
     margin: 0 auto;
-    
   }
   .footer_menu_site{
     float: left;
@@ -2798,21 +2718,21 @@ body{
   /*---------------------Нижний футер--------------------*/
   .footer_bottom{
     overflow: hidden;
-    height: 63px;
+    height: 88px;
     background: #383838;
   }
   .footer-menu_bottom{
     overflow: hidden;
-    height: 63px;
+    height: 88px;
     width: 83%;
     margin: 0 auto;
   }
-  .logo_footer{
+/*  .logo_footer{
     float: left;
     width: 31%;
     margin-top: 6px;
     margin-left: 10px;
-  }
+  }*/
   .logo_text{
     width: 80%;
     float: left;
@@ -2835,8 +2755,7 @@ body{
     margin-top: 4px;
   }
   #icon_logo{
-    width: 69px;
-    height: 50px;
+    width: 15.5%;
     float: left;
     color: #4d8f40;
     font-size: 40px;
@@ -2845,12 +2764,25 @@ body{
 
 
 
+
+
+
+
+  
+
+
+
+
+
+
+
+
   .email_footer{
-    margin-left: 3.5%;
+    margin-left: 11.7%;
     float: left;
     overflow: hidden;
     width: 17%;
-    margin-top: 20px;
+    margin-top: 40px;
   }
   .email{
     margin-top: 3px;
@@ -2872,11 +2804,11 @@ body{
 
 
   .place_footer{
-    margin-left: 5%;
-    margin-top: 11px;
+    margin-left: 7%;
+    margin-top: 31px;
     overflow: hidden;
     float: left;
-    width: 23%;
+    width: 24.8%;
   }
   .place{
     width: 90%;
@@ -2898,8 +2830,8 @@ body{
 
 
   .telefon_footer{
-    margin-left: 3.5%;
-    margin-top: 17px;
+    margin-left: 6.5%;
+    margin-top: 37px;
     overflow: hidden;
     float: left;
     width: 16%;
@@ -2965,7 +2897,6 @@ body{
 
 
 
-
   /*---------------------Шапка--------------------*/
   .header{
     overflow: hidden;
@@ -2980,20 +2911,8 @@ body{
   }
 
 
-
   /*---------------------Емблема в шапци--------------------*/
-  .logo_text_header{
-    float: left;
-    width: 23%;
-    margin-top: 37px;
-  }
-  .logo_title_header{
-    height: 16px;
-    color: #000;
-    font-family: 'Proxima Nova Bold';
-    font-size: 18px;
-    margin-top: 13px;
-  }
+  
   .icon_logo{
     background: url(../images/Triumph.jpg) no-repeat;
     background-size: contain;
@@ -3001,19 +2920,9 @@ body{
     margin-left: 1%;
     height: 138px;
     float: left;
-    /*margin-top: 30px;*/
     margin-top: 2px;
   }
-  #logo_size{
-    height: 70px;
-    width: 100%;
-  }
-  .logo_title_text_header{
-    height: 14px;
-    color: #000;
-    font-family: 'Proxima Nova Lt';
-    font-size: 17px;
-  }
+  
 
 
 
@@ -3061,7 +2970,6 @@ body{
   }
 
 
-
   /*---------------------Выбор языка--------------------*/
   .language_header{
     overflow: hidden;
@@ -3100,14 +3008,6 @@ body{
     width: 85px;
     color: #a1a1a1;
   }
-  /*.language_country_header{
-    font-family: 'Proxima Nova Rg';
-    font-size: 18px;
-    height: 18px;
-    width: 90px;
-    border-bottom: 1.5px solid #4d8f40;
-  }*/
-
   .language_country_header{
     font-family: 'Proxima Nova Rg';
     font-size: 18px;
@@ -3269,7 +3169,6 @@ body{
   }
   .find_wrapper{
     overflow: hidden;
-    /*float: right;*/
     width: 177px;
     height: 47px;
     border-radius: 0 50px 50px 0;
@@ -3382,21 +3281,21 @@ body{
   /*---------------------Нижний футер--------------------*/
   .footer_bottom{
     overflow: hidden;
-    height: 63px;
+    height: 83px;
     background: #383838;
   }
   .footer-menu_bottom{
     overflow: hidden;
-    height: 63px;
+    height: 83px;
     width: 83%;
     margin: 0 auto;
   }
-  .logo_footer{
+  /*.logo_footer{
     float: left;
     width: 31%;
     margin-top: 8px;
     margin-left: 10px;
-  }
+  }*/
   .logo_text{
     width: 80%;
     float: left;
@@ -3419,7 +3318,7 @@ body{
     margin-top: 4px;
   }
   #icon_logo{
-    width: 18%;
+    width: 15.5%;
     float: left;
     color: #4d8f40;
     font-size: 40px;
@@ -3428,12 +3327,16 @@ body{
 
 
 
+
+
+
+
   .email_footer{
-    margin-left: 3.5%;
+    margin-left: 11.7%;
     float: left;
     overflow: hidden;
     width: 17%;
-    margin-top: 20px;
+    margin-top: 35px;
   }
   .email{
     margin-top: 3px;
@@ -3456,11 +3359,11 @@ body{
 
 
   .place_footer{
-    margin-left: 5%;
-    margin-top: 11px;
+    margin-left: 7%;
+    margin-top: 26px;
     overflow: hidden;
     float: left;
-    width: 23%;
+    width: 24.8%;
   }
   .place{
     width: 90%;
@@ -3482,8 +3385,8 @@ body{
 
 
   .telefon_footer{
-    margin-left: 3.5%;
-    margin-top: 17px;
+    margin-left: 6.5%;
+    margin-top: 32px;
     overflow: hidden;
     float: left;
     width: 16%;
@@ -3566,18 +3469,6 @@ body{
 
 
   /*---------------------Емблема в шапци--------------------*/
-  .logo_text_header{
-    float: left;
-    width: 23%;
-    margin-top: 37px;
-  }
-  .logo_title_header{
-    height: 16px;
-    color: #000;
-    font-family: 'Proxima Nova Bold';
-    font-size: 17px;
-    margin-top: 13px;
-  }
   .icon_logo{
     background: url(../images/Triumph.jpg) no-repeat;
     background-size: contain;
@@ -3586,16 +3477,6 @@ body{
     height: 138px;
     float: left;
     margin-top: 4px;
-  }
-  #logo_size{
-    height: 70px;
-    width: 100%;
-  }
-  .logo_title_text_header{
-    height: 14px;
-    color: #000;
-    font-family: 'Proxima Nova Lt';
-    font-size: 16px;
   }
 
 
@@ -3849,8 +3730,6 @@ body{
   }
   .find_wrapper{
     overflow: hidden;
-    /*float: right;*/
-    /*padding-right: 15px;*/
     width: 177px;
     height: 47px;
     border-radius: 0 50px 50px 0;
@@ -3963,21 +3842,21 @@ body{
   /*---------------------Нижний футер--------------------*/
   .footer_bottom{
     overflow: hidden;
-    height: 63px;
+    height: 83px;
     background: #383838;
   }
   .footer-menu_bottom{
     overflow: hidden;
-    height: 63px;
+    height: 83px;
     width: 83%;
     margin: 0 auto;
   }
-  .logo_footer{
+  /*.logo_footer{
     float: left;
     width: 31%;
-    margin-top: 8px;
+    margin-top: 0px;
     margin-left: 10px;
-  }
+  }*/
   .logo_text{
     width: 80%;
     float: left;
@@ -4000,7 +3879,8 @@ body{
     margin-top: 4px;
   }
   #icon_logo{
-    width: 18%;
+    margin-top: 5px;
+    width: 15.5%;
     float: left;
     color: #4d8f40;
     font-size: 40px;
@@ -4008,14 +3888,12 @@ body{
 
 
 
-
-
   .email_footer{
-    margin-left: 3.7%;
+    margin-left: 11.7%;
     float: left;
     overflow: hidden;
     width: 17%;
-    margin-top: 20px;
+    margin-top: 35px;
   }
   .email{
     margin-top: 1px;
@@ -4035,10 +3913,9 @@ body{
 
 
 
-
   .place_footer{
-    margin-left: 3%;
-    margin-top: 11px;
+    margin-left: 7%;
+    margin-top: 26px;
     overflow: hidden;
     float: left;
     width: 24.8%;
@@ -4061,10 +3938,9 @@ body{
 
 
 
-
   .telefon_footer{
-    margin-left: 3.5%;
-    margin-top: 17px;
+    margin-left: 6.5%;
+    margin-top: 32px;
     overflow: hidden;
     float: left;
     width: 16%;
@@ -4156,7 +4032,6 @@ body{
     font-size: 15px;
     text-decoration: none;
   }
-
   .footer_menu_site a:hover, .footer_kategoria a:hover, .footer_our_production a:hover, .footer_servises a:hover{
     color: #4d8f40;
     text-decoration: none;
@@ -4164,24 +4039,24 @@ body{
 
 
 
-   /*---------------------Нижний футер--------------------*/
+  /*---------------------Нижний футер--------------------*/
   .footer_bottom{
     overflow: hidden;
-    height: 63px;
+    height: 83px;
     background: #383838;
   }
   .footer-menu_bottom{
     overflow: hidden;
-    height: 63px;
+    height: 83px;
     width: 83%;
     margin: 0 auto;
   }
-  .logo_footer{
+  /*.logo_footer{
     float: left;
     width: 31%;
     margin-top: 11px;
     margin-left: 5px;
-  }
+  }*/
   .logo_text{
     width: 80%;
     float: left;
@@ -4199,12 +4074,13 @@ body{
     width: 100%;
     color: #fff;
     font-family: 'Proxima Nova Lt';
-    font-size: 12px;
+    font-size: 14px;
     height: 13px;
     margin-top: 2px;
   }
   #icon_logo{
-    width: 18%;
+    margin-top: 5px;
+    width: 15.5%;
     float: left;
     color: #4d8f40;
     font-size: 40px;
@@ -4212,13 +4088,12 @@ body{
 
 
 
-
   .email_footer{
-    margin-left: 3.5%;
+    margin-left: 11.7%;
     float: left;
     overflow: hidden;
-    width: 18%;
-    margin-top: 20px;
+    width: 17%;
+    margin-top: 35px;
   }
   .email{
     margin-top: 2px;
@@ -4239,13 +4114,12 @@ body{
 
 
 
-
   .place_footer{
-    margin-left: 3%;
-    margin-top: 13px;
+    margin-left: 7%;
+    margin-top: 26px;
     overflow: hidden;
     float: left;
-    width: 25%;
+    width: 24.8%;
   }
   .place{
     width: 90%;
@@ -4265,10 +4139,9 @@ body{
 
 
 
-
   .telefon_footer{
-    margin-left: 2%;
-    margin-top: 17px;
+    margin-left: 6.5%;
+    margin-top: 32px;
     overflow: hidden;
     float: left;
     width: 16%;
@@ -4291,12 +4164,9 @@ body{
 
 
 
-
-
   .wrapper_images_logo{
     overflow: hidden;
     max-height: 520px;
-    /*background: url(../images/stone_image_900.png) no-repeat;*/
     background: url(../images/stone_image_1000.png) no-repeat;
     background-size: cover;
   }
@@ -4312,93 +4182,6 @@ body{
     width: 90%;
     margin: 0 auto;
   }
-
-
-
-
-
-      /*---------------------Поле для поиска--------------------*/
-/*  .wrapper_find_field{
-    overflow: hidden;
-    height: 80px;
-    background: #212121;
-  }
-  .find_field{
-    overflow: hidden;
-    padding-top: 16px;
-     width: 900px;
-    height: 80px;
-    margin: 0 auto;
-  }
-  .text-field{
-    width: 600px;
-    height: 47px;
-    float: right;
-    background-color: #fff;
-    border: none;
-  }
-  .text-field input{
-    float: right;
-    width: 575px;
-    padding: 12px 0px;
-    margin-left: 30px;
-    background: none;
-    border: none;
-    font-size: 14px;
-    color: black;
-    outline: 0;
-    z-index: 2;
-  }
-  .find_wrapper{
-    overflow: hidden;
-    float: right;
-    width: 150px;
-    height: 47px;
-    border-radius: 0 50px 50px 0;
-    background-color: #fff;
-  }
-  .find{
-    overflow: hidden;
-    float: right;
-    width: 150px;
-    height: 47px;
-    border-radius: 30px;
-    background-color: #009037;
-    cursor: pointer;
-  }
-  .find_icon{
-    float: left;
-    width: 30px;
-    margin-top: 13px;
-    margin-left: 25px;
-    color: #fff;
-    font-size: 20px;
-  }
-  .find_text{
-    float: right;
-    color: #fff;
-    margin-top: 13px;
-    margin-right: 35px;
-    font-family: 'Proxima Nova Rg';
-    font-size: 20px;
-    cursor: pointer;
-  }
-  .katalogue{
-    float: left;
-    width: 150px;
-    height: 47px;
-    background-color: #009037;
-    border-radius: 50px 0 0 50px;
-  }
-  .katalogue_text{
-    margin-top: 14px;
-    margin-left: 25px;
-    color: #fff;
-    font-family: 'Proxima Nova Rg';
-    font-size: 18px;
-  }*/
-
-
 
 
 
@@ -4448,7 +4231,6 @@ body{
 
   .find_wrapper{
     overflow: hidden;
-    /*float: right;*/
     width: 150px;
     height: 47px;
     border-radius: 0 50px 50px 0;
@@ -4504,7 +4286,7 @@ body{
 
 
 
-      /*---------------------Верхня шапка--------------------*/
+  /*---------------------Верхня шапка--------------------*/
   .header-top{
     overflow: hidden;
     background: #212121;
@@ -4560,18 +4342,6 @@ body{
 
 
   /*---------------------Емблема в шапци--------------------*/
-  .logo_text_header{
-    float: left;
-    width: 23%;
-    margin-top: 30px;
-  }
-  .logo_title_header{
-    height: 16px;
-    color: #000;
-    font-family: 'Proxima Nova Bold';
-    font-size: 15px;
-    margin-top: 13px;
-  }
   .icon_logo{
     background: url(../images/Triumph.jpg) no-repeat;
     background-size: contain;
@@ -4579,19 +4349,9 @@ body{
     margin-right: 1%;
     height: 118px;
     float: left;
-    /*margin-top: 30px;*/
     margin-top: 1px;
   }
-  #logo_size{
-    height: 70px;
-    width: 100%;
-  }
-  .logo_title_text_header{
-    height: 14px;
-    color: #000;
-    font-family: 'Proxima Nova Lt';
-    font-size: 14px;
-  }
+  
 
 
 
@@ -4680,16 +4440,6 @@ body{
     width: 77px;
     color: #a1a1a1;
   }
-  /*.language_country_header{
-    font-family: 'Proxima Nova Rg';
-    font-size: 15px;
-    height: 15px;
-    width: 77px;
-    border-bottom: 1.5px solid #4d8f40;
-  }*/
-
-
-
   .language_country_header{
     font-family: 'Proxima Nova Rg';
     font-size: 15px;
@@ -4709,7 +4459,7 @@ body{
 
 
 
-  /*Стили для выбора языка для странички*/
+  /*--------------------------Стили для выбора языка для странички------------------------*/
   .languages_ul{
     display: none;
     position: absolute;
@@ -4742,7 +4492,6 @@ body{
     width: 80px;
     height: 20px;
     padding-top: 4px;
-
     background-color: #fff;
     border-left: 1px solid #009037;
     border-right: 1px solid #009037;
@@ -4910,12 +4659,12 @@ body{
     width: 83%;
     margin: 0 auto;
   }
-  .logo_footer{
+  /*.logo_footer{
     float: left;
     width: 31%;
     margin-top: 8px;
     margin-left: 5px;
-  }
+  }*/
   .logo_text{
     margin-top: 4px;
     width: 80%;
@@ -4934,13 +4683,13 @@ body{
     width: 100%;
     color: #fff;
     font-family: 'Proxima Nova Lt';
-    font-size: 11px;
+    font-size: 13px;
     height: 13px;
     margin-top: 0;
   }
   #icon_logo{
-    margin-top: 3px;
-    width: 18%;
+    margin-top: 5px;
+    width: 15.5%;
     float: left;
     color: #4d8f40;
     font-size: 40px;
@@ -4949,12 +4698,16 @@ body{
 
 
 
+
+
+
+
   .email_footer{
-    margin-left: 3.5%;
+    margin-left: 11.7%;
     float: left;
     overflow: hidden;
-    width: 18%;
-    margin-top: 21px;
+    width: 17%;
+    margin-top: 25px;
   }
   .email{
     margin-top: 2px;
@@ -4977,11 +4730,11 @@ body{
 
 
   .place_footer{
-    margin-left: 2%;
-    margin-top: 13px;
+    margin-left: 7%;
+    margin-top: 16px;
     overflow: hidden;
     float: left;
-    width: 25.5%;
+    width: 24.8%;
   }
   .place{
     width: 90%;
@@ -5003,11 +4756,11 @@ body{
 
 
   .telefon_footer{
-    margin-left: 2%;
-    margin-top: 17px;
+    margin-left: 6.5%;
+    margin-top: 22px;
     overflow: hidden;
     float: left;
-    width: 16.5%;
+    width: 16%;
   }
   .telefon{
     margin-top: 2px;
@@ -5027,11 +4780,9 @@ body{
 
 
 
-
   .wrapper_images_logo{
     overflow: hidden;
     max-height: 520px;
-    /*background: url(../images/stone_image_900.png) no-repeat;*/
     background: url(../images/stone_image_1000.png) no-repeat;
     background-size: cover;
   }
@@ -5052,7 +4803,7 @@ body{
 
 
 
-      /*---------------------Поле для поиска--------------------*/
+   /*---------------------Поле для поиска--------------------*/
   .wrapper_find_field{
     overflow: hidden;
     height: 80px;
@@ -5095,7 +4846,6 @@ body{
   }
   .find_wrapper{
     overflow: hidden;
-    /*float: right;*/
     width: 150px;
     height: 47px;
     border-radius: 0 50px 50px 0;
@@ -5141,11 +4891,6 @@ body{
     font-family: 'Proxima Nova Rg';
     font-size: 18px;
   }
-
-
-
-  
-
 
 
 
@@ -5204,18 +4949,6 @@ body{
 
 
   /*---------------------Емблема в шапци--------------------*/
-  .logo_text_header{
-    float: left;
-    width: 23.4%;
-    margin-top: 25px;
-  }
-  .logo_title_header{
-    height: 16px;
-    color: #000;
-    font-family: 'Proxima Nova Bold';
-    font-size: 15px;
-    margin-top: 9px;
-  }
   .icon_logo{
     background: url(../images/Triumph.jpg) no-repeat;
     background-size: contain;
@@ -5223,18 +4956,7 @@ body{
     margin-right: 1%;
     height: 100px;
     float: left;
-    /*margin-top: 30px;*/
     margin-top: 1px;
-  }
-  #logo_size{
-    height: 70px;
-    width: 100%;
-  }
-  .logo_title_text_header{
-    height: 14px;
-    color: #000;
-    font-family: 'Proxima Nova Lt';
-    font-size: 13px;
   }
 
 
@@ -5554,12 +5276,12 @@ body{
     width: 90%;
     margin: 0 auto;
   }
-  .logo_footer{
+  /*.logo_footer{
     float: left;
     width: 30%;
     margin-top: 8px;
     margin-left: 5px;
-  }
+  }*/
   .logo_text{
     width: 80%;
     float: left;
@@ -5577,13 +5299,13 @@ body{
     width: 100%;
     color: #fff;
     font-family: 'Proxima Nova Lt';
-    font-size: 11px;
+    font-size: 13px;
     height: 13px;
     margin-top: 0;
   }
   #icon_logo{
-    margin-top: 1px;
-    width: 18%;
+    margin-top: 5px;
+    width: 15.5%;
     float: left;
     color: #4d8f40;
     font-size: 40px;
@@ -5593,12 +5315,18 @@ body{
 
 
 
+
+
+
+
+
+
   .email_footer{
-    margin-left: 3%;
+    margin-left: 10.7%;
     float: left;
     overflow: hidden;
-    width: 19%;
-    margin-top: 20px;
+    width: 18%;
+    margin-top: 25px;
   }
   .email{
     margin-top: 2px;
@@ -5621,11 +5349,11 @@ body{
 
 
   .place_footer{
-    margin-left: 2%;
-    margin-top: 13px;
+    margin-left: 6%;
+    margin-top: 16px;
     overflow: hidden;
     float: left;
-    width: 26%;
+    width: 26.8%;
   }
   .place{
     width: 90%;
@@ -5647,11 +5375,11 @@ body{
 
 
   .telefon_footer{
-    margin-left: 2%;
-    margin-top: 18px;
+    margin-left: 6.5%;
+    margin-top: 22px;
     overflow: hidden;
     float: left;
-    width: 17%;
+    width: 16%;
   }
   .telefon{
     width: 88%;
@@ -5680,7 +5408,6 @@ body{
   .wrapper_images_logo{
     overflow: hidden;
     max-height: 520px;
-    /*background: url(../images/stone_image_900.png) no-repeat;*/
     background: url(../images/stone_image_1000.png) no-repeat;
     background-size: cover;
   }
@@ -5742,7 +5469,6 @@ body{
   }
   .find_wrapper{
     overflow: hidden;
-    /*float: right;*/
     width: 150px;
     height: 47px;
     border-radius: 0 50px 50px 0;
@@ -5848,18 +5574,6 @@ body{
 
 
   /*---------------------Емблема в шапци--------------------*/
-  .logo_text_header{
-    float: left;
-    width: 23.4%;
-    margin-top: 25px;
-  }
-  .logo_title_header{
-    height: 16px;
-    color: #000;
-    font-family: 'Proxima Nova Bold';
-    font-size: 15px;
-    margin-top: 9px;
-  }
   .icon_logo{
     background: url(../images/Triumph.jpg) no-repeat;
     background-size: contain;
@@ -5867,18 +5581,7 @@ body{
     margin-right: 1%;
     height: 100px;
     float: left;
-    /*margin-top: 30px;*/
     margin-top: 1px;
-  }
-  #logo_size{
-    height: 70px;
-    width: 100%;
-  }
-  .logo_title_text_header{
-    height: 14px;
-    color: #000;
-    font-family: 'Proxima Nova Lt';
-    font-size: 13px;
   }
 
 
@@ -5968,14 +5671,6 @@ body{
     width: 70px;
     color: #a1a1a1;
   }
-  /*.language_country_header{
-    font-family: 'Proxima Nova Rg';
-    font-size: 14px;
-    height: 14px;
-    width: 72px;
-    border-bottom: 1.5px solid #4d8f40;
-  }*/
-
   .language_country_header{
     font-family: 'Proxima Nova Rg';
     font-size: 14px;
@@ -5995,7 +5690,7 @@ body{
 
 
 
-  /*Стили для выбора языка для странички*/
+  /*-------------------------------Стили для выбора языка для странички------------------------*/
   .languages_ul{
     display: none;
     position: absolute;
@@ -6012,7 +5707,6 @@ body{
     height: 15px;
     text-decoration: none;
     color: #fff;
-
   }
   #ukrainian_langua{
     width: 80px;
@@ -6031,7 +5725,6 @@ body{
     height: 15px;
     padding-top: 2px;
     padding-bottom: 2px;
-
     background-color: #fff;
     border-left: 1px solid #009037;
     border-right: 1px solid #009037;
@@ -6200,12 +5893,12 @@ body{
     width: 92%;
     margin: 0 auto;
   }
-  .logo_footer{
+  /*.logo_footer{
     float: left;
     width: 30%;
     margin-top: 8px;
     margin-left: 5px;
-  }
+  }*/
   .logo_text{
     width: 80%;
     float: left;
@@ -6223,26 +5916,34 @@ body{
     width: 100%;
     color: #fff;
     font-family: 'Proxima Nova Lt';
-    font-size: 10px;
+    font-size: 12px;
     height: 13px;
     margin-top: 0;
   }
   #icon_logo{
-    width: 18%;
+    margin-top: 5px;
+    width: 15.5%;
     float: left;
     color: #4d8f40;
-    margin-top: 2px;
     font-size: 40px;
   }
 
 
 
+
+
+
+
+
+
+
+
   .email_footer{
-    margin-left: 3%;
+    margin-left: 10.7%;
     float: left;
     overflow: hidden;
-    width: 17%;
-    margin-top: 20px;
+    width: 18%;
+    margin-top: 25px;
   }
   .email{
     margin-top: 2px;
@@ -6264,11 +5965,11 @@ body{
 
 
   .place_footer{
-    margin-left: 4%;
-    margin-top: 12px;
+    margin-left: 6%;
+    margin-top: 16px;
     overflow: hidden;
     float: left;
-    width: 26.6%;
+    width: 26.8%;
   }
   .place{
     width: 90%;
@@ -6289,8 +5990,8 @@ body{
 
 
   .telefon_footer{
-    margin-left: 2%;
-    margin-top: 17px;
+    margin-left: 6.5%;
+    margin-top: 22px;
     overflow: hidden;
     float: left;
     width: 16%;
@@ -6313,16 +6014,9 @@ body{
 
 
 
-
-  
-
-
-
-
   .wrapper_images_logo{
     overflow: hidden;
     max-height: 520px;
-    /*background: url(../images/stone_image_900.png) no-repeat;*/
     background: url(../images/stone_image_1000.png) no-repeat;
     background-size: cover;
   }
@@ -6338,7 +6032,6 @@ body{
     width: 90%;
     margin: 0 auto;
   }
-
 
 
 
@@ -6386,7 +6079,6 @@ body{
   }
   .find_wrapper{
     overflow: hidden;
-    /*float: right;*/
     width: 150px;
     height: 47px;
     border-radius: 0 50px 50px 0;
@@ -6489,18 +6181,6 @@ body{
 
 
   /*---------------------Емблема в шапци--------------------*/
-  .logo_text_header{
-    float: left;
-    width: 23.7%;
-    margin-top: 25px;
-  }
-  .logo_title_header{
-    height: 12px;
-    color: #000;
-    font-family: 'Proxima Nova Bold';
-    font-size: 13px;
-    margin-top: 9px;
-  }
   .icon_logo{
     background: url(../images/Triumph.jpg) no-repeat;
     background-size: contain;
@@ -6508,19 +6188,9 @@ body{
     margin-left: 1%;
     height: 90px;
     float: left;
-    /*margin-top: 30px;*/
     margin-top: 1px;
   }
-  #logo_size{
-    height: 70px;
-    width: 100%;
-  }
-  .logo_title_text_header{
-    height: 14px;
-    color: #000;
-    font-family: 'Proxima Nova Lt';
-    font-size: 12px;
-  }
+  
 
 
 
@@ -6607,15 +6277,6 @@ body{
     width: 70px;
     color: #a1a1a1;
   }
-  /*.language_country_header{
-    font-family: 'Proxima Nova Rg';
-    font-size: 14px;
-    height: 13px;
-    width: 72px;
-    border-bottom: 1.5px solid #4d8f40;
-  }*/
-
-
   .language_country_header{
     font-family: 'Proxima Nova Rg';
     font-size: 14px;
