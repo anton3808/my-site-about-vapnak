@@ -22,6 +22,12 @@
 		<link type="favicon" rel="icon" href="{% static 'services/images/Emblema2.png' %}">
 
 
+		<!-- Подключаем модальное окно-->
+		<link rel="stylesheet" href="{% static 'production/remodal/remodal.css' %}">
+	  <link rel="stylesheet" href="{% static 'production/remodal/remodal-default-theme.css' %}">
+		<script src="{% static 'production/remodal/remodal.min.js' %}"></script>
+
+
 		<!-- Подключаем java script файл для нашей странички-->
 		<script src="{% static 'services/js/jquery.maskedinput.js' %}" type="text/javascript"></script>
 		<script src="{% static 'services/js/modernizr.js' %}"></script>
@@ -98,6 +104,13 @@
 
 		
 		<main class="cd-main-content">
+		<!-- <div id="form_send_window"> -->
+			<div id="form_send_window_content">
+				<span class="close">&times;</span>
+				<div class="form_was_send">Форма успішно відправленна!</div>
+				<div class="call_in_one_day">На протязі 24 години вам зателефонують.</div>
+			</div>
+		<!-- </div> -->
 			<!--     Создаем шапку-меню     -->
 			<div class="header-top">
 				<div class="menu-header-top">
@@ -189,11 +202,23 @@
 
 		<div class="wrapper_logo_text_services">
 			<div class="logo_text_services">
-				<div class="text_services">
-					Наші послуги
-				</div>
+				<span data-remodal-target="form_send_window">
+					<div class="text_services">
+						Наші послуги
+					</div>
+				</span>
 			</div>
 		</div>
+
+
+		
+		<!-- <div class="remodal-wrapper"> -->
+			<!-- <div class="remodal" data-remodal-id="form_send_window" data-remodal-options="hashTracking: false, closeOnOutsideClick: false, closeOnEscape: false, modifier: .remodal, .remodal-overlay, .remodal-bg, .remodal-wrapper">
+		    <button data-remodal-action="close" class="remodal-close"></button>
+				<div class="form_was_send">Форма успішно відправленна!</div>
+				<div class="call_in_one_day">На протязі 24 години вам зателефонують.</div>
+		  </div> -->
+	  <!-- </div> -->
 
 
 
@@ -420,21 +445,20 @@
 
 			<!--    Нижний футер     -->
 			<div class="footer_bottom">
-				<div class="footer-menu_bottom">
-					<div class="logo_footer">
-						<img src="/static/services/images/Emblema2.png"
-								 alt="image_logo" id="icon_logo" class="image_logo"/>
-						
-						<div class="logo_text">
-							<div class="logo_title">
-								TRIUMPH
-							</div>
-							<div class="logo_title_text">
-								Продукція вапнякових кар'єрів
-							</div>
+			<div class="footer-menu_bottom">
+				<div class="logo_footer">
+					<img src="/static/about/images/Triumph_bez_fona.png"
+							 alt="image_logo" id="icon_logo" class="image_logo"/>
+					
+					<!-- <div class="logo_text">
+						<div class="logo_title">
+							TRIUMPH
 						</div>
-					</div>
-
+						<div class="logo_title_text">
+							Продукція вапнякових кар'єрів
+						</div>
+					</div> -->
+				</div>
 
 					<div class="email_footer">
 						<i class="fa fa-envelope-open" id="icon_email" aria-hidden="true"></i>
@@ -472,20 +496,15 @@
 
 
 			<div class="footer_mobile">
-				<div class="logo_footer_mobile">
-					<div class="icon_logo_footer_mobile">
-						
-					</div>
-						
-					<div class="logo_text_mobile">
-						<div class="logo_title_mobile">
-							TRIUMPH
-						</div>
-						<div class="logo_title_text_mobile">
-							Продукція вапнякових кар'єрів
-						</div>
-					</div>
+			<div class="logo_footer_mobile">
+				<div class="icon_logo_footer_mobile">
+					
 				</div>
+
+				<div class="footer_logo_text_mobile">
+					Triumph <div class="small_text">C&amp;IC LTD</div>
+				</div>
+			</div>
 
 
 				<div class="email_footer_mobile">
