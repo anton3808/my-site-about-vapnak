@@ -945,7 +945,7 @@ body{
     width: 262px;
     /*margin-bottom: 30px;*/
     margin: auto;
-    margin-top: -30px;
+    margin-top: -15px;
     margin-bottom: 30px;
   }
   .new_2{
@@ -954,7 +954,7 @@ body{
     height: 344px;
     width: 262px;
     margin: auto;
-     margin-top: -30px;
+     margin-top: -15px;
     margin-bottom: 30px;
   }
   .new_3{
@@ -963,7 +963,7 @@ body{
     height: 344px;
     width: 262px;
     margin: auto;
-     margin-top: -30px;
+     margin-top: -15px;
     margin-bottom: 30px;
   }
   .new_4{
@@ -972,7 +972,7 @@ body{
     height: 344px;
     width: 262px;
     margin: auto;
-     margin-top: -30px;
+    margin-top: -15px;
     margin-bottom: 30px;
   }
 }
@@ -1041,28 +1041,36 @@ body{
     grid-area: new_first;
     height: 344px;
     width: 300px;
-    margin: 0 auto;
+    margin: auto;
+    margin-top: -15px;
+    margin-bottom: 30px;
   }
   .new_2{
     background: #ffffff;
     grid-area: new_second;
     height: 344px;
     width: 300px;
-    margin: 0 auto;
+    margin: auto;
+    margin-top: -15px;
+    margin-bottom: 30px;
   }
   .new_3{
     background: #ffffff;
     grid-area: new_third;
     height: 344px;
     width: 300px;
-    margin: 0 auto;
+    margin: auto;
+    margin-top: -15px;
+    margin-bottom: 30px;
   }
   .new_4{
     background: #ffffff;
     grid-area: new_forth;
     height: 344px;
     width: 300px;
-    margin: 0 auto;
+    margin: auto;
+    margin-top: -15px;
+    margin-bottom: 30px;
   }
 }
 
