@@ -916,6 +916,7 @@ body{
     margin-left: 30px;
     margin-top: 20px;
     font-size: 28px;
+    height: 30px;
   }
   .image_new{
     width: 100%;
@@ -942,28 +943,37 @@ body{
     grid-area: new_first;
     height: 344px;
     width: 262px;
-    margin: 0 auto;
+    /*margin-bottom: 30px;*/
+    margin: auto;
+    margin-top: -30px;
+    margin-bottom: 30px;
   }
   .new_2{
     background: #ffffff;
     grid-area: new_second;
     height: 344px;
     width: 262px;
-    margin: 0 auto;
+    margin: auto;
+     margin-top: -30px;
+    margin-bottom: 30px;
   }
   .new_3{
     background: #ffffff;
     grid-area: new_third;
     height: 344px;
     width: 262px;
-    margin: 0 auto;
+    margin: auto;
+     margin-top: -30px;
+    margin-bottom: 30px;
   }
   .new_4{
     background: #ffffff;
     grid-area: new_forth;
     height: 344px;
     width: 262px;
-    margin: 0 auto;
+    margin: auto;
+     margin-top: -30px;
+    margin-bottom: 30px;
   }
 }
 
