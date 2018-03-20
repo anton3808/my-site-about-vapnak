@@ -901,7 +901,7 @@ body{
     width: 82.6%;
     max-width: 400px;
     margin: 0 auto;
-    display: grid;
+    /*display: grid;*/
     grid-template-areas: "title_news"
                          "new_first"
                          "new_second"
