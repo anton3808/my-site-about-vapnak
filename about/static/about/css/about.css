@@ -944,7 +944,8 @@ body{
     height: 344px;
     width: 262px;
     /*margin-bottom: 30px;*/
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: -15px;
     margin-bottom: 30px;
   }
@@ -953,7 +954,8 @@ body{
     grid-area: new_second;
     height: 344px;
     width: 262px;
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
      margin-top: -15px;
     margin-bottom: 30px;
   }
@@ -962,7 +964,8 @@ body{
     grid-area: new_third;
     height: 344px;
     width: 262px;
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
      margin-top: -15px;
     margin-bottom: 30px;
   }
@@ -971,7 +974,8 @@ body{
     grid-area: new_forth;
     height: 344px;
     width: 262px;
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: -15px;
     margin-bottom: 30px;
   }
@@ -1041,7 +1045,8 @@ body{
     grid-area: new_first;
     height: 344px;
     width: 300px;
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: -15px;
     margin-bottom: 30px;
   }
@@ -1050,7 +1055,8 @@ body{
     grid-area: new_second;
     height: 344px;
     width: 300px;
-    margin: auto;
+   margin-left: auto;
+    margin-right: auto;
     margin-top: -15px;
     margin-bottom: 30px;
   }
@@ -1059,7 +1065,8 @@ body{
     grid-area: new_third;
     height: 344px;
     width: 300px;
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: -15px;
     margin-bottom: 30px;
   }
@@ -1068,7 +1075,8 @@ body{
     grid-area: new_forth;
     height: 344px;
     width: 300px;
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: -15px;
     margin-bottom: 30px;
   }
