@@ -1,6 +1,15 @@
 /* -------------------------------- 
 Primary style
 -------------------------------- */
+.new_4{
+  margin-bottom: 30px;
+}
+
+.wrapper_about_company{
+  padding-top: 30px;
+}
+
+
 .advert-block{
   margin-top: 20px;
   margin-bottom: 20px;
