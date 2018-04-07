@@ -1,7 +1,10 @@
 /* -------------------------------- 
 Primary style
 -------------------------------- */
-
+.advert-block{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
 
 .fa {
   display: inline-block;
@@ -6188,12 +6191,12 @@ body{
 @media (min-width: 900px) and (max-width: 1000px){
   .wrapper_about_company{
     overflow: hidden;
-    height: 650px;
+    height: 680px;
     background: #ffffff;
   }
   .company{
     overflow: hidden;
-    height: 620px;
+    height: 680px;
     width: 90%;
     margin: 0 auto;
   }
