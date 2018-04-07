@@ -992,7 +992,7 @@ body{
     width: 82.6%;
     max-width: 400px;
     margin: 0 auto;
-    display: grid;
+    /*display: grid;*/
     grid-template-areas: "title_news"
                          "new_first"
                          "new_second"
@@ -1036,6 +1036,8 @@ body{
     height: 344px;
     width: 300px;
     margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 70px;
   }
   .new_2{
     background: #ffffff;
@@ -1043,6 +1045,7 @@ body{
     height: 344px;
     width: 300px;
     margin: 0 auto;
+    margin-bottom: 70px;
   }
   .new_3{
     background: #ffffff;
@@ -1050,6 +1053,7 @@ body{
     height: 344px;
     width: 300px;
     margin: 0 auto;
+    margin-bottom: 70px;
   }
   .new_4{
     background: #ffffff;
@@ -6184,7 +6188,7 @@ body{
 @media (min-width: 900px) and (max-width: 1000px){
   .wrapper_about_company{
     overflow: hidden;
-    height: 620px;
+    height: 650px;
     background: #ffffff;
   }
   .company{
