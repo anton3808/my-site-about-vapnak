@@ -6,11 +6,13 @@ Primary style
 }
 
 .wrapper_about_company{
+  margin-top: 30px;
   padding-top: 30px;
 }
 
 
 .advert-block{
+  width: 80%;
   margin-top: 20px;
   margin-bottom: 20px;
 }
