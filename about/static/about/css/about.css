@@ -70,6 +70,9 @@ body{
 
 
 @media (max-width: 799px){
+  .about_company_advert{
+    display: none;
+  }
   /*---------Зникнення блоків для компютерів------*/
   .header-top{
     display: none;
@@ -1431,7 +1434,7 @@ body{
   .company{
     overflow: hidden;
     height: 680px;
-    width: 82.6%;
+    width: 89%;
     margin: 0 auto;
   }
   .about_company_text{
@@ -1673,12 +1676,12 @@ body{
   }
   .wrapper_news{
     overflow: hidden;
-    height: 545px;
+    height: 705px;
     background: #e9e9e9;
   }
   .news{
     overflow: hidden;
-    height: 552px;
+    height: 705px;
     width: 83%;
     margin: 0 auto;
   }
