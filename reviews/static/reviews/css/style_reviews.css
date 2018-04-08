@@ -4,10 +4,10 @@ Primary style
 -------------------------------- */
 
 
-.reviews_advert_block{
+/*.reviews_advert_block{
   width: 85%;
   margin: auto;
-}
+}*/
 
 @media (max-width: 310px){
   .menu_mobile{
