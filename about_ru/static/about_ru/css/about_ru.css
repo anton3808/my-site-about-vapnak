@@ -3,6 +3,24 @@
 Primary style
 -------------------------------- */
 
+
+.new_4{
+  margin-bottom: 30px;
+}
+
+.wrapper_about_company{
+  margin-top: 30px;
+  padding-top: 30px;
+}
+
+
+.advert-block{
+  width: 95%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin: 0 auto;
+}
+
 body{
   min-width: 280px;
   max-width: 1935px;
@@ -850,12 +868,12 @@ body{
   /*--------------Блок про новини (0px-400px)---------------*/
   .wrapper_news{
     overflow: hidden;
-    height: 1700px;
+    height: 1850px;
     background: #e9e9e9;
   }
   .news{
     overflow: hidden;
-    height: 1700px;
+    height: 1850px;
     width: 82.6%;
     max-width: 400px;
     margin: 0 auto;
@@ -1055,12 +1073,12 @@ body{
   }
   .wrapper_news{
     overflow: hidden;
-    height: 1700px;
+    height: 1850px;
     background: #e9e9e9;
   }
   .news{
     overflow: hidden;
-    height: 1700px;
+    height: 1850px;
     width: 82.6%;
     max-width: 400px;
     margin: 0 auto;
@@ -1222,12 +1240,12 @@ body{
   /*--------------Блок про новини (600px-700px)---------------*/
   .wrapper_news{
     overflow: hidden;
-    min-height: 720px;
+    min-height: 850px;
     background: #e9e9e9;
   }
   .news{
     overflow: hidden;
-    min-height: 720px;
+    min-height: 850px;
     width: 560px;
     max-width: 900px;
     margin-top: 50px;
@@ -1385,12 +1403,12 @@ body{
   /*--------------Блок про новини (700px-799px)---------------*/
   .wrapper_news{
     overflow: hidden;
-    min-height: 720px;
+    min-height: 850px;
     background: #e9e9e9;
   }
   .news{
     overflow: hidden;
-    min-height: 720px;
+    min-height: 850px;
     width: 560px;
     max-width: 900px;
     margin-top: 50px;
@@ -1566,12 +1584,12 @@ body{
   }
   .wrapper_news{
     overflow: hidden;
-    height: 505px;
+    height: 655px;
     background: #e9e9e9;
   }
   .news{
     overflow: hidden;
-    height: 505px;
+    height: 655px;
     width: 90%;
     margin: 0 auto;
   }
@@ -1637,12 +1655,12 @@ body{
   }
   .wrapper_news{
     overflow: hidden;
-    height: 505px;
+    height: 655px;
     background: #e9e9e9;
   }
   .news{
     overflow: hidden;
-    height: 505px;
+    height: 655px;
     width: 83%;
     margin: 0 auto;
   }
@@ -1708,12 +1726,12 @@ body{
   }
   .wrapper_news{
     overflow: hidden;
-    height: 545px;
+    height: 705px;
     background: #e9e9e9;
   }
   .news{
     overflow: hidden;
-    height: 552px;
+    height: 702px;
     width: 83%;
     margin: 0 auto;
   }
@@ -1779,12 +1797,12 @@ body{
   }
   .wrapper_news{
     overflow: hidden;
-    height: 552px;
+    height: 702px;
     background: #e9e9e9;
   }
   .news{
     overflow: hidden;
-    height: 552px;
+    height: 702px;
     width: 83%;
     margin: 0 auto;
   }
