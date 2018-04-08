@@ -55,6 +55,7 @@ body{
   width: 100%;
   transform: translateY(-100%);
   transition: 0.2s;
+  z-index: 1000;
 }
 .headhesive--stick{
   transform: translateY(0);
@@ -1423,12 +1424,12 @@ body{
   /*---------------------Про компанию (800px-1935px)--------------------*/
   .wrapper_about_company{
     overflow: hidden;
-    height: 600px;
+    height: 680px;
     background: #ffffff;
   }
   .company{
     overflow: hidden;
-    height: 600px;
+    height: 680px;
     width: 82.6%;
     margin: 0 auto;
   }
@@ -1741,12 +1742,12 @@ body{
   }
   .wrapper_news{
     overflow: hidden;
-    height: 552px;
+    height: 732px;
     background: #e9e9e9;
   }
   .news{
     overflow: hidden;
-    height: 552px;
+    height: 732px;
     width: 83%;
     margin: 0 auto;
   }
