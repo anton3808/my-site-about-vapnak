@@ -911,7 +911,7 @@ body{
   /*--------------Блок про новини (0px-400px)---------------*/
   .wrapper_news{
     overflow: hidden;
-    height: 1700px;
+    height: 1850px;
     background: #e9e9e9;
   }
   .news{
@@ -987,6 +987,7 @@ body{
     height: 344px;
     width: 262px;
     margin: 0 auto;
+    margin-bottom: 40px;
   }
 }
 
@@ -1002,7 +1003,7 @@ body{
   }
   .wrapper_news{
     overflow: hidden;
-    height: 1700px;
+    height: 1850px;
     background: #e9e9e9;
   }
   .news{
@@ -1080,6 +1081,7 @@ body{
     height: 344px;
     width: 300px;
     margin: 0 auto;
+    margin-bottom: 40px;
   }
 }
 
@@ -1179,13 +1181,13 @@ body{
   /*--------------Блок про новини (600px-700px)---------------*/
   .wrapper_news{
     overflow: hidden;
-    min-height: 720px;
+    min-height: 850px;
     background: #e9e9e9;
   }
 
   .news{
     overflow: hidden;
-    min-height: 720px;
+    min-height: 850px;
     width: 560px;
     max-width: 900px;
     margin-top: 50px;
@@ -1248,6 +1250,7 @@ body{
     grid-area: new_first;
     height: 290px;
     width: 250px;
+    margin-bottom: 30px;
   }
 }
 
@@ -1347,12 +1350,12 @@ body{
   /*--------------Блок про новини (700px-799px)---------------*/
   .wrapper_news{
     overflow: hidden;
-    min-height: 720px;
+    min-height: 850px;
     background: #e9e9e9;
   }
   .news{
     overflow: hidden;
-    min-height: 720px;
+    min-height: 850px;
     width: 560px;
     max-width: 900px;
     margin-top: 50px;
@@ -1415,6 +1418,7 @@ body{
     grid-area: new_first;
     height: 290px;
     width: 250px;
+    margin-bottom: 40px;
   }
 }
 
