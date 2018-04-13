@@ -98,7 +98,7 @@ body{
   /*----------Блок про компанию------*/
   .wrapper_about_company{
     background: #fff;
-    min-height: 900px;
+    min-height: 1470px;
     width: 100%;
   }
   .title_about_company{
@@ -1477,7 +1477,7 @@ body{
 
 
 
-@media (min-width: 400px) and (max-width: 600px) {
+@media (min-width: 400px) and (max-width: 599px) {
   .wrapper{
     background: green;
   }
@@ -1488,7 +1488,7 @@ body{
   }
   .news{
     overflow: hidden;
-    height: 1700px;
+    height: 1850px;
     width: 82.6%;
     max-width: 400px;
     margin: 0 auto;
@@ -1593,7 +1593,7 @@ body{
   }
   .news{
     overflow: hidden;
-    height: 1700px;
+    height: 1850px;
     width: 82.6%;
     max-width: 400px;
     margin: 0 auto;
